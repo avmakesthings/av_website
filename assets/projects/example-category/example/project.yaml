@@ -1,14 +1,40 @@
---- !clarkevans.com/^invoice
-invoice: 34843
-date   : 2001-01-23
-bill-to: &id001
-    given  : Chris
-    family : Dumars
-    address:
-        lines: |
-            458 Walkman Dr.
-            Suite #292
-        city    : Royal Oak
-        state   : MI
-        postal  : 48046
-ship-to: *id001
+--- 
+name: an example project
+description: an example description
+thumbnail: thumb.jpg
+blocks: 
+    - 
+      type: project-header-block
+      heading: name of the project
+      collaborators: people collaborating
+      description: some description
+      url: www.xyz.com
+    - 
+      type: project-generic-image 
+      image:
+    - 
+      type: project-generic-2-col-image
+      image1: myimage1.jpg
+      image2: myimage2.jpg
+    - 
+      type: project-generic-text
+      heading: a section heading
+      description: section description
+    - 
+      type: triad-block
+      heading: my heading
+      images:
+        - myimage1.jpg
+        - myimage2.jpg
+        - myimage3.jpg
+      sub-headings:
+        - myheading1.jpg
+        - myheading2.jpg
+        - myheading3.jpg
+      descriptions:
+        - mydecrip1.jpg
+        - mydescrip2.jpg
+        - mydescrip3.jpg
+
+
+

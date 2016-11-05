@@ -37,9 +37,16 @@ function readCategory(categoryPath){
         var projectPath = categoryPath + '/' + projectName;
 
         if (isFolder(projectPath)){
-            // return readAssets(filename + '/' + child);
-            var project = readProject(projectPath);
-            projects.push(project);
+            try{
+                // return readAssets(filename + '/' + child);
+                var project = readProject(projectPath);
+                project.slug = projectName;
+                projects.push(project);                
+            }
+            catch(e){
+                console.error('Failed to read Project ' + projectName)
+            }
+
         }
     });
 
