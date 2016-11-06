@@ -1,0 +1,69 @@
+--- 
+name: Rather Be
+description: Visual Design, Brand Development, Web & Mobile UI/UX for Rather Be, an action sports media start-up. 
+thumbnail: ratherbe-thumb.jpg
+link: www.ratherbe.com
+
+blocks: 
+    - 
+      type: project-header
+      heading: Rather Be
+      collaborators: &#8212; with the Rather Be team, 1st & 3rd
+      description: Visual Design, Brand Development, Web & Mobile UI/UX for Rather Be, an action sports media start-up.
+
+    - 
+      type: project-generic-image 
+      image: ratherbe-layout.jpg 
+      gif: ratherbe-demo.gif
+      video: https://www.youtube.com/watch?v=DjH_RfhHhJU&feature=youtu.be
+    - 
+      type: project-generic-text
+      description: RatherBe is an early stage company that produces, curates & distributes high quality action sports media. I joined the company in late 2015 as lead designer,  to develop a beta launch web 
+platform and iOS app. 
+    -
+      type: triad-block
+      heading: my heading
+      images:
+        - myimage1.jpg
+        - myimage2.jpg
+        - myimage3.jpg
+      sub-headings:
+        - myheading1.jpg
+        - myheading2.jpg
+        - myheading3.jpg
+      descriptions:
+        - mydecrip1.jpg
+        - mydescrip2.jpg
+        - mydescrip3.jpg
+
+
+
+
+
+
+    # - 
+    #   type: project-generic-2-col-image
+    #   image1: myimage1.jpg
+    #   image2: myimage2.jpg
+    # - 
+    #   type: project-generic-text
+    #   heading: a section heading
+    #   description: section description
+    # - 
+    #   type: triad-block
+    #   heading: my heading
+    #   images:
+    #     - myimage1.jpg
+    #     - myimage2.jpg
+    #     - myimage3.jpg
+    #   sub-headings:
+    #     - myheading1.jpg
+    #     - myheading2.jpg
+    #     - myheading3.jpg
+    #   descriptions:
+    #     - mydecrip1.jpg
+    #     - mydescrip2.jpg
+    #     - mydescrip3.jpg
+
+
+
