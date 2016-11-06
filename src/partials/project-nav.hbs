@@ -1,0 +1,20 @@
+<ul class="project-nav">
+
+  {{#categories}}
+
+    <li>
+    	<a data-target="#{{slug}}"> >> {{name}}</a>
+	    <ul>
+
+        {{#projects}}
+
+  		    <li><a href="{{slug}}.html"> >> {{name}}</a></li>
+          
+  		  {{/projects}}
+
+	    </ul>
+    </li>
+
+  {{/categories}}
+
+</ul>

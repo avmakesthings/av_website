@@ -87,6 +87,7 @@ function readAssets(rootPath) {
         if (isFolder(categoryPath)){
             // return readAssets(filename + '/' + child);
             var category = readCategory(categoryPath);
+            category.slug = categoryName;
             categories.push(category);
         }
     });

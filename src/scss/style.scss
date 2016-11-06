@@ -3,13 +3,62 @@
            STYLE.SCSS
 ************************************/
 
-@import "../../node_modules/bootstrap/scss/bootstrap.scss";
 @import "variables.scss";
-@import "mixins.scss";
-@import "config.scss";
-@import "helpers.scss";
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
 /*** PARTIALS ***/
 @import "partials/header.scss";
 @import "partials/footer.scss";
 
+
+/* 
+	FIXME: Some of these should be moved to 
+	'partials' files if this ever gets unwieldy 
+*/
+
+ul {
+	list-style: none;
+	padding: 0px;
+}
+
+ul ul{
+	padding-left: 12px;
+}
+
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+}
+
+.container {
+	min-width: 480px;
+}
+
+.project {
+	width: $project-width;
+}
+
+.landing-icon.lg {
+	margin-bottom: 96px;
+}
+
+.landing-icon.sm {
+	margin-bottom: 96px;
+}
+
+.project-preview {
+	width: 50%;
+    float: left;
+    display: inline-block;
+}
+
+.project-preview img {
+	width: 95%;
+}
+
+.project-block {
+	margin-bottom: 120px;
+}
+
+.project-block img {
+	width: 100%;
+}

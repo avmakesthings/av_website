@@ -2,23 +2,16 @@
             VARIABLES
 ************************************/
 
-/* Font */
-$global-font: 'Roboto', sans-serif;
+$project-width: 900px;
 
-/* Grid */
-$container-width: 1170px;
-$total-columns: 12;
-$gutter-sm: 15px;
-$gutter-md: 30px;
-$gutter-lg: 50px;
+// Bootstrap SASS overrides:
 
-$view-lg: $container-width;
-$view-md: 996px;
-$view-sm: 767px;
-$view-xs: 480px;
+$body-bg: rgb(35, 31, 32);
 
-/* Colors */
-// $color-primary: #ea5900;
-// $color-secondary: #333;
-// $color-text: #666;
-// $color-light: #ededee;
+$brand-primary: rgb(35, 31, 32);
+
+$gray-lighter: rgb(45, 41, 42);
+
+$body-color: #FFF;
+
+$link-color: #FFF;
