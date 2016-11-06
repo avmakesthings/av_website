@@ -13,7 +13,6 @@ var serve = require('gulp-serve');
 //Flatten folder
 var flatten = require('gulp-flatten');
 //Template Engine
-var handlebars = require('gulp-handlebars');
 var handlebars = require('gulp-compile-handlebars');
 
 //Stylesheet
