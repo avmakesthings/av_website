@@ -42,12 +42,16 @@ a:hover, a:visited, a:link, a:active {
 	width: $project-width;
 }
 
-.landing-icon.lg {
-	margin-bottom: 96px;
+.landing-icon {
+	margin-bottom: 24px;
 }
 
-.landing-icon.sm {
-	margin-bottom: 96px;
+.landing-icon img {
+	margin-bottom: 24px;
+}
+
+.landing-icon.sm img {
+	width: 64px;
 }
 
 .project-preview {
