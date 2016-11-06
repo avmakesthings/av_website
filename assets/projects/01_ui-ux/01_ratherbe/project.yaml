@@ -8,7 +8,7 @@ blocks:
     - 
       type: project-header
       heading: Rather Be
-      collaborators: &#8212; with the Rather Be team, 1st & 3rd
+      collaborators: with the Rather Be team, 1st & 3rd
       description: Visual Design, Brand Development, Web & Mobile UI/UX for Rather Be, an action sports media start-up.
     - 
       type: project-generic-image 
@@ -17,8 +17,7 @@ blocks:
       video: https://www.youtube.com/watch?v=DjH_RfhHhJU&feature=youtu.be
     - 
       type: project-generic-text
-      description: RatherBe is an early stage company that produces, curates & distributes high quality action sports media. I joined the company in late 2015 as lead designer,  to develop a beta launch web 
-platform and iOS app. 
+      description: RatherBe is an early stage company that produces, curates & distributes high quality action sports media. I joined the company in late 2015 as lead designer,  to develop a beta launch web platform and iOS app. 
     -
       type: triad-block
       heading: Design Goals
@@ -48,11 +47,11 @@ platform and iOS app.
       type: project-generic-text
       heading: User Research
       description: >
-      One of the most enjoyable aspects of my work involved connecting with our different user groups to better understand their needs and to test how they used our product. As an avid snowboarder and photographer, I thoroughly enjoyed going out to capture competitions like the Burton US Open and Mavericks, as these events provided great insight into our target audience \n\ -- I've included a few of my favourite shots below.
+        One of the most enjoyable aspects of my work involved connecting with our different user groups to better understand their needs and to test how they used our product. As an avid snowboarder and photographer, I thoroughly enjoyed going out to capture competitions like the Burton US Open and Mavericks, as these events provided great insight into our target audience \n\ -- I've included a few of my favourite shots below.
     -
       type: project-generic-text
       heading:  The design process
-      description:  |
+      description: |
         After the initial phase of redefning the brand identity, I worked closely with our Head of Product to develop our web and iOS beta trials.  
         Key aspects included:
         1. Translating our updated brand identity to products, which involcved an entire website redesign & iOS app design
@@ -87,7 +86,7 @@ platform and iOS app.
     -
       type: project-generic-text
       heading: UI Kit Specifications & Web Development
-      description:  front end rebuild .. look & feel updates to comply with new brand      
+      description:  One of my largest contributions to the company was designing and implementing a UI Kit for our website.  The UI Kit provided detailed specifications & micro interaction design for all standard web components such as cards, buttons, fonts and grid layout. I worked closley with our front-end team to overhaul our web product and ensure consistentcy on different devices.       
     -
       type: project-generic-2-col-image
       image1: ratherbe-uikit.png
@@ -95,7 +94,7 @@ platform and iOS app.
     -
       type: project-generic-text
       heading: Final Thoughts
-      description:  front end rebuild .. look & feel updates to comply with new brand 
+      description:  My time at Rather Be was devoted to finding ways by which design could be used to create a lifelyle brand, build an engaged audience and provide a high-quality user experience. While often challenging, it was an incredibly educational experience and one that has met considerable success. Working with a company who's direction resonated so strongly with my own interests in action sports, also allowed me to more deeply engage with the things I love doing. The company is in the process of acquiring more funding but the future looks promising.   
     - 
       type: project-generic-image 
       image: ratherbe-mavericks.jpg
