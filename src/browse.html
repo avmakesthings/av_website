@@ -12,21 +12,23 @@
   </head>
   <body>
 
-    {{> partials/header }}
+    {{> header }}
 
     <div class="main-content">
       <div class="container">
-        Content
+        {{#categories}}
+
+        <div class="jumbotron">
+          <h1>{{name}}</h1>
+          <p>...</p>
+          <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+        </div>
+        {{/categories}}
+
       </div>
     </div>
 
-    <div class="jumbotron">
-      <h1>Hello, world!</h1>
-      <p>...</p>
-      <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
-    </div>
-
-    {{> partials/footer }}
+    {{> footer }}
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" type="text/javascript"></script>
     <script src="js/bootstrap.min.js"></script>

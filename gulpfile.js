@@ -1,6 +1,9 @@
 //Global
 var gulp = require('gulp');
 var sourcemaps = require('gulp-sourcemaps');
+
+var fs = require('fs');
+
 //Data
 var assets = require('./assets2json.js');
 var rename = require('gulp-rename');
@@ -10,7 +13,9 @@ var serve = require('gulp-serve');
 //Flatten folder
 var flatten = require('gulp-flatten');
 //Template Engine
-var mustache = require('gulp-mustache');
+var handlebars = require('gulp-handlebars');
+var handlebars = require('gulp-compile-handlebars');
+
 //Stylesheet
 var sass = require('gulp-sass');
 var cleancss = require('gulp-clean-css');
@@ -18,13 +23,6 @@ var autoprefixer = require('gulp-autoprefixer');
 //javascript
 var uglify = require('gulp-uglify');
 
-// gulp.task('server', function(){
-//   return connect.server({
-//     root: 'dist',
-//     port: 3000,
-//     livereload: true
-//   });
-// });
 
 gulp.task('server', serve('dist'));
 
@@ -64,41 +62,51 @@ gulp.task('js', function(){
 });
 
 
-function mustache2html(inputFile, outputFile, jsonData){
+
+function handlebars2html(inputFile, outputFile, jsonData, options){
   return gulp.src(inputFile)
-    .pipe( mustache(jsonData) )
+    .pipe( handlebars(jsonData, options) )
     .pipe( rename(outputFile) )
     .pipe( gulp.dest('./dist') );
 }
 
 
+function getPartials(partialPath){
+  var partials = {}
+
+  var partialFolders = fs.readdirSync(partialPath)
+
+  partialFolders.forEach(function(partialName) {
+    var partial = fs.readFileSync(partialPath+'/'+partialName, {encoding: 'utf8'})
+    partials[partialName.split('.')[0]] = partial
+  });
+
+  return partials
+}
 
 
-gulp.task('mustache', function(){
+gulp.task('handlebars', function(){
 
   var myAssets = assets('assets');
-  mustache2html('./src/index.html', 'index.html', assets);
-  mustache2html('./src/browse.html', 'projects.html', assets);
+
+  var options = {}
+  options.partials = getPartials('./src/partials')
+
+  handlebars2html('./src/index.html', 'index.html', myAssets, options);
+  handlebars2html('./src/browse.html', 'projects.html', myAssets, options);
   myAssets.categories.forEach(function(category){
     category.projects.forEach(function(project){
-      mustache2html('./src/project.html', project.slug +'.html', project);
+      handlebars2html('./src/project.html', project.slug +'.html', project, options);
     })
   })
 });
 
 
-// gulp.task('mustache', function(){
-//   return gulp.src('./src/*.html')
-//     .pipe( mustache(assets('assets')) )
-//     .pipe( gulp.dest('./dist') );
-// });
-
-
 gulp.task('watch', function(){
   gulp.watch('./src/scss/**/*.scss', ['sass']);
   gulp.watch('./src/js/*.js', ['js']);
-  gulp.watch(['./src/**/*.html', './src/**/*.mustache'], ['mustache']);
+  gulp.watch(['./src/**/*.html', './src/**/*.handlebars'], ['handlebars']);
 });
 
-gulp.task('build', ['copy-assets','copy-vendor','sass', 'js', 'mustache']);
-gulp.task('default', ['server', 'copy-assets','copy-vendor','sass', 'js', 'mustache', 'watch']);
+gulp.task('build', ['copy-assets','copy-vendor','sass', 'js', 'handlebars']);
+gulp.task('default', ['server', 'copy-assets','copy-vendor','sass', 'js', 'handlebars', 'watch']);
