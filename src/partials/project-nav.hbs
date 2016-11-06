@@ -1,20 +1,20 @@
-<ul class="project-nav">
+<div class="project-nav">
 
   {{#categories}}
 
-    <li>
-    	<a data-target="#{{slug}}"> >> {{name}}</a>
-	    <ul>
+    <div>
+    	<a data-target="{{slug}}" class="category-link"> >> {{name}}</a>
+	    <div class="category {{slug}}">
 
         {{#projects}}
 
-  		    <li><a href="{{slug}}.html"> >> {{name}}</a></li>
+  		    <div><a href="{{slug}}.html"> - {{name}}</a></div>
           
   		  {{/projects}}
 
-	    </ul>
-    </li>
+	    </div>
+    </div>
 
   {{/categories}}
 
-</ul>
+</div>

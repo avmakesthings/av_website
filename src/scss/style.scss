@@ -8,6 +8,7 @@
 
 /*** PARTIALS ***/
 @import "partials/header.scss";
+@import "partials/loader.scss";
 @import "partials/footer.scss";
 
 
@@ -16,14 +17,6 @@
 	'partials' files if this ever gets unwieldy 
 */
 
-ul {
-	list-style: none;
-	padding: 0px;
-}
-
-ul ul{
-	padding-left: 12px;
-}
 
 a:hover, a:visited, a:link, a:active {
     text-decoration: none;
@@ -31,6 +24,18 @@ a:hover, a:visited, a:link, a:active {
 
 .container {
 	min-width: 480px;
+}
+
+.project-nav .category {
+	padding-left: 24px;
+}
+
+.category {
+	display: none;
+}
+
+.category.active{
+	display: block;
 }
 
 .project {

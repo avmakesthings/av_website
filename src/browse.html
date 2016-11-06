@@ -6,6 +6,7 @@
   <body>
     <div class="main-content">
       <div class="container">
+        {{> loader }}
         {{> header }}
 
         <div class="row landing-icon sm">
@@ -24,7 +25,7 @@
 
             {{#categories}}
 
-              <div class="category" id="{{slug}}">
+              <div class="category {{slug}}">
 
                 <h3>{{name}}</h3>
                 <p>{{description}}</p>
