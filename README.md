@@ -1,17 +1,9 @@
+#Portfolio website
+My UI/UX portfolio - generic static build
+
+
 # Front-End Boilerplate
-Static Website Boilerplate with Gulp, Mustache, Sass
-
-> **CSS:**
-
-> - SASS (scss, desktop first grid, starter mixins & helpers)
-> - Sourcemaps
-> - Autoprefixer
-> - Minifier
-
-> **JS:**
-
-> - Minifier
-> - Sourcemaps
+Static Website Boilerplate with Gulp, Handlebars, Sass -- Bootstrap included
 
 
 ### Build
