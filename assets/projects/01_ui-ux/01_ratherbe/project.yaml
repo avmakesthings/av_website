@@ -10,7 +10,6 @@ blocks:
       heading: Rather Be
       collaborators: &#8212; with the Rather Be team, 1st & 3rd
       description: Visual Design, Brand Development, Web & Mobile UI/UX for Rather Be, an action sports media start-up.
-
     - 
       type: project-generic-image 
       image: ratherbe-layout.jpg 
@@ -22,23 +21,84 @@ blocks:
 platform and iOS app. 
     -
       type: triad-block
-      heading: my heading
+      heading: Design Goals
       images:
-        - myimage1.jpg
-        - myimage2.jpg
-        - myimage3.jpg
+        - ratherbe-athlete.png
+        - ratherbe-creator.png
+        - ratherbe-enthusiast.png
       sub-headings:
-        - myheading1.jpg
-        - myheading2.jpg
-        - myheading3.jpg
+        - Athletes
+        - Content Creators
+        - Enthusiasts
       descriptions:
-        - mydecrip1.jpg
-        - mydescrip2.jpg
-        - mydescrip3.jpg
-
-
-
-
+        - Semi-professional to professional athletes required exposure & easy access to a dedicated fanbase
+        - Professional content creators required exposure, connection to athletes/ fans and a place to showcase their work
+        - Enthusiasts required a way to connect to others and well as a place to upload and share their experiences.
+    -
+      type: project-generic-text
+      heading: Building a lifestyle brand
+      description:  I worked closely with a select number of target users and our product/ editorial teams to develop the visual identity for the brand, including logos, typefaces & color, culminating in the production of a master brand style guide (excerpts shown below).
+    -
+      type: triad-block
+      images:
+        - ratherbe-style01.jpg
+        - ratherbe-style02.jpg
+        - ratherbe-style03.jpg
+    -
+      type: project-generic-text
+      heading: User Research
+      description: >
+      One of the most enjoyable aspects of my work involved connecting with our different user groups to better understand their needs and to test how they used our product. As an avid snowboarder and photographer, I thoroughly enjoyed going out to capture competitions like the Burton US Open and Mavericks, as these events provided great insight into our target audience \n\ -- I've included a few of my favourite shots below.
+    -
+      type: project-generic-text
+      heading:  The design process
+      description:  |
+        After the initial phase of redefning the brand identity, I worked closely with our Head of Product to develop our web and iOS beta trials.  
+        Key aspects included:
+        1. Translating our updated brand identity to products, which involcved an entire website redesign & iOS app design
+        2. Ensuring that we were able to test and evaluate the designs in the best possible way
+        3. Messaging across different touchpoints
+        4. Minimizing friction in user flows
+    -
+      type: project-generic-text
+      heading: Low-Fidelity Prototyping
+      description:  Like the majority of design projects I've worked on, a lot of my time was spent thinking through aspects of the UI or UX design on paper or whiteboards. This low-fidelity medium enabled rapid communication of thoughts and ideas and was used at every phase of the design process.
+    -
+      type: project-generic-2-col-image
+      image1: ratherbe-sketch1.jpg
+      image2: ratherbe-sketch2.jpg
+    -
+      type: project-generic-text
+      heading: Refining User Flows
+      description:  As lead designer, I was responsible for defining our usability KPI's and testing our userflows for key aspects of the product. My process typically involved outlining a basic flow like onboarding, login, content upload or content consumption and testing our assumptions with users using inVision or Usertesting.com.
+    - 
+      type: project-generic-image 
+      image: ratherbe-userflow.png 
+    -
+      type: project-generic-text
+      heading: High Fidelity Prototyping
+      description: Hi-fi prototypes were created using Sketch, in combination with Illustrator/ Photoshop for the assets.
+    - 
+      type: project-generic-image 
+      image: ratherbe-hifi1.jpg
+    - 
+      type: project-generic-image 
+      image: ratherbe-hifi3.jpg
+    -
+      type: project-generic-text
+      heading: UI Kit Specifications & Web Development
+      description:  front end rebuild .. look & feel updates to comply with new brand      
+    -
+      type: project-generic-2-col-image
+      image1: ratherbe-uikit.png
+      image2: ratherbe-responsive.gif
+    -
+      type: project-generic-text
+      heading: Final Thoughts
+      description:  front end rebuild .. look & feel updates to comply with new brand 
+    - 
+      type: project-generic-image 
+      image: ratherbe-mavericks.jpg
 
 
     # - 
