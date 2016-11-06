@@ -6,11 +6,14 @@
   <body>
     <div class="main-content">
       <div class="container">
+        {{> loader }}
         {{> header }}
 
         <div class="row landing-icon sm">
           <div class="col-sm-7">
-            <img src="http://placehold.it/100x100"/>
+            <a href="/">
+              <img src="/img/av-logo-white.svg"/>
+            </a>
           </div>
           <div class="col-sm-5"></div>
         </div>
@@ -24,7 +27,7 @@
 
             {{#categories}}
 
-              <div class="category" id="{{slug}}">
+              <div class="category {{slug}}">
 
                 <h3>{{name}}</h3>
                 <p>{{description}}</p>
