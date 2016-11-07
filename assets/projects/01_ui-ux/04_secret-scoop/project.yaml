@@ -1,22 +1,75 @@
 --- 
 name: Secret Scoop
-description: an example description
+description: UI/UX Design and Web Development for a Bay Area food start-up
 thumbnail: secretscoop-thumb.jpg
 blocks: 
     - 
       type: project-header
       heading: Secret Scoop
-      collaborators: people collaborating
-      description: some description
-      url: www.xyz.com
-    # - 
-    #   type: project-generic-image 
-    #   image:
-    # - 
-    #   type: project-generic-2-col-image
-    #   image1: myimage1.jpg
-    #   image2: myimage2.jpg
-    # - 
+      collaborators: In collaboration with Funn Fisher
+      description: UI/UX Design and Web Development for a Bay Area food start-up
+      url: www.secretscoopgelato.com
+    - 
+      type: project-generic-image 
+      image: secretscoop-responsive.jpg
+    - 
+      type: project-generic-text
+      description: >
+        A website redesign that aimed to update the functionality and provide a more user friendly interface for a San Francisco food start-up. 
+    -
+      type: triad
+      heading: Design Goals
+      images:
+        - fitness-.svg
+        - fitness-.svg
+        - fitness-.svg
+      sub-headings:
+        - Update look & feel of old website
+        - Create a simple user experience
+        - Improve site responsiveness
+    - 
+      type: project-generic-text
+      heading: Our Users
+      description: >
+       We began the redesign process by researching how the site was currently being used and developing personas based on user surveys and qualitative user testing of the old site.
+    - 
+      type: project-generic-image 
+      image: secretscoop-users.jpg                   
+    - 
+      type: project-generic-2-col-image
+      image1: secretscoop-persona-01.jpg
+      image2: secretscoop-persona-02.jpg
+    - 
+      type: project-generic-text
+      heading: Design - Low-Fidelity Prototyping
+      description: >
+       We began the redesign process by researching how the site was currently being used and develo ....
+    - 
+      type: project-generic-image 
+      image: secretscoop-brainstorm.jpg
+    - 
+      type: project-generic-image 
+      image: secretscoop-wireframe.jpg             
+    - 
+      type: project-generic-text
+      heading: High Fidelity Prototyping
+      description: >
+       We began the redesign process by researching how the site was currently being used and develo ....
+    - 
+      type: project-generic-text
+      heading: Testing assumptions
+      description: >
+       We began the redesign process by researching how the site was currently being used and develo ....
+    - 
+      type: project-generic-image 
+      image: secretscoop-testing1.jpg
+    - 
+      type: project-generic-text
+      heading: Final Thoughts
+      description: >
+       We began the redesign process by researching how the site was currently being used and develo ....
+
+
     #   type: project-generic-text
     #   heading: a section heading
     #   description: section description
