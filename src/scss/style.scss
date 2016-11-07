@@ -16,7 +16,7 @@
 @import "partials/header.scss";
 @import "partials/loader.scss";
 @import "partials/footer.scss";
-
+@import "partials/carousel.scss";
 
 
 
@@ -92,8 +92,16 @@ a:hover, a:visited, a:link, a:active {
 	min-width: 480px;
 }
 
+.browse {
+  min-height: 480px;
+}
+
 .project-nav .category {
 	padding-left: 24px;
+}
+
+.project-nav > div:hover{
+  background: $body-bg;
 }
 
 .category {
@@ -110,6 +118,7 @@ a:hover, a:visited, a:link, a:active {
 
 .project {
 	width: $project-width;
+  text-align: center;
 }
 
 .landing-icon {
@@ -125,42 +134,38 @@ a:hover, a:visited, a:link, a:active {
 }
 
 .project-preview {
-	width: 50%;
-    float: left;
-    display: inline-block;
-    color: white;
-    :hover {
-    	background: darken( $body-bg, 2% );
-    }
-    
-    img {
-	 width: 95%;
-	 filter: brightness(80%); 
-	 :hover {
-	 	filter: brightness(100%); 		 	
-	} 
-
-    }
-
-    h5 {
-    	font-family: 'Roboto Mono';
-    	font-weight: 500;
-    	font-size: 1.1em;
-    	text-transform: uppercase;
-    	padding-top: 1em;
-    	:hover{
-    		color: white;
-    	} 
-    }
-
-    p {
-     	font-size: .9em;
-     	font-weight: 100;
-     	letter-spacing: 1px;
-	 	filter: brightness(70%); 	
-    }
+  width: 50%;
+  float: left;
+  display: inline-block;
+  color: white!important;
+  padding: 8px;
+  :hover {
+    background: darken( $body-bg, 2% );
+  }
 }
 
+.project-preview h5 {
+  font-family: 'Roboto Mono';
+  font-weight: 500;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  padding-top: 1em;
+}
+
+.project-preview p {
+  font-size: .9em;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+.project-preview img {
+  width: 100%;
+  filter: brightness(80%);
+}
+
+.project-preview img:hover {
+  filter: brightness(100%);  
+} 
 
 .project-block {
 	margin-bottom: 60px;
@@ -179,15 +184,15 @@ a:hover, a:visited, a:link, a:active {
 		letter-spacing: 2px;		
 	}
 
-	p {
-
-	}
-
 }
 
 .proj-descrip {
 	margin-top: 15px;
 	margin-bottom: 30px;
+}
+
+.project-end {
+  margin-top: 120px;
 }
 
 
