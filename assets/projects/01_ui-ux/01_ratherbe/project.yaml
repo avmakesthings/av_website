@@ -3,7 +3,7 @@ name: Rather Be
 description: Visual Design, Brand Development, Web & Mobile UI/UX for Rather Be, an action sports media start-up. 
 thumbnail: ratherbe-thumb.jpg
 link: www.ratherbe.com
-
+date: September 2015 - October 2016
 blocks: 
     - 
       type: project-header
@@ -20,19 +20,22 @@ blocks:
       description: RatherBe is an early stage company that produces, curates & distributes high quality action sports media. I joined the company in late 2015 as lead designer,  to develop a beta launch web platform and iOS app. 
     -
       type: triad
+      heading: Design Goals
+      images:
+        - ratherbe-question.svg
+        - ratherbe-brand.svg
+        - ratherbe-user.svg
+      sub-headings:
+        - Refine and communicate product value proposition
+        - Establish clear brand identity that resonates with target users
+        - Build an engaged audience
+    -
+      type: triad
       heading: Our Users
       images:
         - ratherbe-athlete.png
         - ratherbe-creator.png
-        - ratherbe-enthusiast.png
-      sub-headings:
-        - Athletes
-        - Content Creators
-        - Enthusiasts
-      descriptions:
-        - Semi-professional to professional athletes required exposure & easy access to a dedicated fanbase
-        - Professional content creators required exposure, connection to athletes/ fans and a place to showcase their work
-        - Enthusiasts required a way to connect to others and well as a place to upload and share their experiences.
+        - ratherbe-enthusiast.png       
     -
       type: project-generic-text
       heading: Building a lifestyle brand
@@ -48,13 +51,7 @@ blocks:
       heading: User Research
       description: >
         One of the most enjoyable aspects of my work involved connecting with our different user groups to better understand their needs and to test how they used our product. As an avid snowboarder and photographer, I thoroughly enjoyed going out to capture competitions like the Burton US Open and Mavericks, as these events provided great insight into our target audience \n\ -- I've included a few of my favourite shots below.
-    -
-      type: triad
-      heading: Design Goals
-      images:
-        - ratherbe-athlete.png
-        - ratherbe-creator.png
-        - ratherbe-enthusiast.png    
+
     -
       type: project-generic-text
       heading:  The design process

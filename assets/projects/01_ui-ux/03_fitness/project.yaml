@@ -1,17 +1,94 @@
 --- 
 name: Fit.ness
-description: an example description
+description: Concept design (UI/UX, Interaction, Product) for a seed stage fitness tracking iOS app.
 thumbnail: fitness-thumb.jpg
+date: May - July 2015
 blocks: 
     - 
       type: project-header
-      heading: Fit.ness
-      collaborators: people collaborating
-      description: some description
-      url: www.xyz.com
-    # - 
-    #   type: project-generic-image 
-    #   image:
+      heading: Fit.ness - Challenge Yourself
+      collaborators: In collaboration with Trevor Owens
+      description: Product design, UI/UX design, Interaction design for a seed stage fitness tracking iOS app.
+    - 
+      type: project-generic-image 
+      image: fitness-demo.gif
+    - 
+      type: project-generic-text
+      description: >
+        Fitness trackers are one of the most ubiquitous wearables today. A myriad of apps exist that use and display fitness tracking data, yet there is still a very high rate of attrition with the use of these devices. Fit.ness was conceived as a solution to this problem. It is a simple iOS app targeting existing fitness tracker owners, which encourages users to maintain a daily exercise routine by meeting daily challenges. 
+    -
+      type: triad
+      heading: Design Goals
+      images:
+        - fitness-.svg
+        - fitness-.svg
+        - fitness-.svg
+      sub-headings:
+        - Demonstrate proof of concept
+        - Encourage daily use
+        - Clear data visualization
+    - 
+      type: project-generic-image
+      heading: Our Users 
+      image: fitness-users-yoga.jpg
+    -
+      type: triad
+      sub-headings:
+        - Fitness enthusiasts
+        - Fitness tracker owners
+        - All genders
+      descriptions:
+        - We lokk...
+        - We lokk...
+        - We lokk... 
+    -
+        type: project-generic-text
+        heading: The design process
+        description: |
+            After the initial phase of redefning the brand identity, I worked closely with our Head of Product to develop our web and iOS beta trials.  
+            Key aspects included
+            1. Translating our updated brand identity to products, which involcved an entire website redesign & iOS app design
+            2. Ensuring that we were able to test and evaluate the designs in the best possible way
+            3. Messaging across different touchpoints
+            4. Minimizing friction in user flows         
+    - 
+      type: project-generic-text
+      heading: Paper prototyping
+      description: >
+        As an avid snowboarder, and photographer,,  this was a great opportunity to connect with our users ..
+    - 
+      type: project-generic-image 
+      image: fitness-sketch.jpg
+    - 
+      type: project-generic-text
+      heading: Refining User Flows
+      description: >
+        As an avid snowboarder, and photographer,,  this was a great opportunity to connect with our users ..
+    - 
+      type: project-generic-image 
+      image: fitness-userflow.svg
+    - 
+      type: project-generic-text
+      heading: High Fidelity Prototyping
+      description: >
+        As an avid snowboarder, and photographer,,  this was a great opportunity to connect with our users ..
+    - 
+      type: project-generic-image 
+      image: fitness-hifi1.jpg 
+    - 
+      type: project-generic-image 
+      image: fitness-hifi2.jpg 
+    - 
+      type: project-generic-text
+      heading: Micro Interaction Design
+      description: >
+        As an avid snowboarder, and photographer,,  this was a great opportunity to connect with our users ..                     
+    - 
+      type: project-generic-text
+      heading: Final Thoughts
+      description: >
+        As an avid snowboarder, and photographer,,  this was a great opportunity to connect with our users ..  
+
     # - 
     #   type: project-generic-2-col-image
     #   image1: myimage1.jpg
