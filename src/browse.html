@@ -2,7 +2,7 @@
 <html>
 
   {{> head }}
-
+  <script src="https://unpkg.com/masonry-layout@4.1/dist/masonry.pkgd.min.js" ></script>
   <body>
     <div class="main-content">
       <div class="container">
@@ -19,7 +19,7 @@
           <div class="col-sm-5"></div>
         </div> -->
 
-        <div class="row">
+        <div class="row browse">
           <div class="col-sm-3">
           {{> project-nav}}
           </div>
@@ -28,15 +28,15 @@
 
             {{#categories}}
 
-              <div class="category {{slug}}">
+              <div class="grid category {{slug}}">
 
 <!--                 <h3>{{name}}</h3> -->
 <!--                 <p class="larger"><em>{{description}}</em></p> -->
 
                 {{#projects}}
 
-                  <a class="project-preview" href="{{slug}}.html">
-                    <div class = "container-fluid">
+                  <a class="grid-item project-preview" href="{{slug}}.html">
+                    <div>
                       <img src="img/{{thumbnail}}"/>
                       <h5>{{name}}</h5>
                       <p>{{description}}</p>
@@ -61,5 +61,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/app.min.js"></script>
 
+    <!-- Masonry Stuff -->
+    <script src="https://unpkg.com/masonry-layout@4.1/dist/masonry.pkgd.min.js"></script>
   </body>
 </html>

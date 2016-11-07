@@ -105,6 +105,11 @@ blocks:
     - 
       type: project-generic-image 
       image: ratherbe-mavericks.jpg
-
+    -
+      type: carousel
+      images:
+        - ratherbe-style01.jpg
+        - ratherbe-style02.jpg
+        - ratherbe-style03.jpg
 
 

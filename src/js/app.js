@@ -68,7 +68,12 @@ function initCategories(target){
 
 	for( var i = 0; i < active.length; i ++){
 		active[i].classList.add('active');
-	}	
+	}
+
+	// Assumes masonry has been included
+    $('.grid').masonry({
+      itemSelector: '.grid-item',
+    });
 }
 
 $(document).ready(function(){
