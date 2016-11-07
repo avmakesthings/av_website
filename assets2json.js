@@ -21,7 +21,7 @@ function isFolder(filepath) {
 
 
 //read Category
-function readCategory(categoryPath){
+function readCategory(categoryPath, categoryName){
     var category = YAML.load(categoryPath+'/category.yaml');
 
 
@@ -41,6 +41,7 @@ function readCategory(categoryPath){
                 // return readAssets(filename + '/' + child);
                 var project = readProject(projectPath);
                 project.slug = projectName;
+                project.category = categoryName;
                 projects.push(project);                
             }
             catch(e){
@@ -86,7 +87,7 @@ function readAssets(rootPath) {
 
         if (isFolder(categoryPath)){
             // return readAssets(filename + '/' + child);
-            var category = readCategory(categoryPath);
+            var category = readCategory(categoryPath, categoryName);
             category.slug = categoryName;
             categories.push(category);
         }
