@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_linkedin</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Project--Rather-Be" transform="translate(-1267.000000, -104.000000)" fill="#FFFFFF">
+            <g id="icon_linkedin" transform="translate(1267.000000, 104.000000)">
+                <g id="Line">
+                    <g id="Group">
+                        <path d="M29,1 L29,29 L1,29 L1,1 L29,1 L29,1 Z M30,0 L0,0 L0,30 L30,30 L30,0 L30,0 L30,0 Z" id="Shape"></path>
+                        <path d="M29,1 L29,29 L1,29 L1,1 L29,1 L29,1 Z M30,0 L0,0 L0,30 L30,30 L30,0 L30,0 L30,0 Z" id="Shape"></path>
+                    </g>
+                    <path d="M22.872,21.524 L22.872,15.702 C22.872,12.583 21.207,11.131 18.987,11.131 C17.195,11.131 16.393,12.117 15.945,12.808 L15.945,11.37 L12.57,11.37 C12.615,12.323 12.57,21.524 12.57,21.524 L15.945,21.524 L15.945,15.853 C15.945,15.55 15.967,15.247 16.056,15.03 C16.3,14.424 16.855,13.796 17.787,13.796 C19.009,13.796 19.497,14.727 19.497,16.092 L19.497,21.525 L22.872,21.524 L22.872,21.524 L22.872,21.524 Z M9.015,9.984 C10.192,9.984 10.925,9.204 10.925,8.229 C10.903,7.233 10.192,6.475 9.038,6.475 C7.884,6.475 7.128,7.233 7.128,8.229 C7.128,9.204 7.861,9.984 8.994,9.984 L9.015,9.984 L9.015,9.984 Z M10.702,21.524 L10.702,11.37 L7.327,11.37 L7.327,21.524 L10.702,21.524 L10.702,21.524 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

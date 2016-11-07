@@ -2,5 +2,27 @@
           PARTIALS: HEADER
 ************************************/
 header {
+	.header-icon {
+		height: 15px;
+	}
+
+	.navbar{
+		font-family: 'Roboto Mono',Roboto, "Helvetica Neue", Arial, sans-serif;
+		font-weight: 300;
+		letter-spacing: 2px;
+		text-transform: lowercase;
+		margin-bottom:2em;		
+	}
+
+	a {
+		color: white;
+		:hover{
+			background-color: orange;
+			padding: 2px;
+			transition: color 0.9s;
+
+		}
+	}
+
 
 }

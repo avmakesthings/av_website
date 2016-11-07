@@ -20,7 +20,7 @@ blocks:
       description: RatherBe is an early stage company that produces, curates & distributes high quality action sports media. I joined the company in late 2015 as lead designer,  to develop a beta launch web platform and iOS app. 
     -
       type: triad
-      heading: Design Goals
+      heading: Our Users
       images:
         - ratherbe-athlete.png
         - ratherbe-creator.png
@@ -48,6 +48,13 @@ blocks:
       heading: User Research
       description: >
         One of the most enjoyable aspects of my work involved connecting with our different user groups to better understand their needs and to test how they used our product. As an avid snowboarder and photographer, I thoroughly enjoyed going out to capture competitions like the Burton US Open and Mavericks, as these events provided great insight into our target audience \n\ -- I've included a few of my favourite shots below.
+    -
+      type: triad
+      heading: Design Goals
+      images:
+        - ratherbe-athlete.png
+        - ratherbe-creator.png
+        - ratherbe-enthusiast.png    
     -
       type: project-generic-text
       heading:  The design process
@@ -98,4 +105,6 @@ blocks:
     - 
       type: project-generic-image 
       image: ratherbe-mavericks.jpg
+
+
 

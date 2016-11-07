@@ -36,6 +36,7 @@ gulp.task('copy-vendor', function() {
     gulp.src('./node_modules/bootstrap/dist/js/bootstrap.min.js')
     // Perform minification tasks, etc here
     .pipe(gulp.dest('./dist/js'));
+
 });
 
 gulp.task('sass', function(){

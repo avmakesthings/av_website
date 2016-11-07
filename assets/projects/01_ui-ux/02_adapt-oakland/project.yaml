@@ -1,11 +1,11 @@
 --- 
-name: an example project
+name: Adapt Oakland
 description: an example description
-thumbnail: thumb.jpg
+thumbnail: adaptoakland-thumb.jpg
 blocks: 
     - 
       type: project-header
-      heading: name of the project
+      heading: Adapt Oakland - An Ecosystem Services Model
       collaborators: people collaborating
       description: some description
       url: www.xyz.com

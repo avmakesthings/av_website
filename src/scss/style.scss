@@ -6,10 +6,52 @@
 @import "variables.scss";
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+/*** FONTS ***/
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+
 /*** PARTIALS ***/
 @import "partials/header.scss";
 @import "partials/loader.scss";
 @import "partials/footer.scss";
+
+
+
+
+/*** MIXINS ***/
+/// Mixin to customize scrollbars
+/// Beware, this does not work in all browsers
+/// @author Hugo Giraudel
+/// @param {Length} $size - Horizontal scrollbar's height and vertical scrollbar's width
+/// @param {Color} $foreground-color - Scrollbar's color
+/// @param {Color} $background-color [mix($foreground-color, white, 50%)] - Scrollbar's color
+/// @example scss - Scrollbar styling
+///   @include scrollbars(.5em, slategray);
+@mixin scrollbars($size, $background-color, $foreground-color: mix($background-color, white,  80%)) {
+  // For Google Chrome
+  ::-webkit-scrollbar {
+      width:  $size;
+      height: $size;
+  }
+
+  ::-webkit-scrollbar-thumb {
+      background: $foreground-color;
+  }
+
+  ::-webkit-scrollbar-track {
+      background: $background-color;
+  }
+
+  // For Internet Explorer
+  body {
+    scrollbar-face-color: $foreground-color;
+    scrollbar-track-color: $background-color;
+  }
+}
+
+
 
 
 /* 
@@ -17,6 +59,29 @@
 	'partials' files if this ever gets unwieldy 
 */
 
+html {
+	@include scrollbars(.5em, $body-bg);	
+}
+
+body {
+	font-weight: 100;
+
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+	letter-spacing: 2px;
+}
+
+.body-text {
+	font-weight: 100;
+	letter-spacing: .5px;
+}
+
+
+a:hover{
+	color: $highlight-color;
+}
 
 a:hover, a:visited, a:link, a:active {
     text-decoration: none;
@@ -39,16 +104,20 @@ a:hover, a:visited, a:link, a:active {
 	display: block;
 }
 
+.category-link :hover{
+	color: red;
+}
+
 .project {
 	width: $project-width;
 }
 
 .landing-icon {
-	margin-bottom: 24px;
+	margin-bottom: 15px;
 }
 
 .landing-icon img {
-	margin-bottom: 24px;
+	margin-bottom: 15px;
 }
 
 .landing-icon.sm img {
@@ -59,16 +128,205 @@ a:hover, a:visited, a:link, a:active {
 	width: 50%;
     float: left;
     display: inline-block;
+    color: white;
+    :hover {
+    	background: darken( $body-bg, 2% );
+    }
+    
+    img {
+	 width: 95%;
+	 filter: brightness(80%); 
+	 :hover {
+	 	filter: brightness(100%); 		 	
+	} 
+
+    }
+
+    h5 {
+    	font-family: 'Roboto Mono';
+    	font-weight: 500;
+    	font-size: 1.1em;
+    	text-transform: uppercase;
+    	padding-top: 1em;
+    	:hover{
+    		color: white;
+    	} 
+    }
+
+    p {
+     	font-size: .9em;
+     	font-weight: 100;
+     	letter-spacing: 1px;
+	 	filter: brightness(70%); 	
+    }
 }
 
-.project-preview img {
-	width: 95%;
-}
 
 .project-block {
-	margin-bottom: 120px;
+	margin-bottom: 60px;
 }
 
 .project-block img {
 	width: 100%;
 }
+
+.project-header {
+	h3 {
+		text-transform: uppercase;
+		font-size: 1.4em;
+		font-family: 'Roboto Mono';
+		font-weight: 500;
+		letter-spacing: 2px;		
+	}
+
+	p {
+
+	}
+
+}
+
+.proj-descrip {
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+
+/*Modal-
+*/
+
+.contact {
+	background: orange;
+	border-bottom: 0px;
+	text-align: center;
+	border-radius: 0px;
+}
+
+.modal-header {
+	border-bottom:none;
+}
+
+// .modal-full {
+// 	width: 100%;
+// 	height: 100%;
+// 	margin: 0;
+// }
+
+
+
+/*CSS Typewriter effect -
+Borrowed from Geoff Graham - https://css-tricks.com/snippets/css/typewriter-effect/
+*/
+
+.typewriter{
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .05em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  // margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret 1.5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 60% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+
+//Animations
+
+.svg-draw{
+    stroke: white;
+    stroke-width: 2;
+    stroke-dasharray: 500px;
+    stroke-dashoffset: 500px;
+    animation-name: draw;
+    animation-duration: 5s;
+    animation-fill-mode: forwards; // Stay on the last frame
+    animation-iteration-count: 1; // Run only once
+    animation-timing-function: linear;
+}
+
+
+.svg-colour{
+	fill: transparent;
+    animation-name: colour;
+    animation-duration: 4s;
+    animation-fill-mode: forwards; // Stay on the last frame
+    animation-iteration-count: 1; // Run only once
+    animation-timing-function: linear;
+
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes colour {
+  to {
+    fill: white;
+  }
+}
+
+
+.index-nav {
+	color: $highlight-color;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	background: linear-gradient(to bottom, rgba(102,153,255,.5) 50%, $body-bg 50%);
+	background-size: auto 4px;
+	padding: 20px;
+	animation-name: projectlist;
+    animation-duration: 2s;
+    animation-fill-mode: forwards; // Stay on the last frame
+    animation-iteration-count: 1; // Run only once
+    animation-timing-function: linear;
+    animation-delay: 5s;
+}
+
+@keyframes projectlist {
+  to {	
+	color: white;
+  }
+}
+
+
+//MIXINS
+
+@mixin gradient-animation( $start, $end, $transTime ){
+  background-size: 100%;
+  background-image: linear-gradient($start, $end);
+  position: relative;
+  z-index: 100;
+  &:before {
+    background-image: linear-gradient($end, $start);
+    content: '';    
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0; left: 0;
+    opacity: 0;
+    width: 100%;
+    z-index: -100;
+    transition: opacity $transTime;
+  }
+  &:hover {
+     &:before {
+       opacity: 1; 
+     }
+  }
+}
+
+
+
+

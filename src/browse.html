@@ -7,37 +7,40 @@
     <div class="main-content">
       <div class="container">
         {{> loader }}
-        {{> header }}
+        {{> header-typ }}
+        {{> contact }}
 
-        <div class="row landing-icon sm">
+<!--         <div class="row landing-icon sm">
           <div class="col-sm-7">
             <a href="/">
               <img src="/img/av-logo-white.svg"/>
             </a>
           </div>
           <div class="col-sm-5"></div>
-        </div>
+        </div> -->
 
         <div class="row">
-          <div class="col-sm-4">
+          <div class="col-sm-3">
           {{> project-nav}}
           </div>
           <div class="col-sm-1"></div>
-          <div class="col-sm-7">
+          <div class="col-sm-8">
 
             {{#categories}}
 
               <div class="category {{slug}}">
 
-                <h3>{{name}}</h3>
-                <p>{{description}}</p>
+<!--                 <h3>{{name}}</h3> -->
+<!--                 <p class="larger"><em>{{description}}</em></p> -->
 
                 {{#projects}}
 
                   <a class="project-preview" href="{{slug}}.html">
-                    <img src="http://placehold.it/300x300"/>
-                    <h3>{{name}}</h3>
-                    <p>{{description}}</p>
+                    <div class = "container-fluid">
+                      <img src="img/{{thumbnail}}"/>
+                      <h5>{{name}}</h5>
+                      <p>{{description}}</p>
+                  </div>
                   </a>
                   
                 {{/projects}}

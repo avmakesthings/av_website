@@ -1,11 +1,11 @@
 --- 
-name: an example project
+name: Secret Scoop
 description: an example description
-thumbnail: thumb.jpg
+thumbnail: secretscoop-thumb.jpg
 blocks: 
     - 
       type: project-header
-      heading: name of the project
+      heading: Secret Scoop
       collaborators: people collaborating
       description: some description
       url: www.xyz.com

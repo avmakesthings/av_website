@@ -1,17 +1,17 @@
 <div class="triad">
-	<h3> {{heading}} </h3>
+	<h5 class= "proj-text-heading"> {{heading}} </h5>
 	<div class="row">
 
 		{{#images}}
 			<div class="col-xs-4">
-				<img src="http://placehold.it/1800x900"/>
+				<img src="img/{{.}}"/>
 			</div>
 		{{/images}}
 
 	</div>
 	<div class="row">
 		{{#sub-headings}}
-			<h3 class="col-xs-4">{{.}}</h3>
+			<h5 class= "proj-text-heading col-xs-4">{{.}}</h5>
 		{{/sub-headings}}
 
 	</div>

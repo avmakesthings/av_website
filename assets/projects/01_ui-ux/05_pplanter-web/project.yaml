@@ -1,11 +1,11 @@
 --- 
-name: an example project
+name: Pplanter Web
 description: an example description
-thumbnail: thumb.jpg
+thumbnail: pplanter-web-thumb.jpg
 blocks: 
     - 
       type: project-header
-      heading: name of the project
+      heading: A website for Pplanter
       collaborators: people collaborating
       description: some description
       url: www.xyz.com

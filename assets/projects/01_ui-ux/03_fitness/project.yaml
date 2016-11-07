@@ -1,11 +1,11 @@
 --- 
-name: an example project
+name: Fit.ness
 description: an example description
-thumbnail: thumb.jpg
+thumbnail: fitness-thumb.jpg
 blocks: 
     - 
       type: project-header
-      heading: name of the project
+      heading: Fit.ness
       collaborators: people collaborating
       description: some description
       url: www.xyz.com
@@ -21,7 +21,7 @@ blocks:
     #   heading: a section heading
     #   description: section description
     # - 
-    #   type: triad-block
+    #   type: triad
     #   heading: my heading
     #   images:
     #     - myimage1.jpg
