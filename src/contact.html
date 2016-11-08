@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+  {{> head }}
+  
+  <body>
+
+    <div class="main-content">
+      <div class="container">
+        {{> loader }}
+        {{> header }}     
+
+          <div class="row contact">
+            <div class="col-sm-2"></div>
+            
+            <div class="col-sm-8">
+              
+              <h3 class= "small" style= "margin:10%; text-transform: uppercase; line-height: 2em;">you know you want to</h3>
+
+              <svg viewBox="0 0 160 112" width ="320" height ="224">
+
+                <defs>
+                   <linearGradient class = "gradient-ani1" id="linear" x1="0%" y1="0%" x2="100%" y2="0%">
+                     <stop offset="0%"   stop-color="#05a"/>
+                     <stop offset="50%"  stop-color="#a55"/>
+                     <stop offset="100%" stop-color="#0a5"/>
+                   </linearGradient>
+                 </defs>
+                <polygon id = "tri-3" class = "triangle-colour " points="86.9,112 -0.1,112 43.4,0" fill=url(#linear) />
+                <polygon id = "tri-4" class = "triangle-colour-reverse " points="73.5,0 160.5,0 117,112 " />
+              </svg>          
+
+              <h4 style= "margin-top:8%;"><a href = "mailto:hello@anastasia.io">  - - -  hello [at] anastasia.io - - -</a></h4>
+
+            </div>
+
+            <div class="col-sm-2"></div>
+        </div>
+
+        {{> footer }}
+
+      </div>
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.min.js"></script>
+
+  </body>
+</html>

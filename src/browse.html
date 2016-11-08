@@ -8,7 +8,6 @@
       <div class="container">
         {{> loader }}
         {{> header-typ }}
-        {{> contact }}
 
 <!--         <div class="row landing-icon sm">
           <div class="col-sm-7">
@@ -36,12 +35,12 @@
                 {{#projects}}
 
                   <a class="grid-item project-preview" href="{{slug}}.html">
-                    <div>
+                    <div class ="proj-thumbnail">
 
                       <img src="img/{{thumbnail}}"/>
                       <h5>{{name}}</h5>
                       <p>{{description}}</p>
-                  </div>
+                    </div>
                   </a>
                   
                 {{/projects}}

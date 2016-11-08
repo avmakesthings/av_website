@@ -140,7 +140,9 @@ a:hover, a:visited, a:link, a:active {
   color: white!important;
   padding: 8px;
   :hover {
-    background: darken( $body-bg, 2% );
+    background: lighten( $body-bg, 5% );
+    // border: solid .5px white;
+    // background: #f0ad4e;
   }
 }
 
@@ -167,22 +169,44 @@ a:hover, a:visited, a:link, a:active {
   filter: brightness(100%);  
 } 
 
-.project-block {
-	margin-bottom: 60px;
+.proj-thumbnail {
+  padding: 5px 5px 8px 5px;
 }
 
-.project-block img {
-	width: 100%;
+.project-block {
+	margin-bottom: 60px;
+
+  p {
+    letter-spacing: 1px;
+    font-size: 1.1em;
+    line-height: 1.6em;
+    color: lightgray;
+  }
+
+  img {
+    width: 100%;    
+  }
+
 }
 
 .project-header {
-	h3 {
+	text-align: left;
+  width: 80%;
+  margin-bottom: -30px;
+  h3 {
 		text-transform: uppercase;
 		font-size: 1.4em;
 		font-family: 'Roboto Mono';
 		font-weight: 500;
 		letter-spacing: 2px;		
 	}
+  em {
+    color: lightgray;
+  }
+  p {
+    font-size: .8em;
+    color: orange;
+  }
 
 }
 
@@ -196,6 +220,27 @@ a:hover, a:visited, a:link, a:active {
 }
 
 
+.project-design-goals{
+  img {
+    width: 40%;
+    margin: 0 20% 20% 20%;
+
+  }
+}
+
+.proj-text-heading{
+  font-weight: 500;
+  padding-bottom: 5%;
+}
+
+
+.triad {
+  p {  
+    font-size: 1em;
+    padding: 0 3%;
+  }
+
+}
 
 
 /*CSS Typewriter effect -
@@ -292,42 +337,51 @@ Borrowed from Geoff Graham - https://css-tricks.com/snippets/css/typewriter-effe
 */
 
 .contact {
+	height: 600px;
+  background: $link-color;
+  text-align: center;
+  margin-bottom: -100px;
 
-	size: 100%;
-	background: linear-gradient(180deg, $highlight-color, $link-color);
-	background-size: 400% 400%;
+  a {
+    color: white;
+  }
 
-	-webkit-animation: AnimationName 30s ease infinite;
-	-moz-animation: AnimationName 30s ease infinite;
-	animation: AnimationName 30s ease infinite;
-	border-bottom: 0px;
-	text-align: center;
-	border-radius: 0px;
+  a:hover {
+    color: black !important;
+  }
+
 }
 
-.modal-header {
-	border-bottom:none;
+
+.gradient-ani1 {
+
 }
 
 
 
+// .triangle-colour {
+//   // background-size: 400% 400%;
+//   fill: linear-gradient(180deg, $highlight-color, $link-color);
+//   -webkit-animation: contact 30s ease infinite;
+//   -moz-animation: contact 30s ease infinite;
+//   animation: contact 30s ease infinite; 
+// }
 
-
-@-webkit-keyframes AnimationName {
-    0%{background-position:51% 0%}
-    50%{background-position:50% 100%}
-    100%{background-position:51% 0%}
-}
-@-moz-keyframes AnimationName {
-    0%{background-position:51% 0%}
-    50%{background-position:50% 100%}
-    100%{background-position:51% 0%}
-}
-@keyframes AnimationName { 
-    0%{background-position:51% 0%}
-    50%{background-position:50% 100%}
-    100%{background-position:51% 0%}
-}
+// @-webkit-keyframes contact {
+//     0%{background-position:51% 0%}
+//     50%{background-position:50% 100%}
+//     100%{background-position:51% 0%}
+// }
+// @-moz-keyframes contact {
+//     0%{background-position:51% 0%}
+//     50%{background-position:50% 100%}
+//     100%{background-position:51% 0%}
+// }
+// @keyframes contact { 
+//     0%{background-position:51% 0%}
+//     50%{background-position:50% 100%}
+//     100%{background-position:51% 0%}
+// }
 
 
 
