@@ -5,25 +5,27 @@
   
   <body>
     <div class="main-content">
-      <div class="container project">
+      <div class="container">
         {{> loader }}
         {{> header-typ }}
-        {{> contact }}
-        
-        {{#blocks}}
 
-          <div class="project-block">
-            {{> (lookup . 'type')}}
+      
+        <div class="container project">        
+          {{#blocks}}
+
+            <div class="project-block">
+              {{> (lookup . 'type')}}
+            </div>
+            
+            {{/blocks}}
+
+          <div class="project-end">
+            <a href="/projects.html#{{category}}">
+              <h5>- - - Return to Projects - - - <h5>
+            </a>
           </div>
-          
-        {{/blocks}}
+        </div> 
 
-        <div class="project-end">
-          <a href="/projects.html#{{category}}">
-            <h5>Return to Projects<h5>
-          </a>
-        </div>
-        
         {{> footer }}
       </div>
     </div>
