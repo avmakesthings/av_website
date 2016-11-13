@@ -89,7 +89,7 @@ a:hover, a:visited, a:link, a:active {
 }
 
 .container {
-	min-width: 480px;
+
 }
 
 .browse {
@@ -117,7 +117,7 @@ a:hover, a:visited, a:link, a:active {
 }
 
 .project {
-	width: $project-width;
+	max-width: $project-width;
   text-align: center;
 }
 
@@ -292,7 +292,7 @@ Borrowed from Geoff Graham - https://css-tricks.com/snippets/css/typewriter-effe
 /* The typing effect */
 @keyframes typing {
   from { width: 0 }
-  to { width: 60% }
+  to { width: 260px }
 }
 
 /* The typewriter cursor effect */
