@@ -25,14 +25,16 @@ blocks:
     -
       type: project-design-goals
       heading: Design Goals
-      images:
-        - pplanter-web-dg1.svg
-        - pplanter-web-dg2.svg
-        - pplanter-web-dg3.svg
-      sub-headings:
-        - Concisely explain the Pplanter project
-        - Create some fun interactive web elements
-        - Tell a good story
+      items:
+        -
+          image: pplanter-web-dg1.svg
+          sub-heading: Concisely explain the Pplanter project
+        -
+          image: pplanter-web-dg2.svg
+          sub-heading: Create some fun interactive web elements
+        -
+          image: pplanter-web-dg3.svg
+          sub-heading: Tell a good story
     -
       type: project-divider-line        
     # - 
@@ -61,21 +63,3 @@ blocks:
     #   type: project-generic-text
     #   heading: a section heading
     #   description: section description
-    # - 
-    #   type: triad-block
-    #   heading: my heading
-    #   images:
-    #     - myimage1.jpg
-    #     - myimage2.jpg
-    #     - myimage3.jpg
-    #   sub-headings:
-    #     - myheading1.jpg
-    #     - myheading2.jpg
-    #     - myheading3.jpg
-    #   descriptions:
-    #     - mydecrip1.jpg
-    #     - mydescrip2.jpg
-    #     - mydescrip3.jpg
-
-
-

@@ -236,7 +236,20 @@ a:hover, a:visited, a:link, a:active {
     margin: 0 20% 20% 20%;
 
   }
+
+  .row div {
+    margin-bottom: 30px;
+  }
 }
+
+@media only screen and (max-width: 576px) {
+  .project-design-goals, .triad{
+    img {
+      width: 30%;
+    }
+  }
+}
+
 
 .proj-text-heading{
   font-weight: 500;

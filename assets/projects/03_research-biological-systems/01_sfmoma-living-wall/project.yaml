@@ -34,21 +34,3 @@ blocks:
     #   type: project-generic-text
     #   heading: a section heading
     #   description: section description
-    # - 
-    #   type: triad-block
-    #   heading: my heading
-    #   images:
-    #     - myimage1.jpg
-    #     - myimage2.jpg
-    #     - myimage3.jpg
-    #   sub-headings:
-    #     - myheading1.jpg
-    #     - myheading2.jpg
-    #     - myheading3.jpg
-    #   descriptions:
-    #     - mydecrip1.jpg
-    #     - mydescrip2.jpg
-    #     - mydescrip3.jpg
-
-
-

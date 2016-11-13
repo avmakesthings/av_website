@@ -17,21 +17,19 @@ blocks:
       description: The PPlanter, a modular street toilet that uses biofiltration to process waste collected, is a project I've worked on in various respects over the past 3 years. It has undergone 3 official iterations and been installed on a trial basis in San Francisco to collect data on usage and to test system components.
     -
       type: project-divider
-    - 
-      type: project-generic-text
-      heading: More coming soon ...
-      # description: section description
-    # -
-    #   type: project-design-goals
-    #   heading: Design Goals
-    #   images:
-    #     - pplanter-question.svg
-    #     - pplanter-brand.svg
-    #     - pplanter-user.svg
-    #   sub-headings:
-    #     - Refine and communicate product value proposition
-    #     - Establish clear brand identity that resonates with target users
-    #     - Build an engaged audience              
+    -
+      type: project-design-goals
+      heading: Design Goals
+      items:
+        -
+          image: pplanter-question.svg
+          sub-heading: Refine and communicate product value proposition
+        -
+          image: pplanter-brand.svg
+          sub-heading: Establish clear brand identity that resonates with target users
+        -
+          image: pplanter-user.svg
+          sub-heading: Build an engaged audience           
     # - 
     #   type: project-generic-2-col-image
     #   image1: myimage1.jpg
@@ -40,21 +38,5 @@ blocks:
     #   type: project-generic-text
     #   heading: a section heading
     #   description: section description
-    # - 
-    #   type: triad-block
-    #   heading: my heading
-    #   images:
-    #     - myimage1.jpg
-    #     - myimage2.jpg
-    #     - myimage3.jpg
-    #   sub-headings:
-    #     - myheading1.jpg
-    #     - myheading2.jpg
-    #     - myheading3.jpg
-    #   descriptions:
-    #     - mydecrip1.jpg
-    #     - mydescrip2.jpg
-    #     - mydescrip3.jpg
-
 
 
