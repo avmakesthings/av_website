@@ -1,14 +1,16 @@
 --- 
 name: Structural Surfaces
-description: Research into steel folded plate structural surfaces
+description: An investigation into the digital design and fabrication of folded plate structural surfaces
 thumbnail: folded-thumb.jpg
 blocks: 
     - 
       type: project-header
       heading: Structural Surfaces - Folded Plate
-      collaborators: With Madeline Hartzell, Joe Taylor-Nowell, Zachary Streitz, Jessica Willemsen, Nathan John & Neil Wiita
-      description: some description
+      collaborators: For Prof Lisa Iwamoto - With Madeline Hartzell, Joe Taylor-Nowell, Zachary Streitz, Jessica Willemsen, Nathan John & Neil Wiita
+      description: An investigation into the digital design and fabrication of folded plate structural surfaces
       # url: www.xyz.com
+    -
+      type: project-divider  
     - 
       type: project-generic-video 
       video-url: https://www.youtube.com/embed/0JovREZootQ?rel=0&amp;showinfo=0
@@ -17,13 +19,13 @@ blocks:
     - 
       type: project-generic-text
       # heading: a section heading
-      description: Folded plate structural systems ....    
+      description: Folded plate was the collaborative product of a 6 month investigation into digital fabrication and structural surfaces completed with the Material Geometries research studio at UC Berkeley, under the direction of Lisa Iwamoto. Research and development resulted in an installation that was exhibited on the UC Berkeley campus for 6 months.   
     -
       type: project-divider  
     - 
       type: project-generic-text
       heading: Form finding through 3D modelling & parametric design
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur si   
+      description: A series of folded plate structural surfaces were generated using Rhino and Grasshopper.
     - 
       type: project-generic-image 
       image: folded-form1.png  
@@ -47,7 +49,7 @@ blocks:
     - 
       type: project-generic-text
       heading: Experiments in porosity
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur si
+      description: We were interested in the relationship between folding an porosity.  Experimental models were made with paper to quickly test different effects.
     - 
       type: project-generic-image 
       image: folded-andy.jpg    
@@ -59,7 +61,7 @@ blocks:
     - 
       type: project-generic-text
       heading: Structural Analysis 
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur si
+      description: Final forms were tested using Algor, a structural analysis plugin that can be used with grasshopper.
     - 
       type: project-generic-image 
       image: folded-ghdef.png 
@@ -71,7 +73,7 @@ blocks:
     - 
       type: project-generic-text
       heading: Fabrication & Installation
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur si
+      description: The project was built using plasma cut 18guage sheet steel and a LOT of rivets.
 
     # - 
     #   type: project-generic-2-col-image
@@ -95,10 +97,10 @@ blocks:
 
     -
       type: project-divider  
-    - 
-      type: project-generic-text
-      heading: Final Thoughts
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur si
+    # - 
+    #   type: project-generic-text
+    #   heading: Final Thoughts
+    #   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur si
 
 
     # - 

@@ -1,13 +1,15 @@
 --- 
 name: Digital Ceramics
-description: Research into the synthesis of digital fabrication and slip cast ceramics
+description: Research into the combination of digital fabrication and slip cast ceramics
 thumbnail: ceramics-thumb.gif
 blocks: 
     - 
       type: project-header
       heading: Digital Ceramics
-      collaborators: -For Prof. Ron Rael.  Part 2 of this work is in collaboration with Bryan Allen
-      description: some description
+      collaborators: -For Prof. Ron Rael.  Part 2 of this work was a collaboration with Bryan Allen
+      description: Research into the synthesis of digital fabrication and slip cast ceramics
+
+ 
       # url: www.xyz.com
     - 
       type: project-generic-image 
@@ -22,7 +24,7 @@ blocks:
     - 
       type: project-generic-text
       heading: Part 1 - The Good
-      description: section description
+      description: The Digital Ceramics research studio was focused on developing new ways to design and build by combining traditional ceramic fabrication techniques with digital fabrication. We used diatoms as a basis for generating forms. Designs were generated in Modo, then CNC routed into plaster ingots which were then used as moulds for slip casting porcelain. The first research push looked at how translucency could be emphasized through the use of custom CNC toolpaths.
     -
       type: project-divider  
     - 
@@ -52,7 +54,7 @@ blocks:
     - 
       type: project-generic-text
       heading: Installation & Lighting
-      description: section description      
+      description: Experimentation with custom tool-paths on the surface of the tiles was emphasized through various types of LED lighting. 
     - 
       type: project-generic-image 
       image: ceramics-star-pic1.jpg   
@@ -69,7 +71,7 @@ blocks:
     - 
       type: project-generic-text
       heading: Part 2 - The Weird
-      description: section description 
+      description: The second part of the research was focused on stacking and interlocking as tectonics.  Things got weird.
     -
       type: project-divider  
     - 
