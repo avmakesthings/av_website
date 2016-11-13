@@ -5,4 +5,6 @@ assets/projects/**/*.jpg
 assets/projects/**/*.png
 assets/projects/**/*.gif
 assets/projects/**/*.svg
+assets/projects/**/*.bmp
+assets/projects/**/*.mp4
 dist

@@ -1,17 +1,17 @@
 --- 
-name: an example project
-description: an example description
-thumbnail: thumb.jpg
+name: BCI & the Built Environment
+description: Master of Architecture thesis on using consumer grade Brain Computer Interfacing as an input modality for automated environments.
+thumbnail: bci-thumb.jpg
 blocks: 
     - 
       type: project-header
-      heading: name of the project
-      collaborators: people collaborating
-      description: some description
-      url: www.xyz.com
-    # - 
-    #   type: project-generic-image 
-    #   image:
+      heading: BCI & the Built Environment
+      # collaborators: people collaborating
+      description: Master of Architecture thesis on using consumer grade Brain Computer Interfacing as an input modality for automated environments.
+      # url: www.xyz.com
+    - 
+      type: project-generic-image 
+      image: bci-main.jpg
     # - 
     #   type: project-generic-2-col-image
     #   image1: myimage1.jpg

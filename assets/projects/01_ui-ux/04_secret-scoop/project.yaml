@@ -8,7 +8,7 @@ blocks:
       heading: Secret Scoop
       collaborators: In collaboration with Funn Fisher
       description: UI/UX Design and Web Development for a Bay Area food start-up
-      url: www.secretscoopgelato.com
+      link: www.secretscoopgelato.com
     - 
       type: project-generic-image 
       image: secretscoop-responsive.jpg
@@ -17,57 +17,77 @@ blocks:
       description: >
         A website redesign that aimed to update the functionality and provide a more user friendly interface for a San Francisco food start-up. 
     -
-      type: triad
+      type: project-divider
+    -
+      type: project-design-goals
       heading: Design Goals
       images:
-        - fitness-.svg
-        - fitness-.svg
-        - fitness-.svg
+        - secretscoop-dg1.svg
+        - secretscoop-dg2.svg
+        - secretscoop-dg3.svg
       sub-headings:
         - Update look & feel of old website
         - Create a simple user experience
         - Improve site responsiveness
+    -
+      type: project-divider-line   
     - 
       type: project-generic-text
       heading: Our Users
       description: >
-       We began the redesign process by researching how the site was currently being used and developing personas based on user surveys and qualitative user testing of the old site.
+       We began the redesign process by researching how the site was currently being used and developing personas based on user surveys and qualitative user testing of the old site. Preliminary user testing helped us decide to focus on a responsive website, instead of additionally designing a mobile app. 
     - 
       type: project-generic-image 
       image: secretscoop-users.jpg                   
+    -
+      type: project-divider
     - 
       type: project-generic-2-col-image
       image1: secretscoop-persona-01.jpg
       image2: secretscoop-persona-02.jpg
+    -
+      type: project-divider
     - 
       type: project-generic-text
       heading: Design - Low-Fidelity Prototyping
       description: >
-       We began the redesign process by researching how the site was currently being used and develo ....
+       Initital designs were quickly sketched on paper and using Balsamiq. 
     - 
       type: project-generic-image 
       image: secretscoop-brainstorm.jpg
     - 
       type: project-generic-image 
       image: secretscoop-wireframe.jpg             
+    -
+      type: project-divider
     - 
       type: project-generic-text
       heading: High Fidelity Prototyping
       description: >
-       We began the redesign process by researching how the site was currently being used and develo ....
+       Sketch and Invision were used to generate high-fidelity prototypes based on the lo-fi designs.
+    - 
+      type: project-generic-image 
+      image: secretscoop-mocks.png
+    - 
+      type: project-generic-image 
+      image: secretscoop-mocks2.jpg                    
+    -
+      type: project-divider       
     - 
       type: project-generic-text
       heading: Testing assumptions
       description: >
-       We began the redesign process by researching how the site was currently being used and develo ....
+       An interactive prototype built in inVision was used for testing the website with users before web development. 
     - 
       type: project-generic-image 
       image: secretscoop-testing1.jpg
+    -
+      type: project-divider
     - 
       type: project-generic-text
       heading: Final Thoughts
       description: >
-       We began the redesign process by researching how the site was currently being used and develo ....
+       The Secret Scoop Website is still a work in progress. The site, perhaps due to it's simplicity has been performing well and is slated for a rebuild in early 2017 which will be timed with the opening of Secret Scoop's first public retail outlet in Berkeley. 
 
 
     #   type: project-generic-text

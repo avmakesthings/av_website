@@ -1,17 +1,31 @@
 --- 
-name: an example project
-description: an example description
-thumbnail: thumb.jpg
+name: SFMOMA Living Wall
+description: Systems engineering & Project management for a 3-story, $190M living wall installation at SFMOMA
+thumbnail: sfmoma-thumb.jpg
 blocks: 
     - 
       type: project-header
-      heading: name of the project
-      collaborators: people collaborating
-      description: some description
-      url: www.xyz.com
-    # - 
-    #   type: project-generic-image 
-    #   image:
+      heading: SFMOMA Living Wall
+      collaborators: In collaboration with Hyphae Design Lab, Habitat Horticulture, Snohetta & SFMOMA
+      description: Systems engineering, Construction detailling & Project management for a 3-story, $190M living wall installation at SFMOMA
+      url: www.sfmoma.org/watch/the-living-wall
+    - 
+      type: project-generic-image 
+      image: sfmoma_living_wall_overhead.jpg
+    - 
+      type: project-generic-text
+      description: section description   
+    -
+      type: project-divider
+    - 
+      type: project-generic-image 
+      image: sfmoma_living_wall2.jpg
+    -
+      type: project-divider
+    - 
+      type: project-generic-2-col-image
+      image1: sfmoma-system.jpg
+      image2: sfmoma-planting.jpg          
     # - 
     #   type: project-generic-2-col-image
     #   image1: myimage1.jpg

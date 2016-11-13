@@ -1,4 +1,9 @@
 <div class="project-generic-text">
 	<h5 class= "proj-text-heading">{{ heading }}</h5>
 	<p>{{ description }}</p>
+	<div class="row">	
+		{{#processes}}
+		 	<h5>{{.}}<br></h5>
+		{{/processes}}
+	</div>
 </div>
