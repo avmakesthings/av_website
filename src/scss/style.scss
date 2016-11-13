@@ -146,6 +146,12 @@ a:hover, a:visited, a:link, a:active {
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .project-preview {
+    width: 100%;
+  }
+}
+
 .project-preview h5 {
   font-family: 'Roboto Mono';
   font-weight: 500;
