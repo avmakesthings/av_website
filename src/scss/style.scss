@@ -96,6 +96,10 @@ a:hover, a:visited, a:link, a:active {
   min-height: 480px;
 }
 
+.browse-divider {
+  border-color: $link-color
+}
+
 .project-nav .category {
 	padding-left: 24px;
 }
@@ -180,7 +184,7 @@ a:hover, a:visited, a:link, a:active {
 }
 
 .project-block {
-	// margin-bottom: 60px;
+	margin-bottom: 20px;
 
   p {
     letter-spacing: 1px;
