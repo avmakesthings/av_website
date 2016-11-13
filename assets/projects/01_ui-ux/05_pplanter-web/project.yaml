@@ -16,7 +16,7 @@ blocks:
     - 
       type: project-generic-text
       heading: A Much Needed Update
-      description: The old pplanter website ....
+      description: The old pplanter website was in need of an upgrade. I'm currently in the process of building this website with jade, less, gulp and bootstrap. The interactive svg was made using the snap library. Main screens are displayed below.
     - 
       type: project-generic-image 
       image: pplanter-web-old.jpg
@@ -35,10 +35,10 @@ blocks:
         - Tell a good story
     -
       type: project-divider-line        
-    - 
-      type: project-generic-text
-      heading: A Simple Design
-      description: section description
+    # - 
+    #   type: project-generic-text
+    #   heading: A Simple Design
+    #   description: section description
     - 
       type: project-generic-image 
       image: pplanter-web-wireframe.jpg

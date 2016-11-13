@@ -1,20 +1,20 @@
 --- 
 name: Adapt Oakland
-description: Information Architecture, Web UI/UX,  Web Development to present a green infrastructure framework for the City of Oakland & the California Strategic Growth Council
+description: Information Architecture, Web UI/UX,  Web Development for a green infrastructure framework developed for the City of Oakland & the California Strategic Growth Council
 thumbnail: adaptoakland-thumb.jpg
 blocks: 
     - 
       type: project-header
       heading: Adapt Oakland - An Ecosystem Services Model
       collaborators: In collaboration with Urban Biofilter, The Earth Island Institute, John Faichney & Ben Golder
-      description: Information Architecture, Web UI/UX,  Web Development to present a green infrastructure framework for the City of Oakland & the California Strategic Growth Council
+      description: Information Architecture, Web UI/UX, Web Development for a green infrastructure framework developed by Urban Biofilter, an Oakland based non-profit, for the City of Oakland & the California Strategic Growth Council
       link: www.adaptoakland.org
     - 
       type: project-generic-image 
       image: adaptoakland-landing.gif
     -
       type: project-generic-text
-      description: Adapt Oakland is a greening plan that identifies environmental hazards and pairs them with adaptation strategies to create a healthier, more sustainable urban environment.   The project encompassed 3 years of reaserch from Oakland based non-profit, Urban Biofilter and detailed .   I worked with Urban Biofilter and a small team of developers to structure the research and design work that had been completed, develop a content management system and database and design and build a web UI.  The project is broken into 3 phases, with Phase 1 live and currently in beta stage.  User testing and updates are continuing.
+      description: Adapt Oakland is a greening plan that identifies environmental hazards and pairs them with adaptation strategies to create a healthier, more sustainable urban environment.   The project encompassed 3 years of reaserch from Oakland based non-profit, Urban Biofilter and detailed .  I worked with Urban Biofilter and a small team of developers to structure the research and design work that had been completed, develop a content management system and database and design and build a web UI.  The project is broken into 3 phases, with a very rudimentary website (Phase 1) live and currently in beta trial stage.  
     - 
       type: project-divider   
     - 
@@ -29,15 +29,15 @@ blocks:
         - Designers & Planners
         - Citizens
       descriptions:
-        - Semi-professional to professional athletes required exposure & easy access to a dedicated fanbase
-        - Professional content creators required exposure, connection to athletes/ fans and a place to showcase their work
-        - Enthusiasts required a way to connect to others and well as a place to upload and share their experiences.
+        - Regulatory bodies & political representatives need access to clear information regarding green cities
+        - Designers and urban planners want to understand the different green strategies available for them to use and implement at a local scale
+        - Citizens want to know about how green infrastructure can impact them as individuals and communities
     - 
       type: project-divider
     -
       type: project-generic-text
       heading: Information Architecture
-      description: They produced a lot of research and design work and it was difficult to understand we had to figure this out to parse into a database different datatypes  -- Ended up using Google Drive as a CMS
+      description: One of the most challenging aspects of this project was organizing the vast quantity of research that the team at Urban Biofilter had amassed into a format that was easily digestible on a website. While the ultimate goal is tailor the presentation of this information to each user, this was not feasible in the first build. The majority of work done in the first phase was centered around formulating a system to organize the data and then categorizing and tagging the all the research and design. A content managment system and database were developed to support this.
     -
       type: project-divider
     -
@@ -50,21 +50,21 @@ blocks:
       type: project-divider         
     -
       type: project-generic-text
-      heading: Phase 1 Design
-      description: They produced a lot of research and design work and it was difficult to understand we had to figure this out to parse into a database different datatypes  -- Ended up using Google Drive as a CMS
+      heading: Project Phasing
+      description: The typical outcome of a reserach project like this is to write a report that is seen by a small proportion of policy makers.  Urban Biofilter chose the more challenging route of building a website, with the goal of making their research and design work accessible to as many people as possible. Their team had limitied experience with web products and a limited budget, along with final grant deadlines looming. Given these constraints, we decided to break the project into phases.  Phase 1, a basic website that presents all their data and research is currently live. 
     -
       type: project-divider        
     -
       type: project-design-goals
-      heading: Design Goals
+      heading: Phase 1 Design Goals
       images:
-        - ratherbe-question.svg
-        - ratherbe-brand.svg
-        - ratherbe-user.svg
+        - adaptoakland-pg1.svg
+        - adaptoakland-pg2.svg
+        - adaptoakland-pg3.svg
       sub-headings:
-        - Refine and communicate product value proposition
-        - Establish clear brand identity that resonates with target users
-        - Build an engaged audience
+        - Ensure that all research is being presented on the web
+        - Ensure that geospatial research is clearly presented
+        - Create a simple navigation system
     -
       type: project-divider  
     -
@@ -91,8 +91,8 @@ blocks:
       type: project-divider
     -
       type: project-generic-text
-      heading: Final Thoughts
-      description: They produced a lot of research and design work and it was difficult to understand we had to figure this out to parse into a database different datatypes  -- Ended up using Google Drive as a CMS        
+      heading: Final Thoughts - Phase 2 and beyond
+      description: There is still a lot of work to be done on this project.  We're currently in the process of acquiring funding for Phase 2 while updating the design. The research and design work that has gone into developing the Adapt Ecosystem Services model and the Adapt oakland urban greening plan is invaluable and needs to be presented in the most effective way possible. It's vital that this research be available to and used by as broad an audience possible and a little sad for me personally that phase 1 was so restricted. Definitely motivation to help bring the remaining pieces to fruition!
     # - 
     #   type: project-generic-2-col-image
     #   image1: myimage1.jpg

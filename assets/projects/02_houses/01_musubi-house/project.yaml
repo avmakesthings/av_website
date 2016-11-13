@@ -14,7 +14,7 @@ blocks:
       image: musubi-render1.jpg
     - 
       type: project-generic-text
-      description: section description 
+      description: I worked with Craig Steely Architcture on the design ...
     # - 
     #   type: project-generic-image 
     #   image: musubi-site1.jpg
@@ -26,17 +26,17 @@ blocks:
       image2: musubi-model2.jpg        
     -
       type: project-divider
-    - 
-      type: project-generic-text
-      heading: 3D Modelling & Rendering
-      description: section description     
+    # - 
+    #   type: project-generic-text
+    #   heading: 3D Modelling & Rendering
+    #   description: section description     
     -
       type: project-divider
     -
       type: carousel
       images:
-        - musubi-white-render.jpg
         - musubi-render2.jpg
+        - musubi-white-render.jpg
 
 
 
