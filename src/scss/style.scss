@@ -89,11 +89,15 @@ a:hover, a:visited, a:link, a:active {
 }
 
 .container {
-	min-width: 480px;
+
 }
 
 .browse {
   min-height: 480px;
+}
+
+.browse-divider {
+  border-color: $link-color
 }
 
 .project-nav .category {
@@ -117,7 +121,7 @@ a:hover, a:visited, a:link, a:active {
 }
 
 .project {
-	width: $project-width;
+	max-width: $project-width;
   text-align: center;
 }
 
@@ -143,6 +147,12 @@ a:hover, a:visited, a:link, a:active {
     background: lighten( $body-bg, 5% );
     // border: solid .5px white;
     // background: #f0ad4e;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .project-preview {
+    width: 100%;
   }
 }
 
@@ -174,7 +184,7 @@ a:hover, a:visited, a:link, a:active {
 }
 
 .project-block {
-	// margin-bottom: 60px;
+	margin-bottom: 20px;
 
   p {
     letter-spacing: 1px;
@@ -292,7 +302,7 @@ Borrowed from Geoff Graham - https://css-tricks.com/snippets/css/typewriter-effe
 /* The typing effect */
 @keyframes typing {
   from { width: 0 }
-  to { width: 60% }
+  to { width: 260px }
 }
 
 /* The typewriter cursor effect */
