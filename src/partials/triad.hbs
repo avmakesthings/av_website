@@ -2,22 +2,13 @@
 	<h5 class= "proj-text-heading"> {{heading}} </h5>
 	<div class="row">
 
-		{{#images}}
-			<div class="col-xs-4">
-				<img src="img/{{.}}"/>
+		{{#items}}
+			<div class="col-sm-4">
+				<img src="img/{{image}}"/>
+				<h6><b>{{sub-heading}}</b></h6>
+				<p>{{description}}</p>
 			</div>
-		{{/images}}
+		{{/items}}
 
-	</div>
-	<div class="row">
-		{{#sub-headings}}
-			<h6 class= "proj-text-subheading col-xs-4"><b>{{.}}</b></h6>
-		{{/sub-headings}}
-
-	</div>
-	<div class="row">
-		{{#descriptions}}
-		 	<p class="col-xs-4">{{.}}</p>
-		{{/descriptions}}
 	</div>
 </div>

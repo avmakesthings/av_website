@@ -24,14 +24,16 @@ blocks:
     -
       type: project-design-goals
       heading: Design Goals
-      images:
-        - ratherbe-question.svg
-        - ratherbe-brand.svg
-        - ratherbe-user.svg
-      sub-headings:
-        - Refine and communicate product value proposition
-        - Establish clear brand identity that resonates with target users
-        - Build an engaged audience
+      items:
+        -
+          image: ratherbe-question.svg
+          sub-heading: Refine and communicate product value proposition
+        -
+          image: ratherbe-brand.svg
+          sub-heading: Establish clear brand identity that resonates with target users
+        -
+          image: ratherbe-user.svg
+          sub-heading: Build an engaged audience
     - 
       type: project-generic-image 
       image: ratherbe-desert.jpg
@@ -40,18 +42,19 @@ blocks:
     -
       type: triad
       heading: Our Users
-      images:
-        - ratherbe-athlete.png
-        - ratherbe-creator.png
-        - ratherbe-enthusiast.png
-      sub-headings:
-        - Athletes
-        - Content Creators
-        - Enthusiasts
-      descriptions:
-        - Semi-professional to professional athletes required exposure & easy access to a dedicated fanbase
-        - Professional content creators required exposure, connection to athletes/ fans and a place to showcase their work
-        - Enthusiasts required a way to connect to others and well as a place to upload and share their experiences.                         
+      items:
+        -
+          image: ratherbe-athlete.png
+          sub-heading: Athletes
+          description: Semi-professional to professional athletes required exposure & easy access to a dedicated fanbase
+        -
+          image: ratherbe-creator.png
+          sub-heading: Content Creators
+          description: Professional content creators required exposure, connection to athletes/ fans and a place to showcase their work
+        -
+          image: ratherbe-enthusiast.png
+          sub-heading: Enthusiasts
+          description: Enthusiasts required a way to connect to others and well as a place to upload and share their experiences.                     
     -
       type: project-divider
     -
@@ -60,10 +63,13 @@ blocks:
       description:  I worked closely with a select number of target users and our product/ editorial teams to develop the visual identity for the brand, including logos, typefaces & color, culminating in the production of a master brand style guide (excerpts shown below).
     -
       type: triad
-      images:
-        - ratherbe-style01.jpg
-        - ratherbe-style02.jpg
-        - ratherbe-style03.jpg
+      items:
+        -
+          image: ratherbe-style01.jpg
+        -
+          image: ratherbe-style02.jpg
+        -
+          image: ratherbe-style03.jpg
     -
       type: project-divider
     -

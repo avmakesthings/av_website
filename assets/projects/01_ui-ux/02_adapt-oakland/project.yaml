@@ -20,10 +20,13 @@ blocks:
     - 
       type: triad
       heading: Our Users
-      # images:
-      #   - myimage1.jpg
-      #   - myimage2.jpg
-      #   - myimage3.jpg
+      # items:
+      #   -
+      #     image: myimage1.jpg
+      #   -
+      #     image: myimage2.jpg
+      #   -
+      #     image: myimage3.jpg
       sub-headings:
         - Policy Makes
         - Designers & Planners
@@ -57,14 +60,16 @@ blocks:
     -
       type: project-design-goals
       heading: Phase 1 Design Goals
-      images:
-        - adaptoakland-pg1.svg
-        - adaptoakland-pg2.svg
-        - adaptoakland-pg3.svg
-      sub-headings:
-        - Ensure that all research is being presented on the web
-        - Ensure that geospatial research is clearly presented
-        - Create a simple navigation system
+      items:
+        -
+          image: adaptoakland-pg1.svg
+          sub-heading: Ensure that all research is being presented on the web
+        -
+          image: adaptoakland-pg2.svg
+          sub-heading: Ensure that geospatial research is clearly presented
+        -
+          image: adaptoakland-pg3.svg
+          sub-heading: Create a simple navigation system
     -
       type: project-divider  
     -

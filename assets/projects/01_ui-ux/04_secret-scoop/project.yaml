@@ -21,14 +21,16 @@ blocks:
     -
       type: project-design-goals
       heading: Design Goals
-      images:
-        - secretscoop-dg1.svg
-        - secretscoop-dg2.svg
-        - secretscoop-dg3.svg
-      sub-headings:
-        - Update look & feel of old website
-        - Create a simple user experience
-        - Improve site responsiveness
+      items:
+        -
+          image: secretscoop-dg1.svg
+          sub-heading: Update look & feel of old website
+        -
+          image: secretscoop-dg2.svg
+          sub-heading: Create a simple user experience
+        -
+          image: secretscoop-dg3.svg
+          sub-heading: Improve site responsiveness
     -
       type: project-divider-line   
     - 
@@ -88,26 +90,3 @@ blocks:
       heading: Final Thoughts
       description: >
        The Secret Scoop Website is still a work in progress. The site, perhaps due to it's simplicity has been performing well and is slated for a rebuild in early 2017 which will be timed with the opening of Secret Scoop's first public retail outlet in Berkeley. 
-
-
-    #   type: project-generic-text
-    #   heading: a section heading
-    #   description: section description
-    # - 
-    #   type: triad-block
-    #   heading: my heading
-    #   images:
-    #     - myimage1.jpg
-    #     - myimage2.jpg
-    #     - myimage3.jpg
-    #   sub-headings:
-    #     - myheading1.jpg
-    #     - myheading2.jpg
-    #     - myheading3.jpg
-    #   descriptions:
-    #     - mydecrip1.jpg
-    #     - mydescrip2.jpg
-    #     - mydescrip3.jpg
-
-
-
