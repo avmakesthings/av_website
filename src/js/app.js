@@ -78,6 +78,11 @@ function initCategories(target){
 
 $(document).ready(function(){
 	hideLoader()
+	
+	// Adjust carousel interval
+	$('.carousel').carousel({
+		interval: 6000
+	})
 
 	if(window.location.pathname === "/projects.html"){
 		// On the projects page, open the menu to the category in the url hash
@@ -88,3 +93,6 @@ $(document).ready(function(){
 		initMenu()
 	}
 });
+
+
+

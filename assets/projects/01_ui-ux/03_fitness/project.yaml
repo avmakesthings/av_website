@@ -15,79 +15,102 @@ blocks:
     - 
       type: project-generic-text
       description: >
-        Fitness trackers are one of the most ubiquitous wearables today. A myriad of apps exist that use and display fitness tracking data, yet there is still a very high rate of attrition with the use of these devices. Fit.ness was conceived as a solution to this problem. It is a simple iOS app targeting existing fitness tracker owners, which encourages users to maintain a daily exercise routine by meeting daily challenges. 
+        Fitness trackers are one of the most ubiquitous wearables today. A myriad of apps exist that use and display fitness tracking data, yet there is still a very high rate of attrition with the use of these devices. Fit.ness aims to provide a solution to this problem. It is a simple iOS app targeting existing fitness tracker owners, which encourages users to maintain an exercise routine by meeting daily challenges. 
     -
-      type: triad
+      type: project-divider
+    -
+      type: project-design-goals
       heading: Design Goals
       images:
-        - fitness-.svg
-        - fitness-.svg
-        - fitness-.svg
+        - fitness-dg1.svg
+        - fitness-dg2.svg
+        - fitness-dg3.svg
       sub-headings:
         - Demonstrate proof of concept
         - Encourage daily use
         - Clear data visualization
+    -
+      type: project-divider        
     - 
       type: project-generic-image
       heading: Our Users 
       image: fitness-users-yoga.jpg
+    # -
+    #   type: triad
+    #   sub-headings:
+    #     - Fitness enthusiasts
+    #     - Fitness tracker owners
+    #     - All genders
+      # descriptions:
+      #   - We lokk...
+      #   - We lokk...
+      #   - We lokk... 
     -
-      type: triad
-      sub-headings:
-        - Fitness enthusiasts
-        - Fitness tracker owners
-        - All genders
-      descriptions:
-        - We lokk...
-        - We lokk...
-        - We lokk... 
+      type: project-divider
     -
         type: project-generic-text
         heading: The design process
         description: |
-            After the initial phase of redefning the brand identity, I worked closely with our Head of Product to develop our web and iOS beta trials.  
-            Key aspects included
-            1. Translating our updated brand identity to products, which involcved an entire website redesign & iOS app design
-            2. Ensuring that we were able to test and evaluate the designs in the best possible way
-            3. Messaging across different touchpoints
-            4. Minimizing friction in user flows         
+            After the initial phase of redefning the brand identity, I worked closely with our Head of Product to develop our web and iOS beta trials. Key aspects included:
+        processes:
+          - Translating our updated brand identity to products, which involcved an entire website redesign & iOS app design
+          - Ensuring that we were able to test and evaluate the designs in the best possible way
+          - Messaging across different touchpoints
+          - Minimizing friction in user flows         
+    -
+      type: project-divider
+    -      
+      type: carousel
+      images:
+        - fitness-sketch1.jpg
+        - fitness-sketch2.jpg
+    -
+      type: project-divider        
+    -
+      type: project-divider-line        
     - 
       type: project-generic-text
-      heading: Paper prototyping
+      heading: User Flows
       description: >
-        As an avid snowboarder, and photographer,,  this was a great opportunity to connect with our users ..
+        To demonstrate proof of concept for the app, core user flows such as onboarding and typical daily use were developed and refined. Flows were typically sketched on paper and then diagrammed in Illustrator.
     - 
       type: project-generic-image 
-      image: fitness-sketch.jpg
-    - 
-      type: project-generic-text
-      heading: Refining User Flows
-      description: >
-        As an avid snowboarder, and photographer,,  this was a great opportunity to connect with our users ..
-    - 
-      type: project-generic-image 
-      image: fitness-userflow.svg
-    - 
-      type: project-generic-text
-      heading: High Fidelity Prototyping
-      description: >
-        As an avid snowboarder, and photographer,,  this was a great opportunity to connect with our users ..
-    - 
-      type: project-generic-image 
-      image: fitness-hifi1.jpg 
-    - 
-      type: project-generic-image 
-      image: fitness-hifi2.jpg 
+      image: fitness-userflow.png   
+    -
+      type: project-divider-line      
     - 
       type: project-generic-text
       heading: Micro Interaction Design
       description: >
-        As an avid snowboarder, and photographer,,  this was a great opportunity to connect with our users ..                     
+        To satisfy design goals and create a working prototype, core interactions were designed and mocked up using proto.io.                       
+    -
+      type: project-divider
+    - 
+      type: carousel
+      images:
+        - fitness_interaction1.jpg
+        - fitness_interaction2.jpg
+        - fitness_interaction3.jpg 
+    -
+      type: project-divider
+    - 
+      type: project-generic-text
+      heading: High Fidelity Prototyping
+      description: >
+        High fidelity mocks were genererated using Illustator and Photoshop.
+    - 
+      type: project-generic-image 
+      image: fitness-device.jpg
+    - 
+      type: project-generic-image 
+      image: fitness-mocks.jpg      
+    -
+      type: project-divider    
     - 
       type: project-generic-text
       heading: Final Thoughts
       description: >
-        As an avid snowboarder, and photographer,,  this was a great opportunity to connect with our users ..  
+        While our product concept was strong for the time, with compelling user interface and interaction design, this app like many others sadly did not get funded. It was however a great project to work on and a good experience in rapid concept development & presentation.   
 
     # - 
     #   type: project-generic-2-col-image

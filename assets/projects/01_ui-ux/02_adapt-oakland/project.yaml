@@ -1,17 +1,98 @@
 --- 
 name: Adapt Oakland
-description: an example description
+description: Information Architecture, Web UI/UX,  Web Development to present a green infrastructure framework for the City of Oakland & the California Strategic Growth Council
 thumbnail: adaptoakland-thumb.jpg
 blocks: 
     - 
       type: project-header
       heading: Adapt Oakland - An Ecosystem Services Model
-      collaborators: people collaborating
-      description: some description
-      url: www.xyz.com
-    # - 
-    #   type: project-generic-image 
-    #   image:
+      collaborators: In collaboration with Urban Biofilter, The Earth Island Institute, John Faichney & Ben Golder
+      description: Information Architecture, Web UI/UX,  Web Development to present a green infrastructure framework for the City of Oakland & the California Strategic Growth Council
+      link: www.adaptoakland.org
+    - 
+      type: project-generic-image 
+      image: adaptoakland-landing.gif
+    -
+      type: project-generic-text
+      description: Adapt Oakland is a greening plan that identifies environmental hazards and pairs them with adaptation strategies to create a healthier, more sustainable urban environment.   The project encompassed 3 years of reaserch from Oakland based non-profit, Urban Biofilter and detailed .   I worked with Urban Biofilter and a small team of developers to structure the research and design work that had been completed, develop a content management system and database and design and build a web UI.  The project is broken into 3 phases, with Phase 1 live and currently in beta stage.  User testing and updates are continuing.
+    - 
+      type: project-divider   
+    - 
+      type: triad
+      heading: Our Users
+      # images:
+      #   - myimage1.jpg
+      #   - myimage2.jpg
+      #   - myimage3.jpg
+      sub-headings:
+        - Policy Makes
+        - Designers & Planners
+        - Citizens
+      descriptions:
+        - Semi-professional to professional athletes required exposure & easy access to a dedicated fanbase
+        - Professional content creators required exposure, connection to athletes/ fans and a place to showcase their work
+        - Enthusiasts required a way to connect to others and well as a place to upload and share their experiences.
+    - 
+      type: project-divider
+    -
+      type: project-generic-text
+      heading: Information Architecture
+      description: They produced a lot of research and design work and it was difficult to understand we had to figure this out to parse into a database different datatypes  -- Ended up using Google Drive as a CMS
+    -
+      type: project-divider
+    -
+      type: carousel
+      images:
+        - adaptoakland-meeting-1.jpg
+        - adaptoakland-meeting-2.jpg
+        - adaptoakland-siteflow.png
+    -
+      type: project-divider         
+    -
+      type: project-generic-text
+      heading: Phase 1 Design
+      description: They produced a lot of research and design work and it was difficult to understand we had to figure this out to parse into a database different datatypes  -- Ended up using Google Drive as a CMS
+    -
+      type: project-divider        
+    -
+      type: project-design-goals
+      heading: Design Goals
+      images:
+        - ratherbe-question.svg
+        - ratherbe-brand.svg
+        - ratherbe-user.svg
+      sub-headings:
+        - Refine and communicate product value proposition
+        - Establish clear brand identity that resonates with target users
+        - Build an engaged audience
+    -
+      type: project-divider  
+    -
+      type: carousel
+      images:
+        - adaptoakland-screen1.jpg
+        - adaptoakland-screen2.jpg
+        - adaptoakland-screen3.jpg
+        - adaptoakland-screen4.jpg
+        - adaptoakland-screen5.jpg
+        - adaptoakland-screen6.jpg
+        - adaptoakland-screen7.jpg
+        - adaptoakland-screen8.jpg
+        - adaptoakland-screen9.jpg
+        - adaptoakland-screen10.jpg
+        - adaptoakland-screen11.jpg
+    - 
+      type: project-divider           
+    - 
+      type: project-generic-2-col-image 
+      image1: adaptoakalnd-sketchbook.jpg
+      image2: adaptoakalnd-sketchbook.jpg              
+    - 
+      type: project-divider
+    -
+      type: project-generic-text
+      heading: Final Thoughts
+      description: They produced a lot of research and design work and it was difficult to understand we had to figure this out to parse into a database different datatypes  -- Ended up using Google Drive as a CMS        
     # - 
     #   type: project-generic-2-col-image
     #   image1: myimage1.jpg
@@ -21,20 +102,7 @@ blocks:
     #   heading: a section heading
     #   description: section description
     # - 
-    #   type: triad-block
-    #   heading: my heading
-    #   images:
-    #     - myimage1.jpg
-    #     - myimage2.jpg
-    #     - myimage3.jpg
-    #   sub-headings:
-    #     - myheading1.jpg
-    #     - myheading2.jpg
-    #     - myheading3.jpg
-    #   descriptions:
-    #     - mydecrip1.jpg
-    #     - mydescrip2.jpg
-    #     - mydescrip3.jpg
+
 
 
 

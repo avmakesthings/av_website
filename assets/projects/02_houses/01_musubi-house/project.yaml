@@ -1,21 +1,46 @@
 --- 
-name: an example project
-description: an example description
-thumbnail: thumb.jpg
+name: Musubi House
+description: Design, Construction Documentation, Detailing & 3D Modelling for an off-the-grid concrete house, located on 100 acres of pasture land on the Paauilo, Big Island, Hawaii
+thumbnail: musubi-thumb.jpg
 blocks: 
     - 
       type: project-header
-      heading: name of the project
-      collaborators: people collaborating
-      description: some description
-      url: www.xyz.com
+      heading: Musubi House
+      collaborators: In collaboration with Craig Steely Architecture
+      description: Design, Construction Documentation, Detailing & 3D Modelling for an off-the-grid concrete house, located on 100 acres of pasture land on the Paauilo, Big Island, Hawaii
+      url: www.craigsteely.com
+    - 
+      type: project-generic-image 
+      image: musubi-render1.jpg
+    - 
+      type: project-generic-text
+      description: section description 
     # - 
     #   type: project-generic-image 
-    #   image:
-    # - 
-    #   type: project-generic-2-col-image
-    #   image1: myimage1.jpg
-    #   image2: myimage2.jpg
+    #   image: musubi-site1.jpg
+    -
+      type: project-divider
+    - 
+      type: project-generic-2-col-image
+      image1: musubi-model1.jpg
+      image2: musubi-model2.jpg        
+    -
+      type: project-divider
+    - 
+      type: project-generic-text
+      heading: 3D Modelling & Rendering
+      description: section description     
+    -
+      type: project-divider
+    -
+      type: carousel
+      images:
+        - musubi-white-render.jpg
+        - musubi-render2.jpg
+
+
+
+
     # - 
     #   type: project-generic-text
     #   heading: a section heading
