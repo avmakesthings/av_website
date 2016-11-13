@@ -14,13 +14,18 @@ blocks:
       image: hoku-render2.jpg
     -
       type: project-divider
-    - 
-      type: project-generic-text
-      heading: a section heading
-      description: section description
+    # - 
+    #   type: project-generic-text
+    #   heading: a section heading
+    #   description: section description
     - 
       type: project-generic-image 
-      image: hoku-render1.jpg            
+      image: hoku-render1.jpg 
+    -
+      type: project-divider
+    - 
+      type: project-generic-text
+      heading: More coming soon ...                
     # - 
     #   type: project-generic-2-col-image
     #   image1: myimage1.jpg

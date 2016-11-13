@@ -12,12 +12,16 @@ blocks:
     - 
       type: project-generic-image 
       image: chevron-main.jpg
-    -
-      type: project-divider  
+    # -
+    #   type: project-divider  
     - 
       type: project-generic-text
       # heading: Final Thoughts
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur si
+      description: Many architectural theorists and visionaries, from Michael Fox to Michael Weinstock have speculated about future kinetic, robotic environments. Culturally and historically, though we have viewed our buildings and cities as static entities, dynamic architecture could enable our built environments to become ecosystems that more closely emulate the natural world.
+    - 
+      type: project-generic-text
+      # heading: Final Thoughts
+      description: From a technical standpoint, we are starting to see the emergence of technology that utilizes the aggregation and proliferation of a single component to create self-organizing, kinetic forms. This tectonic was the focus of this 6 month research studio where we attempted to generate self-supporting surfaces that could alter form or reconfigure based on specified stimuli, through the aggregation and proliferation of identical modules.
     # -
     #   type: project-divider
     - 
@@ -26,32 +30,37 @@ blocks:
     - 
       type: project-generic-text
       heading: The Component - Chevron
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur si 
+      description: We began by investigating a single form and it's permutations. 
     - 
       type: project-generic-image 
       image: chevron-comp1.png
     - 
       type: project-generic-text
       heading: Component Kinematics
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur si
+      description: Component kinematics using a single material were then studied and deformations/ transitions recorded.
     - 
       type: project-generic-image 
       image: chevron-comp3.png
-    -
-      type: project-divider      
-    - 
-      type: project-generic-2-col-image
-      image1: chevron-comp-pts.gif
-      image2: chevron1.gif
+    # -
+    #   type: project-divider      
+    # - 
+    #   type: project-generic-2-col-image
+    #   image1: chevron-comp-pts.gif
+    #   image2: chevron1.gif
     -
       type: project-divider              
     - 
       type: project-generic-text
       heading: Component propagation
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur si
+      description: Next components were aggregated to from modules.
     - 
       type: project-generic-image 
-      image: chevron-comp3.png                                  
+      image: chevron-comp3.png
+    -
+      type: project-divider
+    - 
+      type: project-generic-text
+      heading: More coming soon ...                                          
 
     # - 
     #   type: project-generic-text

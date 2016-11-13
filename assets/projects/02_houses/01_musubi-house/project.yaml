@@ -14,7 +14,7 @@ blocks:
       image: musubi-render1.jpg
     - 
       type: project-generic-text
-      description: I worked with Craig Steely Architcture on the design ...
+      description: I worked with Craig Steely Architcture on the design and construction detailing for the Musubi House - a private residence in Hawaii.  A lot of my focus was on 3D modelling in Rhino and producing whitemodel renders in Vray.  Final renders depicted here were produced outside the office.
     # - 
     #   type: project-generic-image 
     #   image: musubi-site1.jpg
@@ -37,7 +37,11 @@ blocks:
       images:
         - musubi-render2.jpg
         - musubi-white-render.jpg
-
+    -
+      type: project-divider
+    - 
+      type: project-generic-text
+      heading: More coming soon ...  
 
 
 
