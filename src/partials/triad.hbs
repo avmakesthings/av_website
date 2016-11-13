@@ -4,7 +4,7 @@
 
 		{{#items}}
 			<div class="col-sm-4">
-				<img src="img/{{image}}"/>
+				  {{#if image}}<img src="img/{{image}}"/>{{/if}}
 				<h6><b>{{sub-heading}}</b></h6>
 				<p>{{description}}</p>
 			</div>

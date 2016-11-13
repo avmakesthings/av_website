@@ -20,21 +20,16 @@ blocks:
     - 
       type: triad
       heading: Our Users
-      # items:
-      #   -
-      #     image: myimage1.jpg
-      #   -
-      #     image: myimage2.jpg
-      #   -
-      #     image: myimage3.jpg
-      sub-headings:
-        - Policy Makes
-        - Designers & Planners
-        - Citizens
-      descriptions:
-        - Regulatory bodies & political representatives need access to clear information regarding green cities
-        - Designers and urban planners want to understand the different green strategies available for them to use and implement at a local scale
-        - Citizens want to know about how green infrastructure can impact them as individuals and communities
+      items:
+        -
+          sub-heading: Policy Makes
+          description: Regulatory bodies & political representatives need access to clear information regarding green cities
+        -
+          sub-heading: Designers & Planners
+          description: Designers and urban planners want to understand the different green strategies available for them to use and implement at a local scale
+        -
+          sub-heading: Citizens
+          description: Citizens want to know about how green infrastructure can impact them as individuals and communities
     - 
       type: project-divider
     -

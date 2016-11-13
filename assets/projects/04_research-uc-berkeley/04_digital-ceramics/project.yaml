@@ -86,12 +86,12 @@ blocks:
       image2: ceramics-bone-render5.jpg      
     -
       type: project-divider  
-    - 
-      type: project-generic-text
-      heading: a section heading
-      description: section description                         
-    -
-      type: project-divider  
+    # - 
+    #   type: project-generic-text
+    #   heading: a section heading
+    #   description: section description                         
+    # -
+    #   type: project-divider  
     - 
       type: project-generic-image
       image: ceramics-bone-drawings.jpg
@@ -108,10 +108,10 @@ blocks:
       image: ceramics-bone-render1.jpg        
     -
       type: project-divider    
-    - 
-      type: project-generic-text
-      heading: a section heading
-      description: section description              
+    # - 
+    #   type: project-generic-text
+    #   heading: a section heading
+    #   description: section description              
     # - 
     #   type: project-generic-text
     #   heading: a section heading
