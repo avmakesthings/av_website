@@ -55,9 +55,14 @@ blocks:
       description: Next components were aggregated to from modules.
     - 
       type: project-generic-image 
-      image: chevron-comp3.png
+      image: chevron-rd.jpg
+    # -
+    #   type: project-divider
+    - 
+      type: project-generic-image 
+      image: chevron-component3.jpg
     -
-      type: project-divider
+      type: project-divider      
     - 
       type: project-generic-text
       heading: More coming soon ...                                          
