@@ -11,17 +11,19 @@ blocks:
       # url: www.xyz.com
     - 
       type: project-generic-image 
-      image: chevron-main.jpg
+      image: chevron-main-1.png
     # -
     #   type: project-divider  
     - 
       type: project-generic-text
       # heading: Final Thoughts
-      description: Many architectural theorists and visionaries, from Michael Fox to Michael Weinstock have speculated about future kinetic, robotic environments. Culturally and historically, though we have viewed our buildings and cities as static entities, dynamic architecture could enable our built environments to become ecosystems that more closely emulate the natural world.
+      description: Many architectural theorists and visionaries, from Michael Fox to Michael Weinstock have speculated about future kinetic, robotic environments. While we have historically viewed our buildings and cities as static entities, dynamic architecture could enable a world of possibilities, allowing our built environments to more closely emulate the natural world.
+    -
+      type: project-divider 
     - 
       type: project-generic-text
-      # heading: Final Thoughts
-      description: From a technical standpoint, we are starting to see the emergence of technology that utilizes the aggregation and proliferation of a single component to create self-organizing, kinetic forms. This tectonic was the focus of this 6 month research studio where we attempted to generate self-supporting surfaces that could alter form or reconfigure based on specified stimuli, through the aggregation and proliferation of identical modules.
+      heading: Dyanmic architecture
+      description: The emergence of technology that utilizes the aggregation and proliferation of a single component to create self-organizing, kinetic forms could be used to facilitate dynamic architecture. This tectonic was the focus of this 6 month research studio where we attempted to generate self-supporting surfaces that could alter form or reconfigure based on specified stimuli, through the aggregation and proliferation of identical modules.
     # -
     #   type: project-divider
     - 
@@ -30,42 +32,80 @@ blocks:
     - 
       type: project-generic-text
       heading: The Component - Chevron
-      description: We began by investigating a single form and it's permutations. 
+      description: We began by investigating a single form and it's permutations. Starting with a base shape, the chevron, our team iterated through hundreds of different adjustments to the form, looking for the optimal size and dimensions for proliferation.  
     - 
       type: project-generic-image 
       image: chevron-comp1.png
     - 
       type: project-generic-text
       heading: Component Kinematics
-      description: Component kinematics using a single material were then studied and deformations/ transitions recorded.
+      description: Component kinematics using a single material were then studied and deformations/ transitions recorded. Part of this initial research phase involved developing & testing mechanisms for connection. Our digital model began with a single component and it’s deformations recorded using Rhino and Grasshopper, a visual programming plugin for Rhino.
     - 
       type: project-generic-image 
       image: chevron-comp3.png
     # -
     #   type: project-divider      
-    # - 
-    #   type: project-generic-2-col-image
-    #   image1: chevron-comp-pts.gif
-    #   image2: chevron1.gif
+    - 
+      type: project-generic-2-col-image
+      image1: chevron-comp-pts-1.gif
+      image2: chevron1-1.gif
     -
       type: project-divider              
     - 
       type: project-generic-text
-      heading: Component propagation
-      description: Next components were aggregated to from modules.
+      heading: Component proliferation
+      description: Once a base module had been defined, we researched how the module would behave when proliferated. Understanding this behavior became the driver for further refinement of the component and the various connections we were developing. The behavior of the proliferated components was modeled and modules that could be used to generate a surface were developed. Matlab was used for mathematical modeling.
     - 
       type: project-generic-image 
-      image: chevron-rd.jpg
+      image: chevron-comp4.png
+    # - 
+    #   type: project-generic-image 
+    #   image: chevron-rd.jpg
     # -
     #   type: project-divider
     - 
       type: project-generic-image 
-      image: chevron-component3.jpg
+      image: chevron-component3.png
     -
       type: project-divider      
     - 
       type: project-generic-text
-      heading: More coming soon ...                                          
+      heading: Demonstrator prototype     
+      description: An actuated 1:1 scale demonstrator model was built to test the operational logic and mechanics of the system. The demonstrator was controlled using an Arduino and actuated through the use of servos. Through our earlier modeling, we discovered that the motion of our modules created varying degrees of porosity and thought that this may be useful to modulate light penetration. The model was therefore built to be photosensitive and we tested with a range of PIR sensors.                                   
+    -
+      type: project-divider 
+    -
+      type: carousel
+      images:
+        - chevron-demonstrator1.png
+        - chevron-demonstrator2.png
+        - chevron-demonstrator3.png
+    -
+      type: project-divider 
+    - 
+      type: project-generic-video 
+      video-url: https://www.youtube.com/embed/b1opbYfWmzI?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen                           
+    -
+      type: project-divider 
+    - 
+      type: project-generic-text
+      heading: Architectural Applications
+      description: Given that it was an architectural research studio we eventually had to stop experimenting and contextualize what we had made within the field of architecture. The studio culminated with a brief architectural design exercise, where the performative qualities of each component were utilized to propose an ideal use.
+    -
+      type: project-divider      
+    - 
+      type: project-generic-2-col-image
+      image1: chevron-render2.jpg
+      image2: chevron-render1.jpg
+    - 
+      type: project-generic-image 
+      image: chevron-form.jpg
+    -
+      type: project-divider  
+    - 
+      type: project-generic-text
+      heading: Looking back ... 
+      description: The Material Intelligence research studio was a really interesting opportunity to investigate and propose novel ways to define and build structural surfaces. It is exciting to know that the work we did, especially given its academic context, feeds into greater discourse surrounding this topic.     
 
     # - 
     #   type: project-generic-text

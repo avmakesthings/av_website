@@ -92,6 +92,16 @@ a:hover, a:visited, a:link, a:active {
 
 }
 
+//Carousel overrides
+.carousel-control.left {
+  background-image: none !important;
+}
+
+.carousel-control.right {
+  background-image: none !important;  
+}
+
+//Page specific
 .browse {
   min-height: 480px;
 }
