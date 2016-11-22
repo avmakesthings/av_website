@@ -76,7 +76,8 @@ function initCategories(target){
     });
 }
 
-$(document).ready(function(){
+
+$(window).on('load', function(){
 	hideLoader()
 	
 	// Adjust carousel interval
@@ -93,6 +94,3 @@ $(document).ready(function(){
 		initMenu()
 	}
 });
-
-
-
