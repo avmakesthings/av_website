@@ -1,0 +1,26 @@
+@media only screen and (max-width: 768px) {
+  .project-preview {
+    width: 100%;
+  }
+}
+
+
+@media only screen and (max-width: 576px) {
+  .project-design-goals, .triad{
+    img {
+      width: 30%;
+    }
+  }
+
+  footer {
+  	text-align: center;
+  	padding-bottom: 25px;
+  	span{
+  		display:block;
+  	}
+  	.footer-right {
+  		float:none;
+  		padding-top: 15px;
+  	} 
+  }
+}
