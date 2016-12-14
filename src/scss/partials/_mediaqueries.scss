@@ -9,13 +9,18 @@
   
 	body{
 		font-size: 1.1rem;
+		font-weight: 300;
 	}
 
-  .project-design-goals, .triad{
-    img {
-      width: 30%;
-    }
-  }
+	.loader-wrapper {
+		width: 100vw;
+	}
+
+	.project-design-goals, .triad{
+		img {
+		width: 30%;
+		}
+	}
 
   nav{
   	margin: 0;
