@@ -6,6 +6,11 @@
 
 
 @media only screen and (max-width: 576px) {
+  
+	body{
+		font-size: 1.1rem;
+	}
+
   .project-design-goals, .triad{
     img {
       width: 30%;
@@ -28,7 +33,6 @@
 
 
 		}
-
 
 	}
 
@@ -58,12 +62,20 @@
   footer {
   	text-align: center;
   	padding-bottom: 25px;
+  	margin-top: 3em;
+  	border-top: solid 1px darkgray;
+    padding-top: 20px;
   	span{
   		display:block;
   	}
   	.footer-right {
   		float:none;
-  		padding-top: 15px;
-  	} 
+  	}
+
+  	.typewriter{
+  		font-size: 2em!important;
+  	}
+
+
   }
 }
