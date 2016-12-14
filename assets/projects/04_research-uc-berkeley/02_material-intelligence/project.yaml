@@ -76,6 +76,7 @@ blocks:
       type: project-divider 
     -
       type: carousel
+      id: cv1
       images:
         - chevron-demonstrator1.png
         - chevron-demonstrator2.png

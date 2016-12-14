@@ -40,7 +40,7 @@ blocks:
     -
       type: project-divider
     -
-      type: triad
+      type: triad-small
       heading: Our Users
       items:
         -
@@ -81,6 +81,7 @@ blocks:
       type: project-divider
     -
       type: carousel
+      id: rb1
       images:
         - ratherbe-comp1.jpg
         - ratherbe-comp2.jpg

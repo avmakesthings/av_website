@@ -8,17 +8,22 @@
 @media only screen and (max-width: 576px) {
   
 	body{
-		font-size: 1.1rem;
-		font-weight: 300;
+		// font-size: 1.1rem;
+		font-weight: 200;
 	}
 
 	.loader-wrapper {
 		width: 100vw;
 	}
 
-	.project-design-goals, .triad{
+	.project-design-goals{
 		img {
-		width: 30%;
+		width: 20%;
+		}
+	}
+	.triad.small{
+		img {
+		width: 50%;
 		}
 	}
 
@@ -64,6 +69,12 @@
 		display: inline;
 	}
 
+	.carousel-item img,
+	.carousel-item img {
+	  min-width: 150%;
+	  margin-left: -25%;
+	}
+
   footer {
   	text-align: center;
   	padding-bottom: 25px;
@@ -81,6 +92,21 @@
   		font-size: 2em!important;
   	}
 
-
   }
+	.project-header{
+		text-align: center;
+		width: 100%;
+
+		em {
+			font-size: .8em;
+		}
+	}
+	.proj-descrip {
+		font-size: .9em;
+		font-weight: 100;
+		line-height: 1.3;
+	}
+
+
+
 }

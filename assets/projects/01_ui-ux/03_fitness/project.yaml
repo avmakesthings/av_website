@@ -65,6 +65,7 @@ blocks:
       type: project-divider
     -      
       type: carousel
+      id: fn1
       images:
         - fitness-sketch1.jpg
         - fitness-sketch2.jpg
@@ -91,6 +92,7 @@ blocks:
       type: project-divider
     - 
       type: carousel
+      id: fn2
       images:
         - fitness_interaction1.jpg
         - fitness_interaction2.jpg
