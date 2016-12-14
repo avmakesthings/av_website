@@ -160,11 +160,7 @@ a:hover, a:visited, a:link, a:active {
   }
 }
 
-@media only screen and (max-width: 768px) {
-  .project-preview {
-    width: 100%;
-  }
-}
+
 
 .project-preview h5 {
   font-family: 'Roboto Mono';
@@ -252,13 +248,7 @@ a:hover, a:visited, a:link, a:active {
   }
 }
 
-@media only screen and (max-width: 576px) {
-  .project-design-goals, .triad{
-    img {
-      width: 30%;
-    }
-  }
-}
+
 
 
 .proj-text-heading{
@@ -417,35 +407,12 @@ Borrowed from Geoff Graham - https://css-tricks.com/snippets/css/typewriter-effe
 }
 
 
-.gradient-ani1 {
+// .gradient-ani1 {
 
-}
-
-
-
-// .triangle-colour {
-//   // background-size: 400% 400%;
-//   fill: linear-gradient(180deg, $highlight-color, $link-color);
-//   -webkit-animation: contact 30s ease infinite;
-//   -moz-animation: contact 30s ease infinite;
-//   animation: contact 30s ease infinite; 
 // }
 
-// @-webkit-keyframes contact {
-//     0%{background-position:51% 0%}
-//     50%{background-position:50% 100%}
-//     100%{background-position:51% 0%}
-// }
-// @-moz-keyframes contact {
-//     0%{background-position:51% 0%}
-//     50%{background-position:50% 100%}
-//     100%{background-position:51% 0%}
-// }
-// @keyframes contact { 
-//     0%{background-position:51% 0%}
-//     50%{background-position:50% 100%}
-//     100%{background-position:51% 0%}
-// }
 
+
+@import "partials/mediaqueries.scss";
 
 

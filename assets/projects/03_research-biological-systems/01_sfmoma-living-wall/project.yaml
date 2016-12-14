@@ -1,13 +1,13 @@
 --- 
 name: SFMOMA Living Wall
-description: Systems engineering & Project management for a 3-story, $190M living wall installation at SFMOMA
+description: Systems engineering & Project management for a 3-story living wall installation at SFMOMA
 thumbnail: sfmoma-thumb.jpg
 blocks: 
     - 
       type: project-header
       heading: SFMOMA Living Wall
       collaborators: In collaboration with Hyphae Design Lab, Habitat Horticulture, Snohetta & SFMOMA
-      description: Systems engineering, Construction detailling & Project management for a 3-story, $190M living wall installation at SFMOMA
+      description: Systems engineering, Construction detailling & Project management for a 3-story living wall installation at SFMOMA
       url: www.sfmoma.org/watch/the-living-wall
     - 
       type: project-generic-image 

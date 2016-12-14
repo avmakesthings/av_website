@@ -4,4 +4,33 @@
 footer {
 	margin-top: 144px;
 	font-family: 'Roboto Mono',Roboto, "Helvetica Neue", Arial, sans-serif;
+	.container{
+		padding: 0;
+	}
+
+	.footer-right{
+		float: right;
+	}
+	
+	ul {
+		list-style-type: none;
+		text-align:center;
+		float: none;
+		padding: 20px 10px 0px 10px;
+	}
+
+	.footer-icon{
+		text-align: center;
+		display: inline!important;
+		height: 15px;
+	}
+
+	.footer-social{
+		height: 30px;
+		margin: 10px;
+		// background: #f0ad4e;
+		padding: 5px;
+	}
+
+
 }

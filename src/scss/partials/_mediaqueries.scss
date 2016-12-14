@@ -1,0 +1,81 @@
+@media only screen and (max-width: 768px) {
+  .project-preview {
+    width: 100%;
+  }
+}
+
+
+@media only screen and (max-width: 576px) {
+  
+	body{
+		font-size: 1.1rem;
+	}
+
+  .project-design-goals, .triad{
+    img {
+      width: 30%;
+    }
+  }
+
+  nav{
+  	margin: 0;
+  }
+
+	header {
+		
+		nav{
+			margin: 1.4em 0 3.5em;
+		}
+		.navbar-toggle{
+			background: $highlight-color !important;			
+			width: 40px;
+			height: 40px;		
+
+
+		}
+
+	}
+
+	.navbar {
+		margin: 0px;
+		padding: .5rem 0;
+	}
+	
+	.navbar-divider, .navbar-text{
+		padding-top: 0; 
+		padding-bottom: 0;
+	}
+
+	.navbar-text{
+	    background: orange;
+	    padding: 0 15px;		
+	}
+
+	.navbar-dark .navbar-nav .nav-link{
+		color: white;
+	}
+
+	.nav-inline {
+		display: inline;
+	}
+
+  footer {
+  	text-align: center;
+  	padding-bottom: 25px;
+  	margin-top: 3em;
+  	border-top: solid 1px darkgray;
+    padding-top: 20px;
+  	span{
+  		display:block;
+  	}
+  	.footer-right {
+  		float:none;
+  	}
+
+  	.typewriter{
+  		font-size: 2em!important;
+  	}
+
+
+  }
+}
