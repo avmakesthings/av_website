@@ -102,6 +102,7 @@ blocks:
       type: project-divider
     -
       type: carousel
+      id: bc1
       images:
         - bci-gallery2.jpg
         - bci-gallery3.jpg
@@ -109,6 +110,7 @@ blocks:
       type: project-divider
     -
       type: carousel
+      id: bc2
       images:
         - bci-gallery21.jpg
         - bci-gallery22.jpg      

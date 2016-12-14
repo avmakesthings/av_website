@@ -34,6 +34,7 @@ blocks:
       type: project-divider
     -
       type: carousel
+      id: mh1
       images:
         - musubi-render2.jpg
         - musubi-white-render.jpg

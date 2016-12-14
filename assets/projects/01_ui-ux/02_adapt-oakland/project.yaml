@@ -40,6 +40,7 @@ blocks:
       type: project-divider
     -
       type: carousel
+      id: ao1
       images:
         - adaptoakland-meeting-1.jpg
         - adaptoakland-meeting-2.jpg
@@ -69,11 +70,11 @@ blocks:
       type: project-divider  
     -
       type: carousel
+      id: ao2
       images:
         - adaptoakland-screen1.jpg
         - adaptoakland-screen2.jpg
         - adaptoakland-screen3.jpg
-        - adaptoakland-screen4.jpg
         - adaptoakland-screen5.jpg
         - adaptoakland-screen6.jpg
         - adaptoakland-screen7.jpg
