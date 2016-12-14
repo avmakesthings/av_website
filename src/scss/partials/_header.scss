@@ -2,6 +2,12 @@
           PARTIALS: HEADER
 ************************************/
 header {
+	
+	nav {
+		margin:.4em 0 3.5em 0;
+	}
+
+
 	.header-icon {
 		height: 15px;
 	}
@@ -11,7 +17,8 @@ header {
 		font-weight: 300;
 		letter-spacing: 2px;
 		text-transform: lowercase;
-		margin-bottom:2em;		
+		margin-bottom:2em;
+		margin-top: 1em;		
 	}
 
 
@@ -26,34 +33,39 @@ header {
 			background-color: orange;
 			padding: 2px;
 			transition: color 0.9s;
-
 		}
+	}
+
+	button:focus{
+		outline: none;
 	}
 
 	.navbar-toggle {
 	  border: none;
-	  background: transparent !important;
-
-	  &:hover {
-	    background: transparent !important;
-	  }
 
 	  .icon-bar {
-	    width: 22px;
+	    width: 28px;
+	    height: 3px;
+	    background-color: orange;
+	    text-align: center;
+	    margin: 5px 0;
 	    transition: all 0.2s;
+ 
 	  }
-	  .top-bar {
-	    transform: rotate(45deg);
-	    transform-origin: 10% 10%;
-	  }
-	  .middle-bar {
-	    opacity: 0;
-	  }
-	  .bottom-bar {
-	    transform: rotate(-45deg);
-	    transform-origin: 10% 90%;
-	  }
+
 	}
+
+	.top-bar {
+		transform: rotate(45deg);
+		transform-origin: 10% 10%;
+	}
+	.middle-bar {
+		opacity: 0;
+	}
+	.bottom-bar {
+		transform: rotate(-45deg);
+		transform-origin: 10% 90%;
+	}	
 
 	.navbar-toggle.collapsed {
 	  .top-bar {
@@ -66,9 +78,5 @@ header {
 	    transform: rotate(0);
 	  }
 	}
-
-
-
-
 
 }

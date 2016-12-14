@@ -12,6 +12,49 @@
     }
   }
 
+  nav{
+  	margin: 0;
+  }
+
+	header {
+		
+		nav{
+			margin: 1.4em 0 3.5em;
+		}
+		.navbar-toggle{
+			background: $highlight-color !important;			
+			width: 40px;
+			height: 40px;		
+
+
+		}
+
+
+	}
+
+	.navbar {
+		margin: 0px;
+		padding: .5rem 0;
+	}
+	
+	.navbar-divider, .navbar-text{
+		padding-top: 0; 
+		padding-bottom: 0;
+	}
+
+	.navbar-text{
+	    background: orange;
+	    padding: 0 15px;		
+	}
+
+	.navbar-dark .navbar-nav .nav-link{
+		color: white;
+	}
+
+	.nav-inline {
+		display: inline;
+	}
+
   footer {
   	text-align: center;
   	padding-bottom: 25px;
