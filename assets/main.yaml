@@ -1,19 +1,15 @@
 --- 
-title: Hello World
-icon: av-logo-white.png
-description: |
-  My name is Anastasia Victor & I’m a User Experience & Interface designer with a background in architecture, digital fabrication & computational design. 
-  I’m intereted in the intersection between design & technology and shaping the interfaces create this bridge.
-  While I’ve worked as a designer & project manager for over 4 years, I’ve spent the past 2 years focused on consumer web and mobile products. 
-  When I’m not nerding out about design I’m usually playing with modular synths, indulging my vinyl obsession, experimenting with GF cooking or snowboarding (if the season permits). 
 
-#     given  : Chris
-#     family : Dumars
-#     address:
-#         lines: |
-#             458 Walkman Dr.
-#             Suite #292
-#         city    : Royal Oak
-#         state   : MI
-#         postal  : 48046
-# ship-to: *id001
+  type: carousel
+  id: featured
+  images: 
+      - 
+        source: bbs-1.jpg
+        title: 2017 Bay Bridge Steel Commission
+        description: some description
+        link: projects.html#01_vr-environments
+      - 
+        source: procession-small.jpg
+        title: Burning Man Temple 2017 
+        description: a forth description
+        link: projects.html#01_vr-environments        

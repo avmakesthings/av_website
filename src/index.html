@@ -6,43 +6,39 @@
   <body>
 
     <div class="main-content">
-      <div class="container">
+      <div class="container-fluid">
         {{> loader }}
         {{> header }}
      
+        <div class="container-fluid">
+          <div class="row landing-icon">
+            <div class="col-sm-7">
 
-        <div class="row landing-icon">
-          <div class="col-sm-7">
+            <svg width="160px" height="112px">
 
-          <svg width="160px" height="112px">
-
-            <polygon id = "tri-1" class = "svg-colour " points="86.9,112 -0.1,112 43.4,0" />
-            <polygon id = "tri-2" class = "svg-draw "points="73.5,0 160.5,0 117,112 "  fill = "none"  stroke="white" stroke-width="3" stroke-linecap="butt" fill="none" stroke-linejoin="miter" />
-          </svg>          
-
-
-
-<!--             <img src="/img/av-logo-white.svg"/> -->
-
-            <h1 class= "typewriter" style ="margin-top:15px; width: 280px;" >Hello World</h1>
+              <polygon id = "tri-1" class = "svg-colour " points="86.9,112 -0.1,112 43.4,0" />
+              <polygon id = "tri-2" class = "svg-draw "points="73.5,0 160.5,0 117,112 "  fill = "none"  stroke="white" stroke-width="3" stroke-linecap="butt" fill="none" stroke-linejoin="miter" />
+            </svg>          
+              <h1 class= "typewriter" style ="margin-top:15px; width: 280px;" >Hello World</h1>
+            </div>
+            <div class="col-sm-5"></div>
           </div>
-          <div class="col-sm-5"></div>
+
+          <div class="row landing-icon">
+            <div class="col-sm-12 body-text index-page ">
+              My name is <a href="contact.html">Anastasia Victor</a>. I used to be an architect. Now I design interfaces / interaction for VR &amp; make art that explores computational geometry &amp; questions the ways we interact with technology.<br>
+              <br>Check out what I'm currently working on below &amp;  <a href="contact.html">get in touch</a> if you'd like to collaborate or learn more.
+
+              <hr class="hidden-sm-up"/> 
+            </div>     
+          </div>
         </div>
 
         <div class="row">
-          <div class="col-sm-7 body-text">
-            My name is Anastasia Victor &amp; I’m a User Experience &amp; Interface designer with a background in architecture, digital fabrication &amp; computational design. <br>
-            <br>I’m interested in the intersection between design &amp; technology and shaping the interfaces create this bridge.<br>
-            <br>While I’ve worked as a designer &amp; project manager for over 4 years, I’ve spent the past 2.5 years focused on consumer web and mobile products. <br> 
-            <br>When I’m not nerding out about design, I’m usually playing with modular synthesizers, indulging my vinyl obsession, experimenting with GF cooking or snowboarding (if the season permits).<br> 
-            <br>Find me on <a href = "https://www.linkedin.com/in/anastasiavictor">Linkedin</a>, <a href = "https://twitter.com/AVmakesthings">Twitter</a> and <a href = "https://www.instagram.com/avmakesthings/?hl=en">Instagram. </a>
-            <hr class="hidden-sm-up"/> 
-          </div>
-          <div class="col-sm-1"></div>
-          <div class="col-sm-4 index-nav hidden-xs-down">
-            {{> project-nav}}
-          </div>
+          {{> carousel-featured }}
         </div>
+
+
 
         {{> footer }}
 

@@ -17,7 +17,7 @@
 @import "partials/loader.scss";
 @import "partials/footer.scss";
 @import "partials/carousel.scss";
-
+@import "partials/carousel-featured.scss";
 
 
 /*** MIXINS ***/
@@ -77,6 +77,10 @@ h1, h2, h3, h4, h5, h6,
 	font-weight: 100;
 	letter-spacing: .5px;
 }
+.index-page{
+  padding-right:20%;
+}
+
 
 
 a:hover{
@@ -90,6 +94,17 @@ a:hover, a:visited, a:link, a:active {
 
 .container {
 
+}
+
+//About page
+.about-image{
+  max-width: 100%;
+  padding: 0 15px;
+  opacity: .5;
+}
+.about-text{
+  padding-left:30px;
+  padding-top: 5%;
 }
 
 //Carousel overrides
@@ -136,7 +151,8 @@ a:hover, a:visited, a:link, a:active {
 }
 
 .landing-icon {
-	margin-bottom: 15px;
+  background: #69f;
+  padding: 5%;
 }
 
 .landing-icon img {
