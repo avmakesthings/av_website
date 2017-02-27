@@ -1,0 +1,32 @@
+--- 
+name: Vaguely Uncomfortable
+description: A series of gifs that ... well
+thumbnail: hoku-thumb.jpg
+blocks: 
+    - 
+      type: project-header
+      heading: Hokukano House
+      collaborators: In collaboration with Craig Steely Architecture
+      description: Design, Construction Documentation & 3D Modelling for a private residence, sited on the high plateau between Hualalai and Moana Loa, Big Island Hawaii.
+      url: www.craigsteely.com
+    - 
+      type: project-generic-image 
+      image: hoku-render2.jpg
+    -
+      type: project-divider
+    # - 
+    #   type: project-generic-text
+    #   heading: a section heading
+    #   description: section description
+    - 
+      type: project-generic-image 
+      image: hoku-render1.jpg 
+    -
+      type: project-divider
+    - 
+      type: project-generic-text
+      heading: More coming soon ...                
+    # - 
+    #   type: project-generic-2-col-image
+    #   image1: myimage1.jpg
+    #   image2: myimage2.jpg

@@ -3,4 +3,51 @@
 ************************************/
 .carousel-featured{
 	margin-top:0%;
+    img{
+        width:100%;
+    }
+
 }
+
+.carousel-featured-caption {
+	float: left;
+    text-align: left;
+    top: 30px;
+    right: 0;
+    left: 15px;
+    padding: 5%;
+    width: 60%;
+    h3,p {
+    	// background: rgba(0,0,0,.3); 
+    }
+}
+
+.btn-featured{
+	border-radius:0px;
+	letter-spacing: .1em;
+	font-weight: 100;
+    :hover, :active {
+        // background:$link-color; 
+        background:#f0ad4e;
+    }
+}
+
+.btn-featured:hover, .btn-featured:active {
+    background:#f0ad4e;
+}
+
+
+.carousel-control{
+    top:none;
+    bottom:10%;
+}
+
+
+.carousel-indicators{
+    bottom:10px;
+    width: none;
+    left: 30px;
+    padding-left:5%;
+    margin-left: 0;
+}
+

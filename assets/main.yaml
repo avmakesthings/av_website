@@ -10,6 +10,11 @@
         link: projects.html#01_vr-environments
       - 
         source: procession-small.jpg
+        title: Sonar
+        description: a forth description
+        link: projects.html#01_vr-environments          
+      - 
+        source: procession-small.jpg
         title: Burning Man Temple 2017 
         description: a forth description
         link: projects.html#01_vr-environments        

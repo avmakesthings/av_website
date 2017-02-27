@@ -78,7 +78,17 @@ h1, h2, h3, h4, h5, h6,
 	letter-spacing: .5px;
 }
 .index-page{
-  padding-right:20%;
+  padding-right:25%;
+  font-size: 1.5em;
+  color: $body-bg;
+  a {
+    color:$body-bg;
+  }
+  a:hover, a:link{
+    color: white;
+    text-decoration: underline!important;
+  }
+  
 }
 
 

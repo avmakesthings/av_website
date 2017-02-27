@@ -1,6 +1,6 @@
 --- 
 name: BCI & the Built Environment
-description: Master of Architecture thesis on using consumer grade Brain Computer Interfacing as an input modality for automated environments.
+description: UC Berkeley Master of Architecture thesis on using consumer grade Brain Computer Interfacing as an input modality for automated environments.
 thumbnail: bci-thumb.jpg
 blocks: 
     - 
