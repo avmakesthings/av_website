@@ -8,34 +8,25 @@
     <div class="main-content">
       <div class="container">
         {{> loader }}
-        {{> header }}     
+        {{> header-typ }} 
 
-          <div class="row contact">
-            <div class="col-sm-2"></div>
-            
-            <div class="col-sm-8">
-              
-              <h3 class= "small" style= "margin:10%; text-transform: uppercase; line-height: 2em;">you know you want to</h3>
+        <div class="row">
+          <div class="col-sm-12">
+            <img class = "about-image" src = "/img/me-vr.jpg">
+          </div>
+        </div> 
 
-              <svg viewBox="0 0 160 112" width ="320" height ="224">
-
-                <defs>
-                   <linearGradient class = "gradient-ani1" id="linear" x1="0%" y1="0%" x2="100%" y2="0%">
-                     <stop offset="0%"   stop-color="#05a"/>
-                     <stop offset="50%"  stop-color="#a55"/>
-                     <stop offset="100%" stop-color="#0a5"/>
-                   </linearGradient>
-                 </defs>
-                <polygon id = "tri-3" class = "triangle-colour " points="86.9,112 -0.1,112 43.4,0" fill=url(#linear) />
-                <polygon id = "tri-4" class = "triangle-colour-reverse " points="73.5,0 160.5,0 117,112 " />
-              </svg>          
-
-              <h4 style= "margin-top:8%;"><a href = "mailto:hello@anastasia.io">  - - -  hello [at] anastasia.io - - -</a></h4>
-
-            </div>
-
-            <div class="col-sm-2"></div>
+        <div class="row">
+          <div class="col-sm-8 about-text">
+            Oh hi ... Thanks for dropping by. <br>
+            <br>I'm a VR designer with a background in environmental design &amp; (I have a Masters of Architecture degree from UC Berkeley). I currently design experiences for VR &amp; am working on a few independent VR projects.        
+            <br>I've worked as a designer &amp; project manager for 5 years - half as an architectural designer and half designing interaction for web/mobile.<br>
+            <br>When not in the metaverse, I’m typically playing with modular synthesizers, indulging my vinyl obsession, experimenting with GF cooking or snowboarding (if the season permits).<br> 
+            <br>You can find me on <a href = "https://www.linkedin.com/in/anastasiavictor">Linkedin</a>, <a href = "https://twitter.com/AVmakesthings">Twitter</a>, <a href = "https://soundcloud.com/aaaavvvv">Soundcloud</a> or <a href = "https://www.instagram.com/avmakesthings/?hl=en">Instagram</a><br> or email me at <a href = "mailto:hello@anastasia.io">  hello [at] anastasia.io</a>
+          </div>
+          <div class ="col-sm-4"></div>
         </div>
+
 
         {{> footer }}
 

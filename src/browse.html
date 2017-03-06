@@ -3,11 +3,14 @@
 
   {{> head }}
   <script src="https://unpkg.com/masonry-layout@4.1/dist/masonry.pkgd.min.js" ></script>
-  <body>
+  <body style="background-color:#716bc5; ">
     <div class="main-content">
-      <div class="container">
+      
+      <div class="container browse">
         {{> loader }}
-        {{> header-typ }}
+        <div class="row">
+          {{> header-typ }}
+        </div>
 
 <!--         <div class="row landing-icon sm">
           <div class="col-sm-7">
@@ -22,6 +25,11 @@
           <div class="col-sm-3">
             {{> project-nav}}
             <hr class="hidden-sm-up browse-divider"/> 
+            {{#categories}}
+              <div class="category-description category {{slug}}"> 
+                {{description}} 
+              </div>
+            {{/categories}}
           </div>
           <div class="col-sm-1"></div>
           <div class="col-sm-8">
@@ -35,15 +43,25 @@
 
                 {{#projects}}
 
-                  <a class="grid-item project-preview" href="{{slug}}.html">
-                    <div class ="proj-thumbnail">
+                  {{#if wip}}
+                    <a class="grid-item project-preview">
+                      <div class ="proj-thumbnail">
 
-                      <img src="img/{{thumbnail}}"/>
-                      <h5>{{name}}</h5>
-                      <p>{{description}}</p>
-                    </div>
-                  </a>
-                  
+                        <img src="img/{{thumbnail}}"/>
+                        <h5>{{name}} - Coming soon</h5>
+                        <p>{{description}}</p>
+                      </div>
+                    </a>
+                  {{else}}
+                    <a class="grid-item project-preview" href="{{slug}}.html">
+                      <div class ="proj-thumbnail">
+
+                        <img src="img/{{thumbnail}}"/>
+                        <h5>{{name}}</h5>
+                        <p>{{description}}</p>
+                      </div>
+                    </a>
+                  {{/if}}
                 {{/projects}}
 
               </div>
@@ -60,7 +78,7 @@
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" type="text/javascript"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/app.min.js"></script>
+    <script src="js/app.js"></script>
 
     <!-- Masonry Stuff -->
     <script src="https://unpkg.com/masonry-layout@4.1/dist/masonry.pkgd.min.js"></script>

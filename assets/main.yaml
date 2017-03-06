@@ -1,19 +1,20 @@
 --- 
-title: Hello World
-icon: av-logo-white.png
-description: |
-  My name is Anastasia Victor & I’m a User Experience & Interface designer with a background in architecture, digital fabrication & computational design. 
-  I’m intereted in the intersection between design & technology and shaping the interfaces create this bridge.
-  While I’ve worked as a designer & project manager for over 4 years, I’ve spent the past 2 years focused on consumer web and mobile products. 
-  When I’m not nerding out about design I’m usually playing with modular synths, indulging my vinyl obsession, experimenting with GF cooking or snowboarding (if the season permits). 
 
-#     given  : Chris
-#     family : Dumars
-#     address:
-#         lines: |
-#             458 Walkman Dr.
-#             Suite #292
-#         city    : Royal Oak
-#         state   : MI
-#         postal  : 48046
-# ship-to: *id001
+  type: carousel
+  id: featured
+  images: 
+      - 
+        source: Sonar-Demo.gif
+        title: Sonar VR
+        description: I'm currently building a VR game for Rift/ HTC Vive & Leap Motion where players rely on sonar to navigate through abstracted evironments.
+        link: projects.html#01_vr-environments 
+      - 
+        source: bbs-1.jpg
+        title: 2017 Bay Bridge Steel Commission
+        description: I was recently awarded a Bay Bridge Steel grant through the Oakland Museum & Caltrans, as the lead artist on a public, interactive LED installation.  The work will be created from remediated steel from the decommissioned span of the Oakland-Bay Bridge.
+        link: projects.html#01_vr-environments
+      - 
+        source: procession-small.jpg
+        title: Burning Man Temple 2017 
+        description: I'm honored to be one of the core team of 5 designers on the Burning Man Temple this year. Yes. We're building this.   
+        link: projects.html#01_vr-environments        
