@@ -4,17 +4,17 @@
   id: featured
   images: 
       - 
+        source: Sonar-Demo.gif
+        title: Sonar VR
+        description: I'm currently building a VR game for Rift/ HTC Vive & Leap Motion where players rely on sonar to navigate through abstracted evironments.
+        link: projects.html#01_vr-environments 
+      - 
         source: bbs-1.jpg
         title: 2017 Bay Bridge Steel Commission
-        description: some description
+        description: I was fortunate to be awarded a Bay Bridge Steel grant trhough the Oakland Museum & Caltrans, as the lead artist on a public, interactive LED installation.  The work will be created from remediated steel from the decommissioned span of the Oakland-Bay Bridge.
         link: projects.html#01_vr-environments
       - 
         source: procession-small.jpg
-        title: Sonar
-        description: a forth description
-        link: projects.html#01_vr-environments          
-      - 
-        source: procession-small.jpg
         title: Burning Man Temple 2017 
-        description: a forth description
+        description: I'm honored to be one of the core team of 5 designers on the Burning Man Temple this year. Yes. We're building this.   
         link: projects.html#01_vr-environments        

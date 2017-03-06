@@ -14,6 +14,7 @@
 
 /*** PARTIALS ***/
 @import "partials/header.scss";
+@import "partials/header-typ.scss";
 @import "partials/loader.scss";
 @import "partials/footer.scss";
 @import "partials/carousel.scss";
@@ -155,6 +156,13 @@ a:hover, a:visited, a:link, a:active {
 	color: red;
 }
 
+.category-description {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid white;
+
+}
+
 .project {
 	max-width: $project-width;
   text-align: center;
@@ -184,8 +192,8 @@ a:hover, a:visited, a:link, a:active {
     // border: solid .5px white;
     // background: #f0ad4e;
   }
-}
 
+}
 
 
 .project-preview h5 {
