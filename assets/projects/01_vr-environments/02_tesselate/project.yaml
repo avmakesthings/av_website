@@ -1,7 +1,7 @@
 --- 
-name: Tesselate -WIP
+name: Tesselate
 description: A FPS game where a player needs to collect shapes to form tesselations.
-thumbnail: tesselate-screenshot.jpg
+thumbnail: tesselate-demo.gif
 wip: true
 # blocks: 
 #     - 

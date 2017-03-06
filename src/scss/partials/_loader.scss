@@ -2,15 +2,17 @@
           PARTIALS: FOOTER
 ************************************/
 .loader-wrapper {
-    width: 100%;
+    width: 100vw;
     padding-top: 49vh;
     padding-left: 40%;
     padding-right: 40%;
     height: 100vh;
-    position: fixed;
+    position: absolute;
     transition: 0.5s linear;
     background: $body-bg;
     z-index: 100;
+    top:0px;
+    left:0px;
 }
 
 .loader-wrapper.hidden {
