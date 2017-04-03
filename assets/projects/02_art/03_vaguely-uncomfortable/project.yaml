@@ -1,7 +1,8 @@
 --- 
 name: Vaguely Uncomfortable
 description: A series of gifs that ... well
-thumbnail: come-together.gif
+thumbnail: come-together.jpg
+lazysource: come-together.gif
 wip: true
 # blocks: 
 #     - 

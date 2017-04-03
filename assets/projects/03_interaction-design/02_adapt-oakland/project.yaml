@@ -11,7 +11,8 @@ blocks:
       link: www.adaptoakland.org
     - 
       type: project-generic-image 
-      image: adaptoakland-landing.gif
+      image: adaptoakland-landing.jpg
+      lazysource: adaptoakland-landing.gif
     -
       type: project-generic-text
       description: Adapt Oakland is a greening plan that identifies environmental hazards and pairs them with adaptation strategies to create a healthier, more sustainable urban environment.   The project encompassed 3 years of reaserch from Oakland based non-profit, Urban Biofilter and detailed .  I worked with Urban Biofilter and a small team of developers to structure the research and design work that had been completed, develop a content management system and database and design and build a web UI.  The project is broken into 3 phases, with a very rudimentary website (Phase 1) live and currently in beta trial stage.  

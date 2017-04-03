@@ -4,7 +4,8 @@
   id: featured
   images: 
       - 
-        source: Sonar-Demo.gif
+        source: sonar-demo.jpg
+        lazysource: Sonar-Demo.gif
         title: Sonar VR
         description: I'm currently building a VR game for Rift/ HTC Vive & Leap Motion where players rely on sonar to navigate through abstracted evironments.
         link: projects.html#01_vr-environments 
@@ -16,5 +17,5 @@
       - 
         source: procession-small.jpg
         title: Burning Man Temple 2017 
-        description: I'm honored to be one of the core team of 5 designers on the Burning Man Temple this year. Yes. We're building this.   
+        description: I'm honored to be one of the core team of designers for the Burning Man Temple this year. The Temple is one of the core art installations and is burned on the final day of the festival.
         link: projects.html#01_vr-environments        

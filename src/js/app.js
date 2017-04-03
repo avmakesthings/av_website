@@ -76,9 +76,40 @@ function initCategories(target){
     });
 }
 
+/*
+  After the page loads, lazy load any img tags 
+  that have a 'data-src' attribute.
+*/
+
+function loadImage (el, attribute) {
+    var img = new Image()
+      , src = el.getAttribute(attribute);
+
+    img.onload = function() {
+      if (!! el.parent){
+        el.parent.replaceChild(img, el)
+      } else{
+        el.src = src;
+      }
+    }
+    img.src = src;
+}
+
+function loadImagesFromAttribute(attribute){
+  var images = document.querySelectorAll('img['+attribute+']');
+  for(var i = 0; i < images.length; i++){
+    var image = images[i];
+    loadImage(image, attribute)
+  }  
+}
+
+
+
+
 
 $(window).on('load', function(){
 	hideLoader()
+	loadImagesFromAttribute('data-lazy-src')
 	
 	// Adjust carousel interval
 	$('.carousel').carousel({

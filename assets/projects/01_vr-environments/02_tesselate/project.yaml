@@ -1,7 +1,8 @@
 --- 
 name: Tesselate
 description: A FPS game where a player needs to collect shapes to form tesselations.
-thumbnail: tesselate-demo.gif
+thumbnail: tesselate-demo.jpg
+lazysource: tesselate-demo.gif
 wip: true
 # blocks: 
 #     - 

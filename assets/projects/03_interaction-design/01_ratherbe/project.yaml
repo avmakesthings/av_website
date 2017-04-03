@@ -13,8 +13,9 @@ blocks:
       link: www.ratherbe.com    
     - 
       type: project-generic-image 
-      image-bak: ratherbe-layout.jpg 
-      image: ratherbe-demo.gif
+      image-bak: ratherbe-layout.jpg
+      lazysource: ratherbe-demo.gif
+      image: ratherbe-demo.jpg
       video: https://www.youtube.com/watch?v=DjH_RfhHhJU&feature=youtu.be
     - 
       type: project-generic-text

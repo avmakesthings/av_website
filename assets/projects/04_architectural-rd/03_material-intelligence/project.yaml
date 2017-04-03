@@ -1,7 +1,8 @@
 --- 
 name: Material Intelligence
 description: A study into dynamic surface generation through component propagation 
-thumbnail: chevron-thumb.gif
+thumbnail: chevron-thumb1.jpg
+lazysource: chevron-thumb.gif
 blocks: 
     - 
       type: project-header
