@@ -47,9 +47,9 @@ blocks:
     - 
       type: project-generic-image 
       image: model-shot.png 
-    # - 
-    #   type: project-generic-image 
-    #   image: Procession-small.jpg              
+    - 
+      type: project-generic-image 
+      image: Forest-small.jpg              
     -
       type: project-divider
     - 

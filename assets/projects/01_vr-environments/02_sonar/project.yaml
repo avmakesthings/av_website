@@ -21,7 +21,8 @@ blocks:
     #   heading: a section heading
     #   description: section description
     - 
-      type: project-generic-image 
+      type: project-generic-image
+      image: sonar-demo1.jpg    
     -
       type: project-divider
     - 
