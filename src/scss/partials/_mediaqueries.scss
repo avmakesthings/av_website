@@ -1,6 +1,9 @@
 @media only screen and (max-width: 768px) {
   .project-preview {
     width: 100%;
+    border-top: solid .5px lightgray;
+    margin-top: 30px;
+    padding-top: 20px;
   }
 }
 
@@ -10,6 +13,12 @@
 	body{
 		// font-size: 1.1rem;
 		font-weight: 200;
+	}
+	h3{
+		font-size: 6vw!important;
+	}
+	p{
+	    font-size: 4.5vw!important;
 	}
 
 	.loader-wrapper {
@@ -88,10 +97,6 @@
   		float:none;
   	}
 
-  	.typewriter{
-  		font-size: 2em!important;
-  	}
-
   }
 	.project-header{
 		text-align: center;
@@ -108,22 +113,50 @@
 	}
 
 	.index-page{
-		padding-right:none;
-		font-size: 1.3rem;
+		padding-right:10%;
+		//font-size: 1.3rem;
+		font-size: 4.5vw;
+	}
+
+	.header-landing{
+	    margin: 10px 0 30px 0;
 	}
 	
 	.header-landing .navbar{
 		padding-right: 0px;
+
+	}
+	.carousel-featured{
+		margin-top: 10px;
 	}
 	
 	.carousel-featured-caption{
 		position: static;
 		width: 100%;
+	    font-size: 4.5vw!important;
 	}
 
 	.browse>.row>.header-typ>.bg-primary {
 		background-color: rgba(0,0,0,0)!important;
 		padding: 3%;
+	}
+
+	.btn-primary{
+	    background-color: #0074d9;
+	}
+
+	#landing-logo{
+		width: 20vw;
+		height:auto;
+		padding-top: 20px;
+	}
+
+	h1.typewriter{
+		font-size: 6vw!important;
+	}
+
+	.navbar-toggleable-xs .navbar-nav .nav-item{
+		margin-left:-20px;
 	}
 
 }
