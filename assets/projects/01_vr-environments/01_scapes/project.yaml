@@ -20,7 +20,7 @@ blocks:
     - 
       type: project-generic-text
       heading: Creating Scapes
-      description: As a former environmental designer, I’m always thinking about how the spaces we inhabit can better support us both functionally but also experientially.  VR is an incredible medium for this kind of exploration but is still fairly nascent.  I figured it might be fun to share parts of this project and my thought process behind the design and development as it evolves. View a brief demo of the experience below.
+      description: As a former environmental designer, I’m always thinking about how the spaces we inhabit can better support us both functionally but also experientially.  VR is an incredible medium for this kind of exploration and a fairly new one for me.  I figured it might be fun to share parts of this project and my thought process behind the design and development as it evolves. You can check out a brief demo of the experience on Youtube below.
     -
       type: project-divider                        
     - 
@@ -43,7 +43,7 @@ blocks:
     - 
       type: project-generic-text
       heading: What device?
-      description: It’s kind of shitty that this was the second thought here preceding ‘what am I going to make?’ but that's VR right now.  In the interests of making (at least parts) of the project as accessible as possible I figured I’d go with Cardboard for a basic version and Vive for a more complex build, starting with the former because I’ve never written a Cardboard app before.
+      description: A huge question when designing and developing in VR right now!  In the interests of making (at least parts) of the project as accessible as possible I figured I’d go with Cardboard for a basic version and Vive for a more complex build, starting with the former because I hadn't built a Cardboard app before.
 
     -
       type: project-divider
@@ -109,7 +109,7 @@ blocks:
     - 
       type: project-generic-text
       # heading: Environments & experiences
-      description: In contrast, in the sphere scene, I tried to create an audio reactive immersive environment that was completely abstract.  I’m still exploring how to add a menu or navigation into something so abstract without it seeming jarring or detracting from the experience.  Color and repetition are used here in a Kandinsky-eque fashion to create rhythm.
+      description: In contrast, in the sphere scene, I tried to create an audio reactive immersive environment that was completely abstract.  I’m still exploring how to add a menu or navigation into something so abstract without it seeming jarring or detracting from the experience.  Color and repetition are used here in a Kandinsky-esque fashion to create rhythm.
     -
       type: project-divider                  
     - 

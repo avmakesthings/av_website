@@ -10,11 +10,18 @@ blocks:
       # collaborators: In collaboration with Craig Steely Architecture
       description: A VR game for Occulus Rift / HTC Vive that uses hand motion tracking through Leap Motion input. 
       # url: www.craigsteely.com
+    -
+      type: project-divider    
     - 
-      type: project-generic-image 
-      image: Sonar-Demo.jpg
-      lazysource: Sonar-Demo.gif
-#     -
+      type: project-mp4
+      video: Sonar-Demo.mp4
+      img-backup: Sonar-Demo.jpg         
+
+    # - 
+    #   type: project-generic-image 
+    #   image: Sonar-Demo.jpg
+    #   lazysource: Sonar-Demo.gif
+    -
       type: project-divider
     # - 
     #   type: project-generic-text
