@@ -10,13 +10,19 @@ blocks:
       heading: Rather Be
       collaborators: with the Rather Be team, 1st & 3rd
       description: Web & Mobile UI/UX, Visual Design & Brand Development for Rather Be, an action sports media start-up.
-      link: www.ratherbe.com    
+      link: www.ratherbe.com
+    -
+      type: project-divider      
     - 
-      type: project-generic-image 
-      image-bak: ratherbe-layout.jpg
-      lazysource: ratherbe-demo.gif
-      image: ratherbe-demo.jpg
-      video: https://www.youtube.com/watch?v=DjH_RfhHhJU&feature=youtu.be
+      type: project-mp4
+      video: ratherbe-demo.mp4
+      img-backup: ratherbe-demo.jpg         
+    # - 
+    #   type: project-generic-image 
+    #   image-bak: ratherbe-layout.jpg
+    #   lazysource: ratherbe-demo.gif
+    #   image: ratherbe-demo.jpg
+    #   video: https://www.youtube.com/watch?v=DjH_RfhHhJU&feature=youtu.be
     - 
       type: project-generic-text
       description: RatherBe is an early stage company that produces, curates & distributes high quality action sports media. I joined the company in late 2015 as lead designer,  to develop a beta launch web platform and iOS app. 

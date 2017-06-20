@@ -9,10 +9,17 @@ blocks:
       heading: Fit.ness - Challenge Yourself
       collaborators: In collaboration with Trevor Owens
       description: Product design, UI/UX design, Interaction design for a seed stage fitness tracking iOS app.
+    -
+      type: project-divider    
     - 
-      type: project-generic-image 
-      image: fitness-demo.jpg
-      lazysource: fitness-demo.gif
+      type: project-mp4
+      video: fitness-demo.mp4
+      img-backup: fitness-demo.jpg       
+
+    # - 
+    #   type: project-generic-image 
+    #   image: fitness-demo.jpg
+    #   lazysource: fitness-demo.gi
     - 
       type: project-generic-text
       description: >

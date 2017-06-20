@@ -46,8 +46,14 @@
                   {{#if wip}}
                     <a class="grid-item project-preview">
                       <div class ="proj-thumbnail">
-
-                        <img src="img/{{thumbnail}}" data-lazy-src="img/{{lazysource}}"/>
+                        {{#if video}}
+                          <video autoplay="autoplay" loop="loop" width="100%" height="100%" class="b-lazy">
+                            <source src="img/{{lazysource}}"  type="video/mp4" />
+                            <img src="img/{{thumbnail}}" width="100%" height="100%" />
+                          </video>
+                        {{else}}
+                          <img class="b-lazy" src="img/{{thumbnail}}" data-src="img/{{lazysource}}"/>
+                        {{/if}}
                         <h5>{{name}} - Coming soon</h5>
                         <p>{{description}}</p>
                       </div>
@@ -55,8 +61,14 @@
                   {{else}}
                     <a class="grid-item project-preview" href="{{slug}}.html">
                       <div class ="proj-thumbnail">
-
-                        <img src="img/{{thumbnail}}" data-lazy-src="img/{{lazysource}}"/>
+                        {{#if video}}
+                          <video autoplay="autoplay" loop="loop" width="100%" height="100%" class="b-lazy">
+                            <source src="img/{{lazysource}}"  type="video/mp4" />
+                            <img src="img/{{thumbnail}}" width="100%" height="100%" />
+                          </video>
+                        {{else}}
+                          <img class="b-lazy" src="img/{{thumbnail}}" data-src="img/{{lazysource}}"/>
+                        {{/if}}
                         <h5>{{name}}</h5>
                         <p>{{description}}</p>
                       </div>
