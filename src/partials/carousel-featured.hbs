@@ -17,21 +17,31 @@
 			        <div class="carousel-caption d-none d-md-block carousel-featured-caption">
 					    <h3>{{this.title}}</h3>
 					    <p>{{this.description}}</p>
-					    <a class="btn btn-primary btn-featured" href="{{this.link}}" role="button">More Work</a>
-					    <a class="btn btn-primary btn-featured carousel-control-next" href="#carousel-{{../id}}-generic" role="button" data-slide="next">Next Project &#9658;</a>					    
+					    <a class="btn btn-primary btn-featured" href="{{this.link}}" role="button">View Demo</a>
+					    <a class="btn btn-primary btn-featured carousel-control-next" href="#carousel-{{../id}}-generic" role="button" data-slide="next">Next Project &#9658;</a>				   
 				    </div>
 			    </div>
+			{{else}}{{#if @last}}
+				    <div class="carousel-item">
+				      <img src="img/{{this.source}}" data-lazy-src="img/{{this.lazysource}}" alt="slide">
+				        <div class="carousel-caption d-none d-md-block carousel-featured-caption">
+						    <h3>{{this.title}}</h3>
+						    <p>{{this.description}}</p>
+						    <a class="btn btn-primary btn-featured" href="{{this.link}}" role="button">View project</a>
+						    <a class="btn btn-primary btn-featured carousel-control-next" href="{{this.projects-link}}" role="button" data-slide="next">More Work &#9658;</a>				   
+					    </div>
+				    </div>
 			{{else}}
 		    	<div class="carousel-item">
 			      <img src="img/{{this.source}}" data-lazy-src="img/{{this.lazysource}}" alt="slide">
 			        <div class="carousel-caption d-none d-md-block carousel-featured-caption">
 					    <h3>{{this.title}}</h3>
-					    <p>{{this.description}}</p>
-					    <a class="btn btn-primary btn-featured" href="{{this.link}}" role="button">More Work</a>
+					    <p>{{this.description}}</p>	
+					    <a class="btn btn-primary btn-featured" href="{{this.link}}" role="button">View Project</a>					    		
 					    <a class="btn btn-primary btn-featured carousel-control-next" href="#carousel-{{../id}}-generic" role="button" data-slide="next">Next Project &#9658;</a>
 				    </div>
 			    </div>
-			{{/if}}
+			{{/if}}	{{/if}}
 		{{/each}}
 	  </div>
 	  <a class="left carousel-control" href="#carousel-{{id}}-generic" role="button" data-slide="prev">

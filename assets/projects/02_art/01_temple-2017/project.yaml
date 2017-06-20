@@ -1,0 +1,61 @@
+--- 
+name: Burning Man Temple 2017
+description: The Temple is one of the major structures and considered the spiritual heart of the Burning Man festival. 
+thumbnail: Forest-small.jpg
+wip: false
+blocks: 
+    - 
+      type: project-header
+      heading: Burning Man Temple 2017
+      collaborators: In collaboration with Marisha Farnsworth, Steve Brummond, John Faichney, Chris Lander & the Temple Crew
+      description: Design, Documentation, 3D Modelling, Rendering & Construction for the 2017 Burning Man Temple.  
+      link: www.temple2017.org
+    - 
+      type: project-generic-image 
+      image: Night-small.jpg
+    -
+      type: project-divider
+    - 
+      type: project-generic-text
+      heading: About the Temple
+      description: The Temple is one of the major art installations at the Burning Man festival.  It holds a special place in the festival and functions as a pyre; a sacred space for people to reflect, grieve and release. This will be the 18th iteration of the project and the first that I have collaboratively designed. The image below is from the 2016 Temple by artist David Best, who conceived of the project and was the most prolific contributer (2016 was also David's last Temple).  
+    # - 
+    #   type: project-generic-image 
+    #   image: temple-2016.jpg
+    - 
+      type: project-generic-image 
+      image: Temple-location.jpg        
+    -
+      type: project-divider
+    - 
+      type: project-generic-text
+      # heading: The Material - Beetle Kill Pine
+      description: It's a great honor this year to have been awarded this project through Black Rock Arts.  I'm working on the design with a team of five which includes our lead artists, Marisha and Steve and leading 3D representation.  Most of the design team studied architecture together at Berkeley. The process of design for the 2017 Temple started in November last year and we worked iteratively through different concepts. Ideas were represented through sketch, 3D models, physical models and renderings. 
+    -
+      type: project-divider
+    - 
+      type: project-generic-image 
+      image: beetle-kill.jpg           
+    - 
+      type: project-generic-2-col-image
+      image1: temple-logs.jpg
+      image2: temple-milling.jpg   
+    # - 
+    #   type: project-generic-text
+    #   heading: Designing the Temple
+    #   description: The Temple is one of the major art installations at the Burning Man festival.  It holds a special place in the festival and functions as a pyre; a sacred space for people to reflect, grieve and release. This will be the 18th iteration of the project and the first that I have collaboratively designed. The image below is from the 2016 Temple by artist David Best, who conceived of the project and was the most prolific contributer (2016 was also David's last Temple).
+    - 
+      type: project-generic-image 
+      image: model-shot.png 
+    # - 
+    #   type: project-generic-image 
+    #   image: Procession-small.jpg              
+    -
+      type: project-divider
+    - 
+      type: project-generic-text
+      heading: More coming soon ...                
+#     # - 
+#     #   type: project-generic-2-col-image
+#     #   image1: myimage1.jpg
+#     #   image2: myimage2.jpg

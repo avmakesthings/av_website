@@ -1,6 +1,6 @@
 --- 
 name: Tesselate
-description: A FPS game where a player needs to collect shapes to form tesselations.
+description: A platformer game where a player needs to collect shapes to form tesselations to progress to the next level.
 thumbnail: tesselate-demo.jpg
 lazysource: tesselate-demo.gif
 wip: true

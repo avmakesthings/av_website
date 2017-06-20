@@ -8,7 +8,7 @@ blocks:
       heading: Secret Scoop
       collaborators: In collaboration with Funn Fisher
       description: UI/UX Design and Web Development for a Bay Area food start-up
-      link: www.secretscoopgelato.com
+      # link: www.secretscoopgelato.com
     - 
       type: project-generic-image 
       image: secretscoop-responsive.jpg
