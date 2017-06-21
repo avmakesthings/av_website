@@ -37,6 +37,8 @@ gulp.task('copy-vendor', function() {
     // Perform minification tasks, etc here
     .pipe(gulp.dest('./dist/js'));
 
+    gulp.src('./node_modules/blazy/blazy.min.js')
+    .pipe(gulp.dest('./dist/js'));
 });
 
 gulp.task('sass', function(){
