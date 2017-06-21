@@ -1,5 +1,5 @@
 /************************************
-          PARTIALS: FOOTER
+          PARTIALS: LOADER
 ************************************/
 .loader-wrapper {
     width: 100vw;
@@ -7,7 +7,7 @@
     padding-left: 40%;
     padding-right: 40%;
     height: 100vh;
-    position: absolute;
+    position: fixed;
     transition: 0.5s linear;
     background: $body-bg;
     z-index: 100;
