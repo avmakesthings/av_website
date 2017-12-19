@@ -7,8 +7,8 @@
       source: temple360.jpg
       # lazysource: Sonar-Demo.gif
       title: A Forest in the Desert
-      description: An A-frame based webVR interface for spatially and chronologically relating the content generated over the design and construction of the 2017 Burning Man temple.
-      # link: 01_scapes.html
+      description: An A-frame based webVR prototype for spatially and chronologically relating the content generated over the design and construction of the 2017 Burning Man temple.
+      link: 01_temple360.html
     - 
       source: BM_Temple-Night_small.jpg
       title: Burning Man Temple 2017 

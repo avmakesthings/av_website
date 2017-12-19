@@ -8,13 +8,19 @@ blocks:
       heading: A Forest in the Desert
       collaborators: In collaboration with John Faichney and a little help from David lu.
       description: Design, Content curation, 3D modeling, Application architecture, Web development (A-frame, Three.js)
-    -
-      type: project-divider
+    # -
+    #   type: project-divider
+    # - 
+    #   type: project-generic-video 
+    #   video-url: https://www.youtube.com/embed/3sStWEsLcS8?rel=0&amp;controls=0&amp;showinfo=0
     - 
-      type: project-generic-video 
-      video-url: https://www.youtube.com/embed/3sStWEsLcS8?rel=0&amp;controls=0&amp;showinfo=0
+      type: project-generic-image 
+      image: temple360-header.jpg
     -
       type: project-divider
+    # - 
+    #   type: project-generic-text
+    #   description: 
     - 
       type: project-generic-text
       heading: More coming soon ...                
