@@ -2,22 +2,30 @@
 
   type: carousel
   id: featured
-  images: 
-      - 
-        source: scapes-1.jpg
-        title: Scapes
-        description: Scapes is an experimental world for experiencing and creating music in VR that I'm designing & building in Unity.
-        link: 01_scapes.html
-      - 
-        source: procession-main-small.jpg
-        title: Burning Man Temple 2017 
-        description: I'm honored to be on the core design team for the 2017 Burning Man Temple. The Temple is a project of great significance and is burned on the final day of the festival .
-        link: 01_temple-2017.html              
-      - 
-        source: sonar-demo.jpg
-        lazysource: Sonar-Demo.gif
-        title: Sonar VR
-        description: I'm currently building a VR game for Rift/ HTC Vive & Leap Motion where players rely on sonar to navigate through abstracted evironments.
-        link: 02_sonar.html
-        projects-link: projects.html#01_vr-environments 
+  images:
+    - 
+      source: temple360.jpg
+      # lazysource: Sonar-Demo.gif
+      title: A Forest in the Desert
+      description: An A-frame based webVR interface for spatially and chronologically relating the content generated over the design and construction of the 2017 Burning Man temple.
+      # link: 01_scapes.html
+    - 
+      source: BM_Temple-Night_small.jpg
+      title: Burning Man Temple 2017 
+      description: Design lead for the 2017 Burning Man Temple, a large-scale installation that was experienced by over 60,000 people and burned on the final day of the festival.
+      link: 01_temple-2017.html         
+    - 
+      source: scapes-1.jpg
+      title: Scapes
+      description: An experimental world for interacting with sound in VR. 
+      link: 01_scapes.html
+      projects-link: projects.html#01_vr-environments 
+           
+    # - 
+    #   source: sonar-demo.jpg
+    #   lazysource: Sonar-Demo.gif
+    #   title: Sonar VR
+    #   description: I'm currently building a VR game for Rift/ HTC Vive & Leap Motion where players rely on sonar to navigate through abstracted evironments.
+    #   link: 02_sonar.html
+    #   projects-link: projects.html#01_vr-environments 
    
