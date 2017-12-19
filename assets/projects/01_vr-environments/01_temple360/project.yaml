@@ -8,19 +8,11 @@ blocks:
       heading: A Forest in the Desert
       collaborators: In collaboration with John Faichney and a little help from David lu.
       description: Design, Content curation, 3D modeling, Application architecture, Web development (A-frame, Three.js)
-      # url: www.craigsteely.com
-    - 
-      type: project-generic-image 
-      image: hoku-render2.jpg
     -
       type: project-divider
-    # - 
-    #   type: project-generic-text
-    #   heading: a section heading
-    #   description: section description
     - 
-      type: project-generic-image 
-      image: hoku-render1.jpg 
+      type: project-generic-video 
+      video-url: https://www.youtube.com/embed/3sStWEsLcS8?rel=0&amp;controls=0&amp;showinfo=0
     -
       type: project-divider
     - 
