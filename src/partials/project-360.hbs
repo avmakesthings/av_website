@@ -1,0 +1,16 @@
+<div class="project-360">
+	<h5 class= "proj-text-heading">{{ heading }}</h5>	
+    {{!-- <iframe class="b-lazy" src="//storage.googleapis.com/vrview/2.0/embed?video={{lazysource}}&is_stereo=true">
+</iframe> --}}
+    <div id="{{id}}"></div>
+    <script>
+      //hard-coded for expediency 
+      window.addEventListener('load', onVrViewLoad)
+        function onVrViewLoad() {
+          var vrView = new VRView.Player("#{{id}}", {
+            image: window.location.origin+"/img/{{image}}",
+            is_stereo: true
+        });
+    }
+    </script>
+</div>

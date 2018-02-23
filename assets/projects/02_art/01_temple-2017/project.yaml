@@ -12,13 +12,13 @@ blocks:
       link: www.temple2017.org
     - 
       type: project-generic-image 
-      image: Night-small.jpg
+      image: temple-2017-dust-cover.jpg
     -
       type: project-divider
     - 
       type: project-generic-text
       heading: About the Temple
-      description: The Temple is one of the major art installations at the Burning Man festival.  It holds a special place in the festival and functions as a pyre; a sacred space for people to reflect, grieve and release. This will be the 18th iteration of the project and the first that I have collaboratively designed. The image below is from the 2016 Temple by artist David Best, who conceived of the project and was the most prolific contributer (2016 was also David's last Temple).  
+      description: The Temple is one of the major art installations at Burning Man. It is a sacred space for people to reflect, grieve and find resolution. I worked as a design lead on the project, collaboratively with a design team of five that included our lead artists, Marisha Farnsworth and Steve Brummond. It was a great honor to have been awarded the Temple grant through Burning Man Arts to create the 18th iteration of the project. 
     # - 
     #   type: project-generic-image 
     #   image: temple-2016.jpg
@@ -29,8 +29,8 @@ blocks:
       type: project-divider
     - 
       type: project-generic-text
-      # heading: The Material - Beetle Kill Pine
-      description: It's a great honor this year to have been awarded this project through Black Rock Arts.  I'm working on the design with a team of five which includes our lead artists, Marisha and Steve and leading 3D representation.  Most of the design team studied architecture together at Berkeley. The process of design for the 2017 Temple started in November last year and we worked iteratively through different concepts. Ideas were represented through sketch, 3D models, physical models and renderings. 
+      heading: The Material - Beetle Kill Pine
+      description: We were fortunate to be able to use a renewable resource, beetle-kill pine as the primary material for the Temple. Dead logs, felled as a result if California's tree mortality crisis were sourced from the Sierra's and milled in Richmond. Milling our own wood allowed us to use custom sizes.
     -
       type: project-divider
     - 
@@ -39,22 +39,67 @@ blocks:
     - 
       type: project-generic-2-col-image
       image1: temple-logs.jpg
-      image2: temple-milling.jpg   
+      image2: temple-milling.jpg
+    -
+      type: project-divider         
+    - 
+      type: project-generic-text
+      heading: The Design Process
+      description:   The process of design for the 2017 Temple started in November 2016 and we worked iteratively through different concepts. Ideas were represented through sketch, 3D models, physical models and renderings. 
+    -
+      type: project-divider         
+    -
+      type: carousel
+      id: temple-renderings
+      images:
+        - 170311_tower_sketch-small.jpg
+        - BM_Temple-Elevation-Drawing_MF-small.jpg
+        - Procession-small-resize.jpg
+        - Forest-small-resize.jpg
+        - Night-small-resize.jpg
+        - BM_Temple-Model_MF-small.jpg
+        - BM_Temple-Model_Detail_MF-small.jpg
+    - 
+      type: project-generic-video 
+      video-url: https://www.youtube.com/embed/YXMhrHe9a6E?rel=0&amp;controls=0&amp;showinfo=0
+    -
+      type: project-divider     
+    - 
+      type: project-generic-text
+      heading: The Build
+      description:   The Temple Crew started fabrication in May at American Steel Studios, a pre-build site in West Oakland.  Pedestals and other components were pre-built and shipped up to Gerlach prior to commencing the on-site build in the desert. At the start of August, three weeks before Burning Man commenced, the crew moved out to the Black Rock Desert, where final building and assembly occured.   
     # - 
-    #   type: project-generic-text
-    #   heading: Designing the Temple
-    #   description: The Temple is one of the major art installations at the Burning Man festival.  It holds a special place in the festival and functions as a pyre; a sacred space for people to reflect, grieve and release. This will be the 18th iteration of the project and the first that I have collaboratively designed. The image below is from the 2016 Temple by artist David Best, who conceived of the project and was the most prolific contributer (2016 was also David's last Temple).
-    - 
-      type: project-generic-image 
-      image: model-shot.png 
-    - 
-      type: project-generic-image 
-      image: Forest-small.jpg              
+    #   type: project-generic-image 
+    #   image: Forest-small.jpg  #images of the build site
+    # - 
+    #   type: project-360
+    #   id: temple-360-test
+    #   image: 360-test.jpg  #360 of build site                          
+    -
+      type: project-divider      
+    -
+      type: carousel
+      id: temple-final-img
+      images:
+        - BM_Temple-Construction_MF_small.jpg
+        - BM_Temple-Exterior3_AV_small.jpg
+        - BM_Temple-Exterior2_AV_small.jpg
+        - BM_Temple-Exterior_MF_small.jpg
+        - BM_Temple-Basket_LD_small.jpg 
+        - BM_Temple-mixed_AV_small.jpg
+        - BM_Temple-Interior2_LD_small.jpg          
+        - BM_Temple-Altar_JP_small.jpg 
+        - BM_Temple-Night_small.jpg 
+        - BM_Temple-Burn_NS_small.jpg 
     -
       type: project-divider
     - 
       type: project-generic-text
-      heading: More coming soon ...                
+      heading: The Final Installation
+      description:   The 2017 Temple opened on the first Monday of the festival and was host to over 60,000 participants. It was a deeply spiritual experience for many and many also left tokens of rememberance attached to the structure. As is the tradition, the Temple was burned at sunset the last day; the third major burn to close out the festival.
+    # - 
+    #   type: project-generic-text
+    #   heading: More coming soon ...                
 #     # - 
 #     #   type: project-generic-2-col-image
 #     #   image1: myimage1.jpg
