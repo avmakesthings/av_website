@@ -2,31 +2,171 @@
 name: A Forest in the Desert
 description: An A-frame based webVR prototype for spatially and chronologically relating and presenting the 3D models, 360 images, photos and video generated over the design, construction and installation of the 2017 Burning Man temple.
 thumbnail: temple360-thumb.jpg
-lazysource: temple360-thumb.mp4
+lazysource: temple360-menu-marker-420.mp4
 wip: false
 video: true
 blocks: 
     - 
       type: project-header
       heading: A Forest in the Desert
-      collaborators: In collaboration with John Faichney and a little help from David lu.
+      collaborators: In collaboration with John Faichney.
       description: Design, Content curation, 3D modeling, Application architecture, Web development (A-frame, Three.js)
+      link: forest.anastasia.io
     # -
     #   type: project-divider
-    # - 
-    #   type: project-generic-video 
-    #   video-url: https://www.youtube.com/embed/3sStWEsLcS8?rel=0&amp;controls=0&amp;showinfo=0
     - 
       type: project-generic-image 
-      image: temple360-header.jpg
+      image: temple360.jpg
     -
       type: project-divider
+    - 
+      type: project-generic-text
+      heading: The problem
+      description: In an age of ubiquitous computing and portable electronics, capturing and sharing our experiences has never been easier.  Many platforms exist to facilitate this (e.g. Instagram, Facebook, Flickr), yet categorizing this content remains surprisingly tedious.  We have methods such as chronological sorting, grouping by feature recognition, geotagging, user driven categorization etc, but it is still challenging to curate and present content in a deeply engaging way.
+    - 
+      type: project-generic-image 
+      image: temple360-content-types-trans.png    #diagram of different types of content
+    -
+      type: project-divider
+    - 
+      type: project-generic-text
+      heading: Prototyping a solution - context = meaning
+      description: One of the primary issues in presenting engaging user-generated content is the lack of context.  This is why categorization techniques such as geotagging are so successful, even with traditional 2D content.  As more immersive content is generated, the lack of context becomes a more pressing concern eg. once the wow-factor of a VR 360 wanes, users are often left searching for meaning. Contextually relating content, both spatially and chronologically, is a possible solution that could help us create richer virtual experiences, allowing us to more seamlessly integrate 2D and immersive user generated content.      
+    -
+      type: project-divider
+    - 
+      type: project-generic-video 
+      video-url: https://www.youtube.com/embed/PA_7wFIuhZ0?rel=0&amp;controls=0   
+    # -
+    #   type: project-divider 
+    - 
+      type: project-generic-text
+      # heading: Target user
+      description: A forest in the desert is an open source prototype that aims to test this idea, by contextually relating the content generated over the design and construction of the 2017 Burning Man Temple and presenting it in VR. I chose this project because I was a design lead and had personally generated a lot of content over it’s duration. This could also be applied to other places that we have 3D representations for eg.  VPS, google earth, museums etc, where users generate geo-tagged content. 
+    -
+      type: project-link
+      cta: Test out the A-frame prototype in your browser >>>
+      link: forest.anastasia.io        
+    -
+      type: project-divider                     
+    -
+      type: triad-small
+      heading: Target users
+      items:
+        -
+          image: temple360_user-builder.png
+          sub-heading: Temple crew
+          description: People who were involved with the design/constuction of the project
+        -
+          image: temple360_user-participant.png
+          sub-heading: Burning Man participants
+          description: People who experienced the installation in real life
+        -
+          image: temple360_user-general.png
+          sub-heading: General public
+          description: Anybody who did not physically experience the Temple art installation 
+    -
+      type: project-divider
+    - 
+      type: project-generic-text
+      heading: Implementation
+      description: Given that this prototype was intended for as broad an audience as possible, I wanted it to be implemented a way that was both -- 1. a compelling experience in a 2d browser and in VR and; 2. VR device and controller agnostic (3DoF, 6DoF).  I had never used webVR before and chose to build the prototype with A-frame, an open source webVR framework, as a browser based experience could theoretically provide increased accessibility. I also wanted to contribute to open source VR and hoped that part of my prototype code could be generalized and shared with the community. The build is a collaboration between myself and another developer John Faichney and is the first more complex web application that I have fully architected.
+    -
+      type: project-link
+      cta: View the project code on Github >>>
+      link: github.com/avmakesthings/temple360  
+    - 
+      type: project-generic-image 
+      image: temple360-header.jpg         
+    -
+      type: project-divider
+    - 
+      type: project-generic-text
+      heading: Constraints -- webVR as a medium
+      description: While A-frame is really incredible it is still in a fairly nascent stage, meaning limited functionality compared to fully fledged game engines like Unity.  There are also issues with browser support as webVR is only supported in Firefox Nightly and Chromium on desktop and Chrome, Samsung Internet and a few other mobile browsers.  The last major constraint is performance due to device capabilities and network connectivity limitations. 
+    -
+      type: project-divider
+    - 
+      type: project-generic-text
+      heading: Constraints -- content curation
+      description: All the content for the prototype was manually generated/cured by me, inserting a heavy bias into is being presented. I tried to work against the classic 'designing for myself' problem but it was somewhat unavoidable in this case. Additionally, given the nature of the Temple installation and it's theme around mortality, I chose to omit content that was too senstive in nature.
+    - 
+      type: project-generic-image 
+      image: temple360-assets.png 
+    -
+      type: project-divider       
+    - 
+      type: project-generic-text
+      heading: Environment Design 
+      description: The design of the environments aims to capture the ephemeral qualities of light and shadow, dust moving across the landscape, flickering light, soft voices — some of the factors that helped the installation be perceived  as sacred space.  The A-frame environment component was calibrated and used as a procedurally generated backdrop. All other environment assets were designed and 3d modeled in Rhino/ Blender by me.    
+    - 
+      type: project-generic-image 
+      image: temple360_home-env-model.png 
+    - 
+      type: project-2-col-mp4
+      video1: temple360-home-vid.mp4
+      video2: temple360_env-vid.mp4
+      # img-backup1: menu-nested-2.jpg
+      # img-backup1: menu-wall-1.jpg         
+    -
+      type: project-divider                                  
+    - 
+      type: project-generic-text
+      heading: Interaction Design 
+      description: The interaction design for the prototype is intentionally simple, borrowing heavily from existing VR interaction design patterns.  Text is minimized for ease of experience, however tooltips will be added in future builds. Contextual content is accessed through content markers.
+    # - 
+    #   type: project-generic-image 
+    #   image: temple360-ui-sketch3.jpg 
+    - 
+      type: project-generic-image 
+      image: temple360-ui-sketch5.jpg           
+    -
+      type: project-divider                                  
+    - 
+      type: project-generic-text
+      heading: Menus
+      description: The menus serve both a navigational and informational purpose, allowing a user to navigate between scenes and toggle the active model or 360. A similar nested menu UI pattern is used for both the model and 360 menus.
+    -
+      type: project-divider        
+    - 
+      type: project-2-col-mp4
+      video1: temple360-menu-clip1.mp4 #vid of model menu
+      video2: temple360-menu-clip2.mp4 #vid of 360 menu
+      # img-backup1: menu-nested-2.jpg
+      # img-backup1: menu-wall-1.jpg      
+    -
+      type: project-divider       
+    - 
+      type: project-generic-text
+      heading: Markers
+      description: Markers are embedded in the model view and indicate locations where content is available.  In the current build, only 360 content is supported. Future iterations will expand upon the marker component to display different types of content.
+    - 
+      type: project-generic-image 
+      image: 171025_UI-content-marker-00.jpg
+    # - 
+    #   type: project-generic-2-col-image 
+    #   image1: 171025_UI-content-marker-00.jpg #audio marker
+    #   image2: 171025_UI-content-marker-00.jpg #image marker       
+    -
+      type: project-divider       
+    - 
+      type: project-generic-text
+      heading: Controller input
+      description: User input is simple and intended to provide a user with selection control and allow a user to navigate around a scene.  While 3DoF or 6DoF controllers are ideal, the prototype also works with WSAD/arrow controls on the keypad.  A reticle is present when not in VR view.
+    - 
+      type: project-generic-image 
+      image: screenshot1.png  #screenshot of teleport controls                        
+    -
+      type: project-divider         
+    - 
+      type: project-generic-text
+      heading: Next steps
+      description: Onboarding, User testing, Adding support for unbuilt UI components, Adding support for 2d content, Voice overs, Multi-user support ... open to feedback and suggestions :)                             
+
     # - 
     #   type: project-generic-text
     #   description: 
-    - 
-      type: project-generic-text
-      heading: More coming soon ...                
+           
     # - 
     #   type: project-generic-2-col-image
     #   image1: myimage1.jpg

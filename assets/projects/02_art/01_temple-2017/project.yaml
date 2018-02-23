@@ -71,10 +71,10 @@ blocks:
     # - 
     #   type: project-generic-image 
     #   image: Forest-small.jpg  #images of the build site
-    - 
-      type: project-360
-      image: 360-test.jpg  #360 of build site
-      lazysource: 360-test.jpg                                  
+    # - 
+    #   type: project-360
+    #   id: temple-360-test
+    #   image: 360-test.jpg  #360 of build site                          
     -
       type: project-divider      
     -
