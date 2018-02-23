@@ -188,7 +188,8 @@ a:hover, a:visited, a:link, a:active {
   width: 50%;
   float: left;
   display: inline-block;
-  color: white!important;
+  // color: white!important;
+  color: black!important;
   padding: 8px;
   :hover {
     background: lighten( $body-bg, 5% );
@@ -224,6 +225,7 @@ a:hover, a:visited, a:link, a:active {
 
 .proj-thumbnail {
   padding: 5px 5px 8px 5px;
+  border-bottom: 1px dashed white
 }
 
 .project-block {
