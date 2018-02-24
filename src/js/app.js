@@ -48,6 +48,13 @@ function initCategoryMenu(){
 	}	
 }
 
+function initMasonry(){
+	// Assumes masonry has been included
+	$('.grid').masonry({
+		itemSelector: '.grid-item',
+	});
+}
+
 // Open the category in the URL hash. 
 // If no category is in the hash, open the first category
 function initCategories(target){
@@ -70,10 +77,7 @@ function initCategories(target){
 		active[i].classList.add('active');
 	}
 
-	// Assumes masonry has been included
-    $('.grid').masonry({
-      itemSelector: '.grid-item',
-    });
+	initMasonry()
 }
 
 /*
@@ -106,7 +110,6 @@ function loadImagesFromAttribute(attribute){
 
 
 
-
 $(window).on('load', function(){
 	hideLoader()
 	loadImagesFromAttribute('data-lazy-src')
@@ -121,7 +124,11 @@ $(window).on('load', function(){
 		var target = window.location.hash.replace("#",'')
 		initCategories(target)
 		initCategoryMenu()
-	} else {
+	} else if (window.location.pathname === "/"){
+		initMasonry()
+		initMenu()
+	}
+	else {
 		initMenu()
 	}
 });

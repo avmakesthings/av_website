@@ -27,7 +27,7 @@
           <div class="row landing-icon">
             <div class="col-sm-12 body-text index-page ">
               My name is <a href="contact.html">Anastasia Victor</a>. I used to be an architect but now I design interfaces &amp interaction for <a href="projects.html#01_vr-environments">VR.</a> I also create installation &amp; graphic <a href="projects.html#02_art">art</a> to explore my interests in physical space &amp; human-computer interaction. <br>
-              <br><a href="#carousel-featured-generic">Check out</a> what I'm currently working on below &amp;  <a href="contact.html">get in touch</a> if you'd like to collaborate or learn more.
+              <br><a href="#featured">Check out</a> what I'm currently working on below &amp;  <a href="contact.html">get in touch</a> if you'd like to collaborate or learn more.
 
               <hr class="hidden-sm-up"/> 
             </div>     
@@ -37,55 +37,59 @@
         <!-- <div class="row">
           {{> carousel-featured }}
         </div> -->
-
-        <div class="grid featured">
-
-                          <h3>Featured projects</h3>
-          <!--                 <p class="larger"><em>{{description}}</em></p> -->
-
-
-          
-          {{#featured}}
-
-            {{#if wip}}
-              <a class="grid-item project-preview">
-                <div class ="proj-thumbnail">
-                  {{#if video}}
-                    <video autoplay="autoplay" loop="loop" width="100%" height="100%" class="b-lazy">
-                      <source src="img/{{lazysource}}"  type="video/mp4" />
-                      <img src="img/{{thumbnail}}" width="100%" height="100%" />
-                    </video>
-                  {{else}}
-                    <img class="b-lazy" src="img/{{thumbnail}}" data-src="img/{{lazysource}}"/>
-                  {{/if}}
-                  <h5>{{name}} - Coming soon</h5>
-                  <p>{{description}}</p>
-                </div>
-              </a>
-            {{else}}
-              <a class="grid-item project-preview" href="{{slug}}.html">
-                <div class ="proj-thumbnail">
-                  {{#if video}}
-                    <video autoplay="autoplay" loop="loop" width="100%" height="100%" class="b-lazy">
-                      <source src="img/{{lazysource}}"  type="video/mp4" />
-                      <img src="img/{{thumbnail}}" width="100%" height="100%" />
-                    </video>
-                  {{else}}
-                    <img class="b-lazy" src="img/{{thumbnail}}" data-src="img/{{lazysource}}"/>
-                  {{/if}}
-                  <h5>{{name}}</h5>
-                  <p>{{description}}</p>
-                </div>
-              </a>
-            {{/if}}
-
-
-          {{/featured}}
-
+        <div class="row" id="featured">
+            <div class="col-md-12">
+              <h5 style = "background:#ededed; margin-top:1rem; padding: 1rem;" >Featured projects >>></h5>
+            </div>  
         </div>
-
-
-
+        <div class ="row">
+          <div class="grid featured">
+            {{#categories}}
+              {{#projects}}
+                {{#if featured}}
+    
+                  <!-- TODO: Make this a partial -->
+                  {{#if wip}}
+                    <a class="grid-item project-preview">
+                      <div class ="proj-thumbnail">
+                        <h6 class="masonry-metadata">{{date}}</h6>
+                        {{#if video}}
+                          <video autoplay="autoplay" loop="loop" width="100%" height="100%" class="b-lazy">
+                            <source src="img/{{lazysource}}"  type="video/mp4" />
+                            <img src="img/{{thumbnail}}" width="100%" height="100%" />
+                          </video>
+                        {{else}}
+                          <img class="b-lazy" src="img/{{thumbnail}}" data-src="img/{{lazysource}}"/>
+                        {{/if}}
+                        <h6 class="masonry-metadata">{{meta}}</h6>
+                        <h5>{{name}} - Coming soon</h5>
+                        <p>{{description}}</p>
+                      </div>
+                    </a>
+                  {{else}}
+                    <a class="grid-item project-preview" href="{{slug}}.html">
+                      <div class ="proj-thumbnail">
+                        <h6 class="masonry-metadata">{{date}}</h6>
+                        {{#if video}}
+                          <video autoplay="autoplay" loop="loop" width="100%" height="100%" class="b-lazy">
+                            <source src="img/{{lazysource}}"  type="video/mp4" />
+                            <img src="img/{{thumbnail}}" width="100%" height="100%" />
+                          </video>
+                        {{else}}
+                          <img class="b-lazy" src="img/{{thumbnail}}" data-src="img/{{lazysource}}"/>
+                        {{/if}}
+                        <h6 class="masonry-metadata">{{meta}}</h6>
+                        <h5>{{name}}</h5>
+                        <p>{{description}}</p>
+                      </div>
+                    </a>
+                  {{/if}}
+                  <!-- END TODO -->
+              {{/if}}
+            {{/projects}}          
+            {{/categories}}
+          </div>
+        </div>       
 
         {{> footer }}
 
