@@ -1,11 +1,10 @@
 --- 
-name: VR-OS
-description: A VR operating system prototype made with Unity
+name: Laser Eyes
+description: My first experiment with AKKit. 
 thumbnail: whole-campus-thumb.png
 wip: true
 featured: true
-date: Feb 2018 - Now //
-meta: VR / Unity / HTC Vive 
+year: 2018
 # blocks: 
 #     - 
 #       type: project-header
