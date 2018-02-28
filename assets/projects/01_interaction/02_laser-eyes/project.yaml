@@ -4,7 +4,8 @@ description: My first experiment with AKKit.
 thumbnail: whole-campus-thumb.png
 wip: true
 featured: true
-year: 2018
+date: Jan 2018 //
+meta: ARKit / Unity / iOS
 # blocks: 
 #     - 
 #       type: project-header

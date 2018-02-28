@@ -55,6 +55,7 @@ function initMasonry(){
 	});
 }
 
+
 // Open the category in the URL hash. 
 // If no category is in the hash, open the first category
 function initCategories(target){

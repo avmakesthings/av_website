@@ -2,7 +2,9 @@
 name: Fit.ness
 description: Concept design (UI/UX, Interaction, Product) for a seed stage fitness tracking iOS app.
 thumbnail: fitness-thumb.jpg
-date: May - July 2015
+date: May - July 2015 //
+featured: true
+meta: UI / UX / iOS
 blocks: 
     - 
       type: project-header

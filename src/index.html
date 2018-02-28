@@ -26,8 +26,8 @@
 
           <div class="row landing-icon">
             <div class="col-sm-12 body-text index-page ">
-              My name is <a href="contact.html">Anastasia Victor</a>. I used to be an architect but now I design interfaces &amp interaction for <a href="projects.html#01_vr-environments">VR.</a> I also create installation &amp; graphic <a href="projects.html#02_art">art</a> to explore my interests in physical space &amp; human-computer interaction. <br>
-              <br><a href="#featured">Check out</a> what I'm currently working on below &amp;  <a href="contact.html">get in touch</a> if you'd like to collaborate or learn more.
+              My name is <a href="contact.html">Anastasia Victor</a>. I used to be an architect but now I design interfaces &amp interaction for <a href="projects.html#01_interaction">VR.</a> I also create installation &amp; graphic <a href="projects.html#02_art">art</a> to explore my interests in computational geometry, physical spaces &amp; human-computer interaction. <br>
+              <br><a href="#featured">Check out</a> some of my work below &amp;  <a href="contact.html">get in touch</a> if you'd like to collaborate or learn more.
 
               <hr class="hidden-sm-up"/> 
             </div>     
@@ -36,10 +36,12 @@
 
         <!-- <div class="row">
           {{> carousel-featured }}
-        </div> -->
+        </div> -->      
         <div class="row" id="featured">
             <div class="col-md-12">
-              <h5 style = "background:#ededed; margin-top:1rem; padding: 1rem;" >Featured projects >>></h5>
+              <!-- <h5 style = "background:#ededed; margin-top:1rem; padding: 1rem;" >Featured projects &#x25BD;&#x25BD;</h5> -->
+             <h5 style = "margin-top:1rem; padding: 1rem; text-decoration:underline;" >Featured projects </h5>
+
             </div>  
         </div>
         <div class ="row">
@@ -50,8 +52,8 @@
     
                   <!-- TODO: Make this a partial -->
                   {{#if wip}}
-                    <a class="grid-item project-preview">
-                      <div class ="proj-thumbnail">
+                    <a class="grid-item project-preview dark-hover" style ="width: 33.33%; padding: 1rem;">
+                      <div class ="proj-thumbnail-dark">
                         <h6 class="masonry-metadata">{{date}}</h6>
                         {{#if video}}
                           <video autoplay="autoplay" loop="loop" width="100%" height="100%" class="b-lazy">
@@ -67,8 +69,8 @@
                       </div>
                     </a>
                   {{else}}
-                    <a class="grid-item project-preview" href="{{slug}}.html">
-                      <div class ="proj-thumbnail">
+                    <a class="grid-item project-preview dark-hover"  style ="width:33.33%; padding:1rem;" href="{{slug}}.html">
+                      <div class ="proj-thumbnail-dark">
                         <h6 class="masonry-metadata">{{date}}</h6>
                         {{#if video}}
                           <video autoplay="autoplay" loop="loop" width="100%" height="100%" class="b-lazy">
@@ -90,7 +92,11 @@
             {{/categories}}
           </div>
         </div>       
-
+        <div class="row" id="more-work">
+            <div class="col-md-12">
+              <h5 class ="index-more-work"><a href="projects.html#01_interaction">View more work >>></a></h5>
+            </div>  
+        </div> 
         {{> footer }}
 
       </div>

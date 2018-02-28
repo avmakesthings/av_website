@@ -87,12 +87,31 @@ h1, h2, h3, h4, h5, h6,
   a {
     color:$body-bg;
   }
-  a:hover, a:link{
-    color: white;
-    text-decoration: underline!important;
+  //a:hover, a:link{
+    //color: white;
+    //text-decoration: underline!important;
+  //}
+  a:hover{
+    background: orange;
   }
-  
+  a:link{
+    background: darken($highlight-color, 10%);
+    margin: 0.1rem;
+    padding: 0.02rem 0.2rem;
+    //text-decoration: underline!important;
+  }
 }
+
+.index-more-work{
+  background:#ededed; 
+  margin-top:1rem; 
+  padding: 1rem;
+  :hover{
+    background:black!important;
+  }
+}
+
+
 
 
 
@@ -195,14 +214,21 @@ a:hover, a:visited, a:link, a:active {
   // color: white!important;
   color: black!important;
   padding: 8px;
-  :hover {
+}
+
+.dark-hover{
+  :hover{
+    background: darken( $body-bg, 5% );
+  }
+}
+
+.light-hover{
+  :hover{
     background: lighten( $body-bg, 5% );
     // border: solid .5px white;
     // background: #f0ad4e;
   }
-
 }
-
 
 .project-preview h5 {
   font-family: 'Roboto Mono';
@@ -231,6 +257,11 @@ a:hover, a:visited, a:link, a:active {
 .proj-thumbnail {
   padding: 5px 5px 8px 5px;
   border-bottom: 1px dashed white
+}
+
+.proj-thumbnail-dark {
+  padding: 5px 5px 8px 5px;
+  border-bottom: 1px dashed black;
 }
 
 .project-block {

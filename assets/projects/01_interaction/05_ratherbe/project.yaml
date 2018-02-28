@@ -3,8 +3,9 @@ name: Rather Be
 description: Web & Mobile UI/UX, Visual Design & Brand Development for Rather Be, an action sports media start-up. 
 thumbnail: ratherbe-thumb.jpg
 link: www.ratherbe.com
-year: 2016
 featured: true
+date: Sep 2015 - Oct 2016 //
+meta: UI / UX / Web 
 blocks: 
     - 
       type: project-header
