@@ -102,12 +102,20 @@ h1, h2, h3, h4, h5, h6,
   }
 }
 
-.index-more-work{
-  background:#ededed; 
+.more-work-row{
+  background: darken( $body-bg, 5% );
+  margin: 1rem;
+  height: 20rem;
+}
+
+
+.more-work-text{
+  background:black;
+  color: white; 
   margin-top:1rem; 
   padding: 1rem;
   :hover{
-    background:black!important;
+    background:white;
   }
 }
 
