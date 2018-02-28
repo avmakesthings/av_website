@@ -96,7 +96,7 @@ gulp.task('handlebars', function(){
   options.partials = getPartials('./src/partials')
 
   handlebars2html('./src/index.html', 'index.html', myAssets, options);
-  handlebars2html('./src/browse.html', 'projects.html', myAssets, options);
+  handlebars2html('./src/projects.html', 'projects.html', myAssets, options);
   handlebars2html('./src/contact.html', 'contact.html', myAssets, options);
   myAssets.categories.forEach(function(category){
     category.projects.forEach(function(project){

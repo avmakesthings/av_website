@@ -5,6 +5,9 @@ thumbnail: home.jpg
 lazysource: home2.mp4
 wip: false
 video: true
+featured: true
+date: Apr-Jun 2017 //
+meta: VR / Cardboard 
 blocks: 
     - 
       type: project-header

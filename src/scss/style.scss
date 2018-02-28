@@ -87,12 +87,39 @@ h1, h2, h3, h4, h5, h6,
   a {
     color:$body-bg;
   }
-  a:hover, a:link{
-    color: white;
-    text-decoration: underline!important;
+  //a:hover, a:link{
+    //color: white;
+    //text-decoration: underline!important;
+  //}
+  a:hover{
+    background: orange;
   }
-  
+  a:link{
+    background: darken($highlight-color, 10%);
+    margin: 0.1rem;
+    padding: 0.02rem 0.2rem;
+    //text-decoration: underline!important;
+  }
 }
+
+.more-work-row{
+  background: darken( $body-bg, 5% );
+  margin: 1rem;
+  height: 20rem;
+}
+
+
+.more-work-text{
+  background:black;
+  color: white; 
+  margin-top:1rem; 
+  padding: 1rem;
+  :hover{
+    background:white;
+  }
+}
+
+
 
 
 
@@ -166,6 +193,10 @@ a:hover, a:visited, a:link, a:active {
 
 }
 
+.masonry-metadata {
+  font-size: 0.8rem;
+}
+
 .project {
 	max-width: $project-width;
   text-align: center;
@@ -191,21 +222,28 @@ a:hover, a:visited, a:link, a:active {
   // color: white!important;
   color: black!important;
   padding: 8px;
-  :hover {
+}
+
+.dark-hover{
+  :hover{
+    background: darken( $body-bg, 5% );
+  }
+}
+
+.light-hover{
+  :hover{
     background: lighten( $body-bg, 5% );
     // border: solid .5px white;
     // background: #f0ad4e;
   }
-
 }
-
 
 .project-preview h5 {
   font-family: 'Roboto Mono';
   font-weight: 500;
   font-size: 1.1em;
   text-transform: uppercase;
-  padding-top: 1em;
+  // padding-top: 1em;
 }
 
 .project-preview p {
@@ -217,6 +255,7 @@ a:hover, a:visited, a:link, a:active {
 .project-preview img {
   width: 100%;
   filter: brightness(80%);
+  padding-bottom: 0.5rem;
 }
 
 .project-preview img:hover {
@@ -226,6 +265,11 @@ a:hover, a:visited, a:link, a:active {
 .proj-thumbnail {
   padding: 5px 5px 8px 5px;
   border-bottom: 1px dashed white
+}
+
+.proj-thumbnail-dark {
+  padding: 5px 5px 8px 5px;
+  border-bottom: 1px dashed black;
 }
 
 .project-block {
