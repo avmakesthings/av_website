@@ -9,22 +9,22 @@
         {{> loader }}
         {{> header-typ }}
 
-      
-        <div class="project container">        
-          {{#blocks}}
+          <div class="project container">        
+            {{#blocks}}
 
-            <div class="project-block">
-              {{> (lookup . 'type')}}
+              <div class="project-block">
+                {{> (lookup . 'type')}}
+              </div>
+              
+              {{/blocks}}
+
+            <div class="project-end">
+              <a href="/projects.html#{{category}}">
+                <h6>View more work>>><h6>
+              </a>
             </div>
-            
-            {{/blocks}}
-
-          <div class="project-end">
-            <a href="/projects.html#{{category}}">
-              <h6>- - - Return to Projects - - -<h6>
-            </a>
           </div>
-        </div> 
+
 
         {{> footer }}
       </div>

@@ -85,7 +85,8 @@ h1, h2, h3, h4, h5, h6,
   font-size: 1.3em;
   color: $body-bg;
   a {
-    color:$body-bg;
+    //color:$body-bg;
+    color:$highlight-color;
   }
   //a:hover, a:link{
     //color: white;
@@ -95,7 +96,8 @@ h1, h2, h3, h4, h5, h6,
     background: orange;
   }
   a:link{
-    background: darken($highlight-color, 10%);
+    //background: darken($highlight-color, 10%);
+    background: white;
     margin: 0.1rem;
     padding: 0.02rem 0.2rem;
     //text-decoration: underline!important;
@@ -112,7 +114,8 @@ h1, h2, h3, h4, h5, h6,
 .more-work-text{
   background:black;
   color: white; 
-  margin-top:1rem; 
+  margin-top:3rem;
+  margin-bottom:-6rem;  
   padding: 1rem;
   :hover{
     background:white;
@@ -198,8 +201,8 @@ a:hover, a:visited, a:link, a:active {
 }
 
 .project {
-	max-width: $project-width;
-  text-align: center;
+	//max-width: $project-width;
+  //text-align: center;
 }
 
 .landing-icon {
@@ -222,6 +225,11 @@ a:hover, a:visited, a:link, a:active {
   // color: white!important;
   color: black!important;
   padding: 8px;
+}
+
+.grid-width{
+  width: 33.33%; 
+  padding: 1rem;
 }
 
 .dark-hover{
@@ -254,7 +262,7 @@ a:hover, a:visited, a:link, a:active {
 
 .project-preview img {
   width: 100%;
-  filter: brightness(80%);
+  filter: brightness(95%);
   padding-bottom: 0.5rem;
 }
 
@@ -279,7 +287,7 @@ a:hover, a:visited, a:link, a:active {
     letter-spacing: 1px;
     font-size: 1.1em;
     line-height: 1.6em;
-    color: lightgray;
+    color: #8e8d8d;
   }
 
   img {
@@ -336,7 +344,7 @@ a:hover, a:visited, a:link, a:active {
 
 .proj-text-heading{
   font-weight: 500;
-  padding-bottom: 5%;
+  padding-bottom: 1%;
 }
 
 

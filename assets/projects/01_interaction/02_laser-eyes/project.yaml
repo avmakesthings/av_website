@@ -2,7 +2,7 @@
 name: Laser Eyes
 description: My first experiment with AKKit. 
 thumbnail: whole-campus-thumb.png
-wip: true
+wip: false
 featured: true
 date: Jan 2018 //
 meta: ARKit / Unity / iOS

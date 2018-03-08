@@ -1,11 +1,11 @@
 --- 
 name: VR-OS
-description: A VR operating system prototype made with Unity
-thumbnail: whole-campus-thumb.png
+description: A spatial operating system interface prototype made with Sketch, Unity & Blender.
+thumbnail: test005-500.png
 wip: true
 featured: true
 date: Feb 2018 - Now //
-meta: VR / Unity / HTC Vive 
+meta: VR / Unity / HTC Vive / UI
 # blocks: 
 #     - 
 #       type: project-header

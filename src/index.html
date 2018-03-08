@@ -26,7 +26,7 @@
 
           <div class="row landing-icon">
             <div class="col-sm-12 body-text index-page ">
-              My name is <a href="contact.html">Anastasia Victor</a>. I used to be an architect but now I design interfaces &amp interaction for <a href="projects.html#01_interaction">VR.</a> I also create installation &amp; graphic <a href="projects.html#02_art">art</a> to explore my interests in computational geometry, physical spaces &amp; human-computer interaction. <br>
+              My name is <a href="contact.html">Anastasia Victor</a>. I used to be an architect but now I design 3D interfaces &amp interaction for <a href="projects.html#01_interaction">XR.</a> I also create installation &amp; graphic <a href="projects.html#02_art">art</a> to explore my interests in computational geometry, physical spaces &amp; human-computer interaction. <br>
               <br><a href="#featured">Check out</a> some of my work below &amp;  <a href="contact.html">get in touch</a> if you'd like to collaborate or learn more.
 
               <hr class="hidden-sm-up"/> 
@@ -52,7 +52,7 @@
     
                   <!-- TODO: Make this a partial -->
                   {{#if wip}}
-                    <a class="grid-item project-preview dark-hover" style ="width: 33.33%; padding: 1rem;">
+                    <a class="grid-item project-preview dark-hover grid-width">
                       <div class ="proj-thumbnail-dark">
                         <h6 class="masonry-metadata">{{date}}</h6>
                         {{#if video}}
@@ -69,7 +69,7 @@
                       </div>
                     </a>
                   {{else}}
-                    <a class="grid-item project-preview dark-hover"  style ="width:33.33%; padding:1rem;" href="{{slug}}.html">
+                    <a class="grid-item project-preview dark-hover grid-width"  href="{{slug}}.html">
                       <div class ="proj-thumbnail-dark">
                         <h6 class="masonry-metadata">{{date}}</h6>
                         {{#if video}}
