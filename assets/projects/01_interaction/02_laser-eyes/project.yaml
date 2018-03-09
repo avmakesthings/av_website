@@ -1,21 +1,23 @@
 --- 
 name: Laser Eyes
-description: My first experiment with AKKit. 
-thumbnail: whole-campus-thumb.png
+description: My first experiment with ARKit. 
+thumbnail: temple360-thumb.jpg
+lazysource: laser-eyes-thumb-optimize.mp4
 wip: false
-featured: true
+featured: false
+video: true
 date: Jan 2018 //
 meta: ARKit / Unity / iOS
-# blocks: 
-#     - 
-#       type: project-header
-#       heading: Hokukano House
-#       collaborators: In collaboration with Craig Steely Architecture
-#       description: Design, Construction Documentation & 3D Modelling for a private residence, sited on the high plateau between Hualalai and Moana Loa, Big Island Hawaii.
-#       url: www.craigsteely.com
-#     - 
-#       type: project-generic-image 
-#       image: hoku-render2.jpg
+blocks: 
+    - 
+      type: project-header
+      heading: Laser Eyes
+    #   collaborators: In collaboration with Craig Steely Architecture
+      description: I've been starting to experiment with the ARKit plugin in unity... it's a simple way to build to iOS 
+    #   url: www.craigsteely.com
+    - 
+      type: project-generic-mp4
+      video1: laser-eyes-2.mp4
 #     -
 #       type: project-divider
 #     # - 

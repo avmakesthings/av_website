@@ -52,7 +52,7 @@
     
                   <!-- TODO: Make this a partial -->
                   {{#if wip}}
-                    <a class="grid-item project-preview dark-hover grid-width">
+                    <div class="grid-item project-preview grid-width">
                       <div class ="proj-thumbnail-dark">
                         <h6 class="masonry-metadata">{{date}}</h6>
                         {{#if video}}
@@ -67,7 +67,7 @@
                         <h5>{{name}} - Coming soon</h5>
                         <p>{{description}}</p>
                       </div>
-                    </a>
+                    </div>
                   {{else}}
                     <a class="grid-item project-preview dark-hover grid-width"  href="{{slug}}.html">
                       <div class ="proj-thumbnail-dark">

@@ -145,6 +145,7 @@ a:hover, a:visited, a:link, a:active {
   max-width: 100%;
   padding: 0 15px;
   opacity: .5;
+  margin-top: -4rem;
 }
 .about-text{
   padding-left:30px;
@@ -198,6 +199,15 @@ a:hover, a:visited, a:link, a:active {
 
 .masonry-metadata {
   font-size: 0.8rem;
+  color: black;
+  mark {
+    background: yellow;
+  }
+}
+
+.masonry-date {
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
 }
 
 .project {
@@ -391,6 +401,11 @@ a:hover, a:visited, a:link, a:active {
   width: 100%;
   height: 100%;
 }
+
+.project-generic-mp4{
+  margin-top:4rem;
+}
+
 
 /*CSS Typewriter effect -
 Borrowed from Geoff Graham - https://css-tricks.com/snippets/css/typewriter-effect/

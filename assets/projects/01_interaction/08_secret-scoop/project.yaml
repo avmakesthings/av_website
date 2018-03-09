@@ -2,6 +2,9 @@
 name: Secret Scoop
 description: UI/UX Design and Web Development for a Bay Area food start-up
 thumbnail: secretscoop-thumb.jpg
+featured: false
+date: Jul - Dec 2015 //
+meta: UI / UX / Web dev.
 blocks: 
     - 
       type: project-header

@@ -1,8 +1,11 @@
 --- 
 name: Burning Man Temple 2017
-description: The Temple is one of the major structures and considered the spiritual heart of the Burning Man festival. 
+description: Design lead for the 2017 Temple at Burning Man. 
 thumbnail: Forest-thumb.jpg
 wip: false
+featured: false
+date: Nov 2016 - Sep 2017 //
+meta: Installation Art /
 blocks: 
     - 
       type: project-header

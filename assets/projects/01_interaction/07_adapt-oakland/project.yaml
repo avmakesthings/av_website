@@ -2,6 +2,9 @@
 name: Adapt Oakland
 description: Information Architecture, Web UI/UX,  Web Development for a green infrastructure framework developed for the City of Oakland & the California Strategic Growth Council
 thumbnail: adaptoakland-thumb.jpg
+featured: false
+date: Jan - Feb 2016 //
+meta: UI / UX / Web dev.
 blocks: 
     - 
       type: project-header

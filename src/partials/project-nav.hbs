@@ -7,8 +7,11 @@
 	    <div class="category {{slug}}">
 
         {{#projects}}
-
-  		    <div><a href="{{slug}}.html"> - {{name}}</a></div>
+          {{#if wip}}
+  		      <div style="color: #d0d0d0"> - {{name}} </div>
+          {{else}}
+  		      <div><a href="{{slug}}.html"> - {{name}}</a></div>
+          {{/if}}  
           
   		  {{/projects}}
 
