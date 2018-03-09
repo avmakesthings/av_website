@@ -81,9 +81,10 @@ h1, h2, h3, h4, h5, h6,
 	letter-spacing: .5px;
 }
 .index-page{
-  padding-right:25%;
-  font-size: 1.3em;
-  color: $body-bg;
+  padding-right:30%;
+  font-size: 1.25em;
+  //color: $body-bg;
+  color:black;
   margin-top:-5%;
   a {
     //color:$body-bg;
@@ -218,8 +219,9 @@ a:hover, a:visited, a:link, a:active {
 }
 
 .landing-icon {
-  background: #69f;
-  padding: 5%;
+  //background: #69f;
+  padding:  5% 0%;
+  
 }
 
 .landing-icon img {
@@ -440,7 +442,7 @@ Borrowed from Geoff Graham - https://css-tricks.com/snippets/css/typewriter-effe
 //Animations
 
 .svg-draw{
-    stroke: white;
+    stroke: $highlight-color;
     stroke-width: 2;
     stroke-dasharray: 500px;
     stroke-dashoffset: 500px;
@@ -470,7 +472,7 @@ Borrowed from Geoff Graham - https://css-tricks.com/snippets/css/typewriter-effe
 
 @keyframes colour {
   to {
-    fill: white;
+    fill:$highlight-color;
   }
 }
 

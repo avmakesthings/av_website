@@ -2,6 +2,10 @@
 name: Musubi House
 description: Design, Construction Documentation, Detailing & 3D Modelling for an off-the-grid concrete house, located on 100 acres of pasture land on the Paauilo, Big Island, Hawaii
 thumbnail: musubi-thumb.jpg
+wip: false
+featured: false
+date: Jun 2014 - Jun 2015 //
+meta: Architectural Design / 3D Modeling
 blocks: 
     - 
       type: project-header

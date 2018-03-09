@@ -2,6 +2,10 @@
 name: Tenderloin Public Toilet Project / Pplanter
 description: User Research, Experience Design, Industrial design & Systems engineering for a ecologically friendly street toilet prototype
 thumbnail: pplanter-thumb.jpg
+wip: false
+featured: false
+date: Jun 2012 - May 2014 //
+meta: Industrial Design / R & D / UX research
 blocks: 
     - 
       type: project-header
