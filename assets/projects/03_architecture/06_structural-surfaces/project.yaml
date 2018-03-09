@@ -2,6 +2,10 @@
 name: Structural Surfaces
 description: An investigation into the digital design and fabrication of folded plate structural surfaces
 thumbnail: folded-thumb.jpg
+wip: false
+featured: false
+date: Jan 2011 - May 2011 //
+meta: Architectural Design / R & D
 blocks: 
     - 
       type: project-header

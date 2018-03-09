@@ -81,9 +81,11 @@ h1, h2, h3, h4, h5, h6,
 	letter-spacing: .5px;
 }
 .index-page{
-  padding-right:25%;
-  font-size: 1.3em;
-  color: $body-bg;
+  padding-right:30%;
+  font-size: 1.25em;
+  //color: $body-bg;
+  color:black;
+  margin-top:-5%;
   a {
     //color:$body-bg;
     color:$highlight-color;
@@ -97,9 +99,10 @@ h1, h2, h3, h4, h5, h6,
   }
   a:link{
     //background: darken($highlight-color, 10%);
-    background: white;
+    background: #e6e6e6;
     margin: 0.1rem;
-    padding: 0.02rem 0.2rem;
+    //padding: 0.02rem 0.2rem;
+    padding: 0 0.2rem;
     //text-decoration: underline!important;
   }
 }
@@ -145,6 +148,7 @@ a:hover, a:visited, a:link, a:active {
   max-width: 100%;
   padding: 0 15px;
   opacity: .5;
+  margin-top: -4rem;
 }
 .about-text{
   padding-left:30px;
@@ -198,6 +202,15 @@ a:hover, a:visited, a:link, a:active {
 
 .masonry-metadata {
   font-size: 0.8rem;
+  color: black;
+  mark {
+    background: yellow;
+  }
+}
+
+.masonry-date {
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
 }
 
 .project {
@@ -206,8 +219,9 @@ a:hover, a:visited, a:link, a:active {
 }
 
 .landing-icon {
-  background: #69f;
-  padding: 5%;
+  //background: #69f;
+  padding:  5% 0%;
+  
 }
 
 .landing-icon img {
@@ -392,6 +406,11 @@ a:hover, a:visited, a:link, a:active {
   height: 100%;
 }
 
+.project-generic-mp4{
+  margin-top:4rem;
+}
+
+
 /*CSS Typewriter effect -
 Borrowed from Geoff Graham - https://css-tricks.com/snippets/css/typewriter-effect/
 */
@@ -423,7 +442,7 @@ Borrowed from Geoff Graham - https://css-tricks.com/snippets/css/typewriter-effe
 //Animations
 
 .svg-draw{
-    stroke: white;
+    stroke: $highlight-color;
     stroke-width: 2;
     stroke-dasharray: 500px;
     stroke-dashoffset: 500px;
@@ -453,7 +472,7 @@ Borrowed from Geoff Graham - https://css-tricks.com/snippets/css/typewriter-effe
 
 @keyframes colour {
   to {
-    fill: white;
+    fill:$highlight-color;
   }
 }
 

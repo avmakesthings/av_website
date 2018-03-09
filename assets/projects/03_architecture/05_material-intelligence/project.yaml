@@ -4,6 +4,10 @@ description: A study into dynamic surface generation through component propagati
 thumbnail: chevron-thumb1.jpg
 lazysource: chevron-thumb.mp4
 video: true;
+wip: false
+featured: false
+date: Aug 2011 - Dec 2011 //
+meta: Architectural Design / R & D
 blocks: 
     - 
       type: project-header

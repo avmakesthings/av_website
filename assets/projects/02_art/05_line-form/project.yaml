@@ -2,17 +2,29 @@
 name: Line & Form
 description: Graphic art with line and form.
 thumbnail: whole-campus-thumb.png
-wip: true
-# blocks: 
-#     - 
-#       type: project-header
-#       heading: Hokukano House
-#       collaborators: In collaboration with Craig Steely Architecture
-#       description: Design, Construction Documentation & 3D Modelling for a private residence, sited on the high plateau between Hualalai and Moana Loa, Big Island Hawaii.
-#       url: www.craigsteely.com
-#     - 
-#       type: project-generic-image 
-#       image: hoku-render2.jpg
+wip: false
+featured: false
+date: Jan 2011 - Now //
+meta: Graphic Art /
+blocks: 
+    - 
+      type: project-header
+      heading: Line & Form
+    #   collaborators: In collaboration with Craig Steely Architecture
+      # description: A series of exploratory works, generated through
+    #   url: www.craigsteely.com
+    - 
+      type: project-generic-image 
+      image: Wall-piece.jpg
+    - 
+      type: project-generic-image 
+      image: Gradient_shape_1.png        
+    - 
+      type: project-generic-image 
+      image: Lines_1A.jpg        
+    - 
+      type: project-generic-image 
+      image: whole campus diagram.png           
 #     -
 #       type: project-divider
 #     # - 

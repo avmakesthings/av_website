@@ -5,6 +5,9 @@ thumbnail: come-together.jpg
 lazysource: come-together.mp4
 wip: true
 video: true
+featured: false
+date: Mar 2017 //
+meta: Graphic Art / Unity / 
 # blocks: 
 #     - 
 #       type: project-header

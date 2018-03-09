@@ -2,6 +2,9 @@
 name: Pplanter Web
 description:  Web UI/UX Design & Web Development for a website that explains the Pplanter, a sustainable street toilet prototype
 thumbnail: pplanter-web-thumb.jpg
+featured: false
+date: Apr 2016 //
+meta: UI / UX / Web dev.
 blocks: 
     - 
       type: project-header

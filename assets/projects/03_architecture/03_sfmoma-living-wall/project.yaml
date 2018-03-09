@@ -2,6 +2,10 @@
 name: SFMOMA Living Wall
 description: Systems engineering & Project management for a 3-story living wall installation at SFMOMA
 thumbnail: sfmoma-thumb.jpg
+wip: false
+featured: false
+date: Jun 2012 - May 2014 //
+meta: Systems Design / R & D 
 blocks: 
     - 
       type: project-header
