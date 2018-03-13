@@ -109,7 +109,12 @@ function loadImagesFromAttribute(attribute){
 }
 
 
-
+// function changeToNextProject(){
+// 	var nextProjButton = document.getElementById('next-project')
+// 	nextProjButton.onclick() = function() {(
+// 		console.log('i am clicked')
+// 	)}
+// }
 
 $(window).on('load', function(){
 	hideLoader()
@@ -119,6 +124,7 @@ $(window).on('load', function(){
 	$('.carousel').carousel({
 		interval: 6000
 	})
+
 
 	if(window.location.pathname === "/projects.html"){
 		// On the projects page, open the menu to the category in the url hash

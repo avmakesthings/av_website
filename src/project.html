@@ -8,22 +8,44 @@
       <div class="container">
         {{> loader }}
         {{> header-typ }}
+        <div class="row">
+  
+            <div class="project-container">        
+              {{#blocks}}
 
-          <div class="project container">        
-            {{#blocks}}
+                <div class="project-block">
+                  {{> (lookup . 'type')}}
+                </div>
+                
+                {{/blocks}}
 
-              <div class="project-block">
-                {{> (lookup . 'type')}}
+              <div class="row project-end">
+                <div class="project-nav-link">
+                  <a id="previous-project" href="#null" onclick="javascript:history.back();">
+                    <h6><mark>&larr; Previous </mark></h6>
+                  </a>
+                </div>
+                <div class="hidden-xs">
+                  <h6>&vert;</h6>
+                </div>
+                <div class="project-nav-link">
+                  <a id= "next-project" href="#null" onclick="">
+                    <h6><mark>Next Project &rarr;</mark></h6>
+                  </a>
+                </div>
+                <div class="hidden-xs">
+                  <h6>&vert;</h6>
+                </div>
+                <div class="project-nav-link">
+                  <a href="/projects.html#{{category}}">
+                    <h6><mark>Back to Menu &larrhk;</mark><h6>
+                  </a>
+                </div>
+               
               </div>
-              
-              {{/blocks}}
-
-            <div class="project-end">
-              <a href="/projects.html#{{category}}">
-                <h6>View more work>>><h6>
-              </a>
             </div>
-          </div>
+
+        </div>
 
 
         {{> footer }}

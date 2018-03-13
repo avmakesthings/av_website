@@ -1,8 +1,14 @@
 <div class="project-header">
+    <h1>{{date}}</h1>
     <h3>{{heading}}</h3>
-    <em> &mdash; {{collaborators}}</em>
-    <h6 class = "proj-descrip">{{description}}</h6>
-    <p>
-    	<a href ="http://{{link}}">{{link}}</a>
-    </p>  
+    <h5 class = "proj-descrip">{{tags}}</h5>    
+    <p>{{description}}</p> 
+    <h4> {{collaborators}}</h4>
+    {{#if link}}
+        <h6>
+    	    <a href ="http://{{link}}">{{link-text}}</a>
+        </h6> 
+    {{/if}}
+
+
 </div>

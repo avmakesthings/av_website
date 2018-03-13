@@ -1,0 +1,79 @@
+--- 
+name: Structural Surfaces
+description: An investigation into the digital design and fabrication of folded plate structural surfaces
+thumbnail: folded-thumb.jpg
+wip: false
+featured: false
+date: Jan 2011 - May 2011 //
+meta: Architectural Design / R & D
+blocks: 
+    - 
+      type: project-header
+      date: Jan 2011 - May 2011 //
+      tags: Architectural Design / R & D
+      heading: Structural Surfaces / Folded Plate
+      collaborators: For Prof. Lisa Iwamoto - With Madeline Hartzell, Joe Taylor-Nowell, Zachary Streitz, Jessica Willemsen, Nathan John & Neil Wiita
+      description: An investigation into the digital design and fabrication of folded plate structural surfaces
+      # url: www.xyz.com
+    - 
+      type: project-generic-video 
+      video-url: https://www.youtube.com/embed/0JovREZootQ?rel=0&amp;showinfo=0
+    - 
+      type: project-generic-text
+      description: Folded plate was the collaborative product of a 6 month investigation into digital fabrication and structural surfaces completed with the Material Geometries research studio at UC Berkeley, under the direction of Lisa Iwamoto. Research and development resulted in an installation that was exhibited on the UC Berkeley campus for 6 months.   
+    -
+      type: project-divider-line
+    - 
+      type: project-generic-text
+      heading: Form finding through 3D modelling & parametric design
+      description: A series of folded plate structural surfaces were generated using Rhino and Grasshopper.
+    - 
+      type: project-generic-image 
+      image: folded-form1-invert.png  
+    - 
+      type: project-generic-image 
+      image: folded-form2-invert.png  
+    - 
+      type: project-generic-image 
+      image: folded-rhino2.png          
+    - 
+      type: project-generic-2-col-image
+      image1: folded-rhino1.png
+      image2: folded-rhino3.png
+    - 
+      type: project-generic-image 
+      image: folded-grass.png      
+    - 
+      type: project-generic-text
+      heading: Experiments in porosity
+      description: We were interested in the relationship between folding an porosity.  Experimental models were made with paper to quickly test different effects.
+    - 
+      type: project-generic-image 
+      image: folded-andy.jpg    
+    - 
+      type: project-generic-image 
+      image: folded-models.png  
+    - 
+      type: project-generic-text
+      heading: Structural Analysis 
+      description: Final forms were tested using Algor, a structural analysis plugin that can be used with grasshopper.
+    - 
+      type: project-generic-image 
+      image: folded-ghdef.png 
+    - 
+      type: project-generic-image 
+      image: folded-algor.jpg            
+    - 
+      type: project-generic-text
+      heading: Fabrication & Installation
+      description: The project was built using plasma cut 18guage sheet steel and a LOT of rivets.
+    # - 
+    #   type: project-generic-image 
+    #   image: folded-install3.jpg              
+    - 
+      type: project-generic-2-col-image
+      image1: folded-install2.jpg
+      image2: folded-install1.jpg  
+    - 
+      type: project-generic-image 
+      image: foldedplate4.jpg

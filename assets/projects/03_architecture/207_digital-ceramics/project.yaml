@@ -1,0 +1,80 @@
+--- 
+name: Digital Ceramics
+description: Research into the combination of digital fabrication and slip cast ceramics
+thumbnail: ceramics-thumb.gif
+wip: false
+featured: false
+date: Aug 2010 - Dec 2010 //
+meta: Architectural Design / R & D
+blocks: 
+    - 
+      type: project-header
+      date: Aug 2010 - Dec 2010 //
+      tags: Architectural Design / R & D
+      heading: Digital Ceramics
+      collaborators: -For Prof. Ron Rael. -- Part 2 of this work was a collaboration with Bryan Allen
+      description: Research into the synthesis of digital fabrication and slip cast ceramics
+
+ 
+      # url: www.xyz.com
+    - 
+      type: project-generic-image 
+      image: ceramics-main.jpg
+    - 
+      type: project-generic-image 
+      image: diatom.png       
+    - 
+      type: project-generic-text
+      heading: Part 1 - The Good
+      description: The Digital Ceramics research studio was focused on developing new ways to design and build by combining traditional ceramic fabrication techniques with digital fabrication. We used diatoms as a basis for generating forms. Designs were generated in Modo, then CNC routed into plaster ingots which were then used as moulds for slip casting porcelain. The first research push looked at how translucency could be emphasized through the use of custom CNC toolpaths.
+    - 
+      type: project-generic-image 
+      image: ceramics-star-tile1.svg
+    - 
+      type: project-generic-2-col-image
+      image1: ceramics-star-tile1.png
+      image2: ceramics-star-agg1.png
+    - 
+      type: project-generic-2-col-image
+      image1: ceramics-star-pic6.jpg
+      image2: ceramics-star-lights.gif           
+    - 
+      type: project-generic-image 
+      image: ceramics-star-pic4.jpg           
+    - 
+      type: project-generic-2-col-image
+      image1: ceramics-star-pic3.jpg
+      image2: ceramics-star-pic2.jpg
+    - 
+      type: project-generic-text
+      heading: Installation & Lighting
+      description: Experimentation with custom tool-paths on the surface of the tiles was emphasized through various types of LED lighting. 
+    - 
+      type: project-generic-image 
+      image: ceramics-star-pic1.jpg   
+    - 
+      type: project-generic-image 
+      image: ceramics-berkeley-section.png            
+    - 
+      type: project-generic-text
+      heading: Part 2 - The Weird
+      description: The second part of the research was focused on stacking and interlocking as tectonics.  Things got weird.
+    - 
+      type: project-generic-2-col-image
+      image1: ceramics-bone-render2.jpg
+      image2: ceramics-bone-render3.jpg
+    - 
+      type: project-generic-2-col-image
+      image1: ceramics-bone-render4.jpg
+      image2: ceramics-bone-render5.jpg      
+    - 
+      type: project-generic-image
+      image: ceramics-bone-drawings.jpg
+    - 
+      type: project-generic-2-col-image
+      image1: ceramics-bone1.gif
+      image2: ceramics-bone2.gif 
+    - 
+      type: project-generic-image 
+      image: ceramics-bone-render1.jpg        
+

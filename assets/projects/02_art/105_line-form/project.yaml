@@ -1,0 +1,27 @@
+--- 
+name: Line & Form
+description: Graphic art with line and form.
+thumbnail: whole-campus-thumb.png
+wip: false
+featured: false
+date: Jan 2011 - Now //
+meta: Graphic Art /
+blocks: 
+    - 
+      type: project-header
+      date: Jan 2011 - Now //
+      heading: Line & Form
+      tags: Graphic Art / Computational Design / Illustrator
+      description: Line and Form is an ongoing study of mine into methods geometric representation.  The works below use a combination of generation techniques ranging from scripting in Grasshopper / Rhinoceros3D to blending in Adobe Illustrator. Further explorations also include printing on different media, including vinyl and traditional screen prints.
+    - 
+      type: project-generic-image 
+      image: Wall-piece.jpg
+    - 
+      type: project-generic-image 
+      image: Gradient_shape_1.png        
+    - 
+      type: project-generic-image 
+      image: Lines_1A.jpg        
+    - 
+      type: project-generic-image 
+      image: whole campus diagram.png           

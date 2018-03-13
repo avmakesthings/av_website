@@ -9,8 +9,8 @@
 
 
 /*** FONTS ***/
-@import url('https://fonts.googleapis.com/css?family=Roboto:300');
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,500,700|Roboto+Mono|Roboto+Condensed:700');
+
 
 
 /*** PARTIALS ***/
@@ -31,7 +31,7 @@
 /// @param {Color} $background-color [mix($foreground-color, white, 50%)] - Scrollbar's color
 /// @example scss - Scrollbar styling
 ///   @include scrollbars(.5em, slategray);
-@mixin scrollbars($size, $background-color, $foreground-color: mix($background-color, white,  80%)) {
+@mixin scrollbars($size, $background-color, $foreground-color: mix($highlight-color, lightgray,  10%)) {
   // For Google Chrome
   ::-webkit-scrollbar {
       width:  $size;
@@ -181,6 +181,12 @@ a:hover, a:visited, a:link, a:active {
   background: $body-bg;
 }
 
+.projects-list-menu{
+  border-right: dashed 2px white;
+  margin-right: 5%;
+  padding-right: 2%;
+}
+
 .category {
 	display: none;
 }
@@ -196,7 +202,7 @@ a:hover, a:visited, a:link, a:active {
 .category-description {
   margin-top: 30px;
   padding-top: 20px;
-  border-top: 1px solid white;
+  border-top: 2px dashed white;
 
 }
 
@@ -238,12 +244,13 @@ a:hover, a:visited, a:link, a:active {
   display: inline-block;
   // color: white!important;
   color: black!important;
-  padding: 8px;
+  // padding: 8px;
+  padding: 2%;
 }
 
 .grid-width{
   width: 33.33%; 
-  padding: 1rem;
+  padding: 1.5rem;
 }
 
 .dark-hover{
@@ -286,7 +293,7 @@ a:hover, a:visited, a:link, a:active {
 
 .proj-thumbnail {
   padding: 5px 5px 8px 5px;
-  border-bottom: 1px dashed white
+  border-bottom: 2px dashed white
 }
 
 .proj-thumbnail-dark {
@@ -301,7 +308,8 @@ a:hover, a:visited, a:link, a:active {
     letter-spacing: 1px;
     font-size: 1.1em;
     line-height: 1.6em;
-    color: #8e8d8d;
+    color:black;
+    //padding:10%;
   }
 
   img {
@@ -310,25 +318,79 @@ a:hover, a:visited, a:link, a:active {
 
 }
 
+.project-container{
+  padding: 1.25%;
+  margin-top: -5%;
+  text-align:center;
+  
+}
+
+.project-siderbar{
+  position: fixed;
+}
+
 .project-header {
-	text-align: left;
-  width: 80%;
-  margin-bottom: -30px;
+	text-align: center;
+  margin-bottom: -20px;
+  //background: #eee;
+
+  background: #686cf3;
+  padding: 10% 20%;
+  h1{
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Roboto', monospace;
+    padding-bottom: 5%;
+  }
   h3 {
-		text-transform: uppercase;
-		font-size: 1.4em;
-		font-family: 'Roboto Mono';
-		font-weight: 500;
-		letter-spacing: 2px;		
+		//text-transform: uppercase;
+    font-size: 4rem;
+    font-weight: 400;
+		font-family: 'Roboto', monospace;
+		letter-spacing: 1rem;
+    color:white;
+    //mix-blend-mode: exclusion;	
+    padding: 0 10%;	
+    padding-bottom: 5%;
+    text-transform: uppercase;
 	}
-  em {
+  h4 {
     color: lightgray;
+    font-size:1rem;
+    line-height: 1.3rem;
+  }
+  h5 {
+    font-size:1rem;
+    line-height: 1.3rem;
+  }
+  h6{
+    padding-top: 7%;
+    a{
+      background: lighten(#686cf3, 5%);
+      padding: 1% 2%;
+    }
+    a:hover{
+      background:orange;
+    }
   }
   p {
-    font-size: .8em;
-    color: orange;
+    font-size: 1.4em;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    padding: 5% 0;
   }
 
+}
+
+.project-header-text{
+  background: #faefdb;
+  color:#ff1a1d;
+  padding: 5% 20%;
+  h3 {
+    line-height: 2rem;
+    font-size: 1.25rem;
+  }
 }
 
 .proj-descrip {
@@ -338,6 +400,11 @@ a:hover, a:visited, a:link, a:active {
 
 .project-end {
   margin-top: 120px;
+  display: inline-flex;
+  // background: #ccc;
+  // padding: 10%;
+  // width: 100%;
+  margin-bottom: -10rem;
 }
 
 
@@ -358,7 +425,7 @@ a:hover, a:visited, a:link, a:active {
 
 .proj-text-heading{
   font-weight: 500;
-  padding-bottom: 1%;
+  padding-bottom: 3%;
 }
 
 
@@ -380,15 +447,17 @@ a:hover, a:visited, a:link, a:active {
 
 
 .project-divider-line{
-   margin-top:5%;
-   margin-bottom:5%;
    height:1px;
    width:100%;
-   border-top:1px solid gray;
+   border-top:1px dashed gray;
 }
 
 .project-generic-2-col-image img {
   margin-bottom: 15px;
+}
+
+.project-generic-text{
+  padding: 10%;
 }
 
 .project-generic-video {
@@ -406,10 +475,31 @@ a:hover, a:visited, a:link, a:active {
   height: 100%;
 }
 
-.project-generic-mp4{
-  margin-top:4rem;
+.project-nav-link{
+  margin: 0 20px;
+  mark:hover{
+    background: $highlight-color;
+  }
 }
 
+.project-generic-list{
+  p{
+    padding-bottom: 5%;
+  }
+  padding: 10%;
+}
+
+.project-text-list{
+  color: $bold-color;
+  list-style-type: none;
+
+  h5{
+    font-size:1rem;
+    padding: 1% 5%;
+    font-weight: 400;
+    
+  }
+}
 
 /*CSS Typewriter effect -
 Borrowed from Geoff Graham - https://css-tricks.com/snippets/css/typewriter-effect/
@@ -520,7 +610,9 @@ Borrowed from Geoff Graham - https://css-tricks.com/snippets/css/typewriter-effe
 
 }
 
-
+.invert {
+  filter: invert(100%);
+}
 
 
 
