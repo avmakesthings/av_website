@@ -1,0 +1,38 @@
+--- 
+name: Laser Eyes
+description: My first experiment with ARKit. 
+thumbnail: temple360-thumb.jpg
+lazysource: laser-eyes-thumb-optimize.mp4
+wip: false
+featured: false
+video: true
+date: Jan 2018 //
+meta: ARKit / Unity / iOS
+blocks: 
+    - 
+      type: project-header
+      date: Jan 2018 //
+      heading: Laser Eyes
+      tags: ARKit / Unity / iOS
+      description: Laser Eyes is my first experiment with the ARKit plugin for Unity and is built for iPhoneX.  It using simple motion tracking to map a laser particle systems onto a users eyes. 
+    - 
+      type: project-generic-mp4
+      video1: laser-eyes-2.mp4
+#     -
+#       type: project-divider
+#     # - 
+#     #   type: project-generic-text
+#     #   heading: a section heading
+#     #   description: section description
+#     - 
+#       type: project-generic-image 
+#       image: hoku-render1.jpg 
+#     -
+#       type: project-divider
+#     - 
+#       type: project-generic-text
+#       heading: More coming soon ...                
+    # - 
+    #   type: project-generic-2-col-image
+    #   image1: myimage1.jpg
+    #   image2: myimage2.jpg

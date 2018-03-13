@@ -1,4 +1,6 @@
 <div class="project-generic-image">
-	<h5 class= "proj-text-heading">{{ heading }}</h5>	
+	{{#if heading}}
+		<h5 class= "proj-text-heading">{{ heading }}</h5>	
+    {{/if}}
 	<img class="b-lazy" src="img/{{image}}" data-src="img/{{lazysource}}"/>
 </div>

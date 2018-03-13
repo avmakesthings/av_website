@@ -1,0 +1,106 @@
+--- 
+name: Burning Man Temple 2017
+description: Design lead for the 2017 Temple at Burning Man. 
+thumbnail: Forest-thumb.jpg
+wip: false
+featured: false
+date: Nov 2016 - Sep 2017 //
+meta: Installation Art /
+blocks: 
+    - 
+      type: project-header
+      date: Nov 2016 - Sep 2017 //
+      heading: Burning Man Temple 2017
+      tags: Installation Art / Computational Design / 3D Modelling / Rendering / Digital Fabrication / Construction
+      collaborators: In collaboration with Marisha Farnsworth [Lead artist], Steve Brummond [Lead Artist], Mark Sinclair [Structural Engineer], John Faichney [Design Lead], Chris Lander [Design Lead] & the Temple Crew
+      description:  The Temple, one of the major art installations at Burning Man, is a sacred space for people to reflect, grieve and find resolution. I worked as a design lead on the project, developing the architectural design through iterative 3D modeling and rendering.     
+      link: www.temple2017.org
+      link-text: Visit Website
+    - 
+      type: project-generic-image 
+      image: temple-2017-dust-cover.jpg
+    - 
+      type: project-generic-text
+      heading: About the Temple
+      description:  The 2017 Temple was the 18th interation of the project, which is built annually at Burning Man and burned with great ceremony on the final day. It was a great honor to have been awarded the Temple grant through Burning Man Arts to create the project and it took a team of approx 100 volunteers around a year to complete it.  
+    - 
+      type: project-generic-image 
+      image: Temple-location.jpg        
+    - 
+      type: project-generic-text
+      heading: The Material - Beetle Kill Pine
+      description: We were fortunate to be able to use a renewable resource, beetle-kill pine as the primary material for the Temple. Dead logs, felled as a result if California's tree mortality crisis were sourced from the Sierra's and milled in Richmond. Milling our own wood allowed us to use custom sizes.
+    - 
+      type: project-generic-image 
+      image: beetle-kill.jpg           
+    - 
+      type: project-generic-2-col-image
+      image1: temple-logs.jpg
+      image2: temple-milling.jpg      
+    - 
+      type: project-generic-text
+      heading: The Design Process
+      description:   The process of design for the 2017 Temple started in November 2016 and we worked iteratively through different concepts. Ideas were represented through sketch, 3D models, physical models and renderings. I used Rhinoceros3D and Blender for 3D modeling, Cycles in Blender for the the majority of the project renderings and Grasshopper, a parametric modelling plugin for Rhino for generative design. Python scripts were also used extensively for form generation in Rhino.      
+    - 
+      type: project-generic-image 
+      image: 170311_tower_sketch-small.jpg 
+    - 
+      type: project-generic-image 
+      image: BM_Temple-Elevation-Drawing_MF-small.jpg       
+    - 
+      type: project-generic-image 
+      image: Procession-small-resize.jpg       
+    - 
+      type: project-generic-image 
+      image: Forest-small-resize.jpg
+    - 
+      type: project-generic-image 
+      image: Night-small-resize.jpg     
+    - 
+      type: project-generic-image 
+      image: BM_Temple-Model_MF-small.jpg
+    - 
+      type: project-generic-image 
+      image: BM_Temple-Model_Detail_MF-small.jpg
+    - 
+      type: project-generic-video 
+      video-url: https://www.youtube.com/embed/YXMhrHe9a6E?rel=0&amp;controls=0&amp;showinfo=0  
+    - 
+      type: project-generic-text
+      heading: The Build
+      description:   The Temple Crew started fabrication in May at American Steel Studios, a pre-build site in West Oakland.  Pedestals and other components were pre-built and shipped up to Gerlach prior to commencing the on-site build in the desert. At the start of August, three weeks before Burning Man commenced, the crew moved out to the Black Rock Desert, where final building and assembly occured.                          
+    - 
+      type: project-generic-image 
+      image: BM_Temple-Construction_MF_small.jpg
+    - 
+      type: project-generic-image 
+      image: BM_Temple-Exterior3_AV_small.jpg     
+    - 
+      type: project-generic-image 
+      image: BM_Temple-Exterior2_AV_small.jpg     
+    - 
+      type: project-generic-image 
+      image: BM_Temple-Exterior_MF_small.jpg
+    - 
+      type: project-generic-image 
+      image: BM_Temple-Basket_LD_small.jpg   
+    - 
+      type: project-generic-image 
+      image: BM_Temple-mixed_AV_small.jpg
+    - 
+      type: project-generic-image 
+      image: BM_Temple-Interior2_LD_small.jpg   
+    - 
+      type: project-generic-image 
+      image: BM_Temple-Altar_JP_small.jpg 
+    - 
+      type: project-generic-image 
+      image: BM_Temple-Night_small.jpg    
+    - 
+      type: project-generic-image 
+      image: BM_Temple-Burn_NS_small.jpg         
+    - 
+      type: project-generic-text
+      heading: The Final Installation
+      description:   The 2017 Temple opened on the first Monday of the festival and was host to over 60,000 participants. It was a deeply spiritual experience for many and many also left tokens of rememberance attached to the structure. As is the tradition, the Temple was burned at sunset the last day; the third major burn to close out the festival.
+

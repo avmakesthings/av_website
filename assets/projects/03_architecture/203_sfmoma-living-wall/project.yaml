@@ -1,0 +1,38 @@
+--- 
+name: SFMOMA Living Wall
+description: Systems engineering & Project management for a 3-story living wall installation at SFMOMA
+thumbnail: sfmoma-thumb.jpg
+wip: false
+featured: false
+date: Jun 2012 - May 2014 //
+meta: Systems Design / R & D 
+blocks: 
+  - 
+    type: project-header
+    date: Jun 2012 - May 2014 //
+    heading: SFMOMA Living Wall
+    tags: Systems Design / R & D 
+    collaborators: In collaboration with Hyphae Design Lab, Habitat Horticulture, Snohetta & SFMOMA
+    description: Systems engineering, Construction detailling & Project management for a 3-story living wall installation at SFMOMA
+    url: www.sfmoma.org/watch/the-living-wall
+  - 
+    type: project-generic-image 
+    image: sfmoma_living_wall_overhead.jpg
+  - 
+    type: project-generic-text
+    description: Hyphae Design Lab worked with Habitat Horticulture to design & engineer the SFMOMA living wall - a focal point of the new building, designed by Snohetta. I worked on the project for 2 years, on the project management, systems design and specification for the living wall.   
+  - 
+    type: project-generic-image 
+    image: sfmoma_living_wall2.jpg
+  - 
+    type: project-generic-2-col-image
+    image1: sfmoma-system.jpg
+    image2: sfmoma-planting.jpg          
+    # - 
+    #   type: project-generic-2-col-image
+    #   image1: myimage1.jpg
+    #   image2: myimage2.jpg
+    # - 
+    #   type: project-generic-text
+    #   heading: a section heading
+    #   description: section description

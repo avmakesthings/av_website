@@ -1,0 +1,70 @@
+--- 
+name: Pplanter Web
+description:  Web UI/UX Design & Web Development for a website that explains the Pplanter, a sustainable street toilet prototype
+thumbnail: pplanter-web-thumb.jpg
+featured: false
+date: Apr 2015 //
+meta: UI / UX / Web dev.
+blocks: 
+    - 
+      type: project-header
+      date: Apr 2015 //
+      heading: Pplanter Website
+      tags: UI / UX / Web Development
+      collaborators: In collaboration with Hyphae Design Lab
+      description: The PPlanter is a sustainable street toilet prototype that has been tested on the streets of San Francisco and at the Market St Prototyping Festival, which I designed with Hyphae. With an increasing public presence, we sought to create a website to better explain the project.
+    - 
+      type: project-generic-image 
+      image: pplanter-web-diagram.gif        
+    - 
+      type: project-generic-text
+      heading: A Much Needed Update
+      description: The old pplanter website was in need of an upgrade. I worked on rebuilding the website with jade, less, gulp and bootstrap. The interactive svg was made using the snap library. Main screens are displayed below.
+    - 
+      type: project-generic-image 
+      image: pplanter-web-old.jpg
+    -
+      type: project-divider       
+    -
+      type: project-design-goals
+      heading: Design Goals
+      items:
+        -
+          image: pplanter-web-dg1.svg
+          sub-heading: Concisely explain the Pplanter project
+        -
+          image: pplanter-web-dg2.svg
+          sub-heading: Create some fun interactive web elements
+        -
+          image: pplanter-web-dg3.svg
+          sub-heading: Tell a good story
+    -
+      type: project-divider-line        
+    - 
+      type: project-generic-image 
+      image: pplanter-web-wireframe.jpg
+    - 
+      type: project-generic-image 
+      image: pplanter-web_main.jpg    
+    - 
+      type: project-generic-image 
+      image: pplanter-web-screen1.jpg
+    - 
+      type: project-generic-image 
+      image: pplanter-web-screen2.jpg 
+    - 
+      type: project-generic-image 
+      image: pplanter-web-screen3.jpg 
+    - 
+      type: project-generic-image 
+      image: pplanter-web-screen4.jpg                            
+    # - 
+    #   type: carousel
+    #   id: pw1
+    #   images:
+    #     - pplanter-web-screen1.jpg
+    #     - pplanter-web-screen2.jpg
+    #     - pplanter-web-screen3.jpg
+    #     - pplanter-web-screen4.jpg 
+     
+      

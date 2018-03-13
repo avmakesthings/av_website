@@ -1,0 +1,130 @@
+--- 
+name: Fit.ness
+description: Concept design (UI/UX, Interaction, Product) for a seed stage fitness tracking iOS app.
+thumbnail: fitness-thumb.jpg
+date: May - Jul 2015 //
+featured: true
+meta: UI / UX / iOS
+blocks: 
+    - 
+      type: project-header
+      date: May - Jul 2015 //
+      heading: Fit.ness
+      tags: UI / UX / iOS / Product Design/ Interaction
+      description: Fit.ness was a prototype for a seed stage fitness tracking iOS app that I created with a developer, with the aim of seeking investment.
+      collaborators: In collaboration with an iOS developer. 
+    -
+      type: project-divider    
+    - 
+      type: project-mp4
+      video: fitness-demo.mp4
+      img-backup: fitness-demo.jpg       
+
+    # - 
+    #   type: project-generic-image 
+    #   image: fitness-demo.jpg
+    #   lazysource: fitness-demo.gi
+    - 
+      type: project-generic-text
+      description: >
+        Fitness trackers are one of the most ubiquitous wearables today. A myriad of apps exist that use and display fitness tracking data, yet there is still a very high rate of attrition with the use of these devices. Fit.ness aims to provide a solution to this problem. It is a simple iOS app targeting existing fitness tracker owners, which encourages users to maintain an exercise routine by meeting daily challenges. 
+    -
+      type: project-design-goals
+      heading: Design Goals
+      items:
+        -
+          image: fitness-dg1.svg
+          sub-heading: Demonstrate proof of concept
+        -
+          image: fitness-dg2.svg
+          sub-heading: Encourage daily use
+        -
+          image: fitness-dg3.svg
+          sub-heading: Clear data visualization
+    -
+      type: project-divider        
+    - 
+      type: project-generic-image
+      heading: Our Users 
+      image: fitness-users-yoga.jpg
+    # -
+    #   type: triad
+    #   items:
+    #       -
+    #         sub-heading: Fitness enthusiasts
+    #         description: blah blah
+    #       -
+    #         sub-heading: Fitness tracker owners
+    #         description: blah blah
+    #       -
+    #         sub-heading: All genders
+    #         description: blah blah
+
+    # -
+    #   type: project-generic-list
+    #   heading: Product Design
+    #   description: 
+    #     After the initial phase of redefning the brand identity, I worked closely with our Head of Product to develop our web and iOS beta trials. Key aspects included
+    #   listItems:
+    #     - text: Translating our updated brand identity to products, which involcved an entire website redesign & iOS app design
+    #     - text: Ensuring that we were able to test and evaluate the designs in the best possible way
+    #     - text: Messaging across different touchpoints
+    #     - text: Minimizing friction in user flows         
+    # -      
+    #   type: carousel
+    #   id: fn1
+    #   images:
+    #     - fitness-sketch1.jpg
+    #     - fitness-sketch2.jpg    
+    # -
+    #   type: project-divider-line        
+    - 
+      type: project-generic-text
+      heading: User Flows
+      description: >
+        To demonstrate proof of concept for the app, core user flows such as onboarding and typical daily use were developed and refined. Flows were typically sketched on paper and then diagrammed in Illustrator.
+    - 
+      type: project-generic-image 
+      image: fitness-userflow-01.png  
+    -
+      type: project-divider-line      
+    - 
+      type: project-generic-text
+      heading: Micro Interaction Design
+      description: >
+        To satisfy design goals and create a working prototype, core interactions were designed and mocked up using proto.io.                       
+    - 
+      type: carousel
+      id: fn2
+      images:
+        - fitness_interaction1.jpg
+        - fitness_interaction2.jpg
+        - fitness_interaction3.jpg 
+    - 
+      type: project-generic-text
+      heading: High Fidelity Prototyping
+      description: >
+        High fidelity mocks were genererated using Illustator and Photoshop.
+    - 
+      type: project-generic-image 
+      image: fitness-device.jpg
+    - 
+      type: project-generic-image 
+      image: fitness-mocks.jpg       
+    - 
+      type: project-generic-text
+      heading: Final Thoughts
+      description: >
+        While our product concept was strong for the time, with compelling user interface and interaction design, this app like many others sadly did not get funded. It was however a great project to work on and a good experience in rapid concept development & presentation.   
+
+    # - 
+    #   type: project-generic-2-col-image
+    #   image1: myimage1.jpg
+    #   image2: myimage2.jpg
+    # - 
+    #   type: project-generic-text
+    #   heading: a section heading
+    #   description: section description
+
+
+

@@ -1,0 +1,100 @@
+--- 
+name: Adapt Oakland
+description: Information Architecture, Web UI/UX,  Web Development for a green infrastructure framework developed for the City of Oakland & the California Strategic Growth Council
+thumbnail: adaptoakland-thumb.jpg
+featured: false
+date: Dec 2015 - Feb 2016 //
+meta: UI / UX / Web dev.
+blocks: 
+    - 
+      type: project-header
+      date: Jan - Feb 2016 //
+      heading: Adapt Oakland / An Ecosystem Services Model
+      tags: Information Architecture / UI / UX / Web Development
+      collaborators: In collaboration with Urban Biofilter, The Earth Island Institute, John Faichney & Ben Golder
+      description:  Adapt Oakland is green infrastructure framework developed by Urban Biofilter, an Oakland based non-profit, for the City of Oakland & the California Strategic Growth Council. I worked with them to design and build a web interface for their research.
+      link: www.adaptoakland.org
+      link-text: Visit Website
+    - 
+      type: project-generic-image 
+      image: adaptoakland-landing.jpg
+      lazysource: adaptoakland-landing.gif
+    -
+      type: project-generic-text
+      description: Adapt Oakland is a greening plan that identifies environmental hazards and pairs them with adaptation strategies to create a healthier, more sustainable urban environment.   The project encompassed 3 years of reaserch from Oakland based non-profit, Urban Biofilter.  I worked with Urban Biofilter and a small team of developers to structure the research and design work that had been completed, develop a content management system and database and design and build a web UI.
+    -
+      type: project-divider-line
+    -
+      type: project-generic-text
+      heading: Project Phasing
+      description: The typical outcome of a reserach project like this is to write a report that is seen by a small proportion of policy makers.  Urban Biofilter chose the more challenging route of building a website, with the goal of making their research and design work accessible to as many people as possible. Their team had limitied experience with web products and a limited budget, along with final grant deadlines looming. Given these constraints, we decided to break the project into phases.  Phase 1, a basic website that presents all their data and research is currently live.      
+    - 
+      type: triad
+      heading: Target Users
+      items:
+        -
+          image: policy.png
+          sub-heading: Policy Makers
+          description: Regulatory bodies & political representatives need access to clear information regarding green cities
+        -
+          image: designer.png
+          sub-heading: Designers & Planners
+          description: Designers and urban planners want to understand the different green strategies available for them to use and implement at a local scale
+        -
+          image: citizen.png
+          sub-heading: Citizens
+          description: Citizens want to know about how green infrastructure can impact them as individuals and communities    
+    -
+      type: project-generic-text
+      heading: Design Process
+      description:  Add some text about the design process here   
+    -
+      type: project-design-goals
+      heading: Phase 1 Design Goals
+      items:
+        -
+          image: adaptoakland-pg1.svg
+          sub-heading: Ensure that all research is being presented on the web
+        -
+          image: adaptoakland-pg2.svg
+          sub-heading: Ensure that geospatial research is clearly presented
+        -
+          image: adaptoakland-pg3.svg
+          sub-heading: Create a simple navigation system  
+    -
+      type: project-divider
+    - 
+      type: project-generic-image 
+      image: adaptoakalnd-sketchbook.jpg  
+    # - 
+    #   type: project-generic-2-col-image 
+    #   image1: adaptoakalnd-sketchbook.jpg
+    #   image2: adaptoakalnd-sketchbook.jpg                  
+    -
+      type: project-generic-text
+      heading: Information Architecture
+      description: One of the most challenging aspects of this project was organizing the vast quantity of research that the team at Urban Biofilter had amassed into a format that was easily digestible on a website. While the ultimate goal is tailor the presentation of this information to each user, this was not feasible in the first build. The majority of work done in the first phase was centered around formulating a system to organize the data and then categorizing and tagging the all the research and design. A content managment system and database were developed to support this.
+    -
+      type: carousel
+      id: ao1
+      images:
+        - adaptoakland-meeting-1.jpg
+        - adaptoakland-meeting-2.jpg
+        - adaptoakland-siteflow.png  
+    -
+      type: project-generic-text
+      heading: Design Deliverables
+      description:  Add some text about the wireframing and mocks 
+    - 
+      type: project-generic-mp4
+      video1: ao-wireframes-compressed.mp4
+      img-backup1: ao-wireframes-still.jpg
+    -
+      type: project-generic-text
+      heading: Final Thoughts - Phase 2 and beyond
+      description: As always, there is still a lot of work to be done on this project.  Urban Biofilter is still in the process of acquiring funding for Phase 2. It's vital that this research be available to and used by as broad an audience possible,  so I hope they're able to get the funding required to bring it to fruition.
+
+
+
+
+

@@ -1,0 +1,120 @@
+--- 
+name: BCI & the Built Environment
+description: UC Berkeley Master of Architecture thesis on using consumer grade Brain Computer Interfacing as an input modality for automated environments.
+thumbnail: bci-john-thumb2.jpg
+featured: true
+date: Aug 2011 - May 2012 //
+meta: UX research / BCI 
+blocks: 
+    - 
+      type: project-header
+      date: Aug 2011 - May 2012 //
+      heading: BCI & the Built Environment
+      tags: Research / Interaction Design / UX
+      description: UC Berkeley Master of Architecture thesis on using consumer grade Brain Computer Interfacing as an input modality for automated environments.
+    - 
+      type: project-generic-image 
+      image: bci-main.jpg
+    - 
+      type: project-generic-text
+      description: The past decade has seen more widespread use of nuanced biophysical sensors that detect heart rate, hand gestures or eye movement etc. Many futurists such as Tan Le, posit that technologies such as electroencephalography (EEG), which detects brainwave activity are the next step in this lineage- the input modality of the future. If this possibility became a reality, how could it affect the way us users engage and interact with our environments, be they physical or virtual? 
+    -
+      type: project-divider-line
+    - 
+      type: project-generic-text
+      heading: Overview
+      description: It was this broad question that formed the basis for my thesis at the Center for Environmental Design at UC Berkeley.  I was fascinated by how conscious (cognitive) and subconscious (affective) input could be used as a way to modulate our physical, augmented or virtual environments. Sensors that provide such nuanced information, especially pertaining to human intent and emotion, may enable the creation of environments that are truly user centered – the ultimate goal of humanist architecture.  
+    - 
+      type: project-generic-image 
+      image: bci-sensor.png
+    - 
+      type: project-generic-text
+      heading: Investigative Process
+      description: My investigative process could be loosely grouped into research, experimentation and storyboarding. I initially looked into how EEG works and the history of technology, for both consumer and medical grade devices. I then delved into how EEG was being used outside of the neuronal sciences and used these case studies as the basis for defining environmental design applications. Testing a consumer grade device was also critical to this research project as it was necessary to ascertain how reliable the present technology was. Finally I drew upon predictions made regarding future capabilities of BCI and automated architecture to develop and storyboard environment/user interaction for my specified use case. 
+    # -
+    #   type: project-divider
+    - 
+      type: project-generic-image 
+      image: brainwave_mindmap.jpg
+    - 
+      type: project-generic-text
+      heading: Precedent Research
+      description: I studied and documented the use of consumer grade EEG technology across diverse fields, looking at applications in new media art as well as neuroscience.
+    # -
+    #   type: project-divider 
+    - 
+      type: project-generic-image 
+      image: bci-matrix.png
+    - 
+      type: project-generic-text
+      heading: Experiments with the Emotive EPOC
+      description: I wanted to test both the capabilities and reliability of a consumer grade EEG device. Using an Emotiv Epoc I carried out a series of experiments with Processing, mapping the output of the device (cognitive and affective states) to certain functions that would change colour or images on screen. In one of the earliest experiments that worked, the test subject was able to cycle through a series of animals by thinking “right” or “left”, cognitive states that were decipherable by the EEG headset. Subsequent tests that involved changing animals based on emotional response had mixed results, however showed that it was possible to use affective input. Two experiments using light color and temperature were designed to test how the BCI input could be used to control real world conditions.
+    -
+      type: project-divider-line       
+    - 
+      type: project-generic-text
+      heading: Testing cognitive input - changing RGB values of a light
+      description: The first light experiment was focused on cognitive input and again required mapping the think “left”, think “right” feedback to different functions. I was interested in how EEG could be used as a way to consciously control environments, like a highly nuanced light switch that could be calibrated to satisfy the needs of each individual.
+    - 
+      type: project-generic-image 
+      image: bci-rgb.png
+    - 
+      type: project-generic-text
+      description: This experiment explored the ability of BCI to control environmental conditions. The test subject was encouraged to focus on a set colour - red, green or blue. Input from and an Emotiv EPOC headset was routed from the Emotive controll er software to Processing via MindYourOSC's. The headset was calibrated to register the test subjects neural activity when thinking of these set colours. Processing was then used to modulate an LED strip in the lightbox through an Arduino microcontroller.
+    -
+      type: project-divider-line      
+    - 
+      type: project-generic-text
+      heading: Testing affective input - the Kruithof Curve
+      description: In psychology, affect refers to the experience of feeling or emotion and is considered an integral component in our interaction with external stimuli. Following a similar process to the brain controlled light box experiment, the Kruithof curve experiment also looks at how light conditions can be modulated with BCI input. The Kruithof curve posits that an optimal light temperature exists between warm and cool. The Emotiv headset is able to record levels of frustration and this quality was used as the determining factor in a feedback loop to generate an optimal temperature of light. Using Processing, the gradient of warm to cool light was cycled through while being projected onto the test subject. The subjects increased level of frustration was used to cull specific colours from the loop until only one colour was left
+    - 
+      type: project-generic-image 
+      image: bci-kruitof.png
+    - 
+      type: project-generic-text
+      heading: Challenges
+      description: Numerous issues were encountered throughout the course of these experiements. It was virtually impossible to get the consumer grade headset to perform consistently (with Emotiv software as well as with the experiments). Test subjects had to be trained and training periods varied from person to person. Recreating the test conditions for each subject proved difficult as it was hard to completely control external stimuli.
+    -
+      type: project-divider-line        
+    - 
+      type: project-generic-text
+      heading: Future applications - Environmental Design
+      description: While the experiment data turned out to be fairly inconsistent, it did provide proof of concept. Based on the theoretical feasibility of using BCI as an input modality, four areas of potential use were identified -- input modality; human-environment interaction; climate control; and human-human interaction.      
+    - 
+      type: project-generic-image 
+      image: brainwave_potential.png
+    - 
+      type: project-generic-text
+      heading: Storyboarding interaction
+      description: The experiential case study I generated examines the day of a typical user in two future phases and looks at their behavior in each of the spaces outlined above. Typical activities in these typologies were storyboarded to explore the range of ways that this technology could affect human-human and human-environment interaction.    
+    # -
+    #   type: carousel
+    #   id: bc1
+    #   images:
+    #     - bci-gallery2.jpg
+    #     - bci-gallery3.jpg
+    # -
+    #   type: project-divider
+    # -
+    #   type: carousel
+    #   id: bc2
+    #   images:
+    #     - bci-gallery21.jpg
+    #     - bci-gallery22.jpg      
+    - 
+      type: project-generic-2-col-image
+      image1: bci-gallery2.jpg
+      image2: bci-gallery3.jpg
+    - 
+      type: project-generic-2-col-image
+      image1: bci-gallery21.jpg
+      image2: bci-gallery22.jpg     
+    - 
+      type: project-generic-text
+      heading: Final Thoughts
+      description: Sensing emotion through BCI could allow our environments to function as indicators of conscious or unconscious emotional state, facilitating greater transparency in our interpersonal and social interactions. While the technology is in formative stages at present, developments are being made consistently in the neuronal sciences that will filter out into the consumer market. Allowing fundamental human reactions to be made legible through environmental conditions could have mixed results. 
+    # - 
+    #   type: project-generic-text
+    #   heading: a section heading
+    #   description: section description
+    

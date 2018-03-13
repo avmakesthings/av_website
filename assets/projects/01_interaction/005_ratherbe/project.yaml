@@ -1,0 +1,159 @@
+--- 
+name: Rather Be
+description: Web & Mobile UI/UX, Visual Design & Brand Development for Rather Be, an action sports media start-up. 
+thumbnail: ratherbe-thumb.jpg
+link: www.ratherbe.com
+featured: true
+date: Sep 2015 - Oct 2016 //
+meta: UI / UX / Web 
+blocks: 
+    - 
+      type: project-header
+      date: Sep 2015 - Oct 2016 //
+      heading: Rather Be
+      collaborators: In collaboration with the Rather Be team and consultants.
+      description: Rather Be is an action sports media start-up, founded by the former COO of Geocities. I lead design and brand development for the company and worked to develop their Beta launch - an adaptive website.
+      tags: UI / UX / Interaction / Brand Development / Visual Design
+      link: www.ratherbe.com
+      link-text: Visit Beta Website   
+    - 
+      type: project-generic-mp4
+      video1: rb-demo-1024-fast.mp4
+      img-backup1: RB-demo-preload.jpg         
+    - 
+      type: project-generic-text
+      description: RatherBe is an early stage company that produces, curates & distributes high quality action sports media. I joined the company in late 2015 as the first design hire, to drive the design direction for the beta product. I worked closely with our Head of Product to better understand the use case and to design a product based on user needs.
+    -
+      type: project-design-goals
+      heading: Design Goals
+      items:
+        -
+          image: ratherbe-question.svg
+          sub-heading: Refine and communicate product value proposition
+        -
+          image: ratherbe-brand.svg
+          sub-heading: Establish clear brand identity that resonates with target users
+        -
+          image: ratherbe-user.svg
+          sub-heading: Build an engaged audience
+    -
+      type: project-divider
+    - 
+      type: project-generic-image 
+      image: ratherbe-desert.jpg
+    -
+      type: project-divider      
+    -
+      type: triad-small-non-invert
+      heading: Our Users
+      items:
+        -
+          image: ratherbe-athlete.png
+          sub-heading: Athletes
+          description: Semi-professional to professional athletes required exposure & easy access to a dedicated fanbase
+        -
+          image: ratherbe-creator.png
+          sub-heading: Content Creators
+          description: Professional content creators required exposure, connection to athletes/ fans and a place to showcase their work
+        -
+          image: ratherbe-enthusiast.png
+          sub-heading: Enthusiasts
+          description: Enthusiasts required a way to connect to others and well as a place to upload and share their experiences.                     
+    -
+      type: project-divider    
+    -
+      type: project-generic-text
+      heading: Building a lifestyle brand
+      description:  I worked closely with a select number of target users and our product/ editorial teams to develop the visual identity for the brand, including logos, typefaces & color, culminating in the production of a master brand style guide (excerpts shown below).
+    -
+      type: triad
+      items:
+        -
+          image: ratherbe-style01.jpg
+        -
+          image: ratherbe-style02.jpg
+        -
+          image: ratherbe-style03.jpg
+    -
+      type: project-generic-text
+      heading: User Research
+      description: 
+        One of the most enjoyable aspects of my work involved connecting with our different user groups to better understand their needs and to test how they used our product. As an avid snowboarder and photographer, I thoroughly enjoyed going out to capture competitions like the Burton US Open and Mavericks, as these events provided great insight into our target audience -- I've included a few of my favourite shots below.
+    -
+      type: carousel
+      id: rb1
+      images:
+        - ratherbe-comp1-1.jpg
+        - ratherbe-comp2-1.jpg
+        - ratherbe-comp3-1.jpg
+    -
+      type: project-generic-list
+      heading: Product Goals
+      description: |
+        After the initial phase of redefining the brand identity, I worked closely with our Head of Product to develop our web and iOS beta trials. Key aspects included -
+      listItems:  
+        - text: Translating our updated brand identity to web and mobile products
+        - text: Ensuring that we were able to test and evaluate the designs in the best possible way
+        - text: Messaging across different touchpoints
+        - text: Minimizing friction in user flows
+    -
+      type: project-divider-line    
+    -
+      type: project-generic-text
+      heading: UI / UX Design Process
+      description:  My design process always begins on paper. With Rather Be, I spent a lot of time was spent thinking through aspects of the UI or UX design on paper or whiteboards. Both our design and development teams worked in rapid sprints so expedience was key. Our team also favoured rapid prototyping and testing with users over a lengthy design process.    
+    -
+      type: project-generic-2-col-image
+      image1: ratherbe-sketch1.jpg
+      image2: ratherbe-sketch2.jpg
+    -
+      type: project-generic-text
+      heading: Refining User Flows
+      description:  As lead designer, I was responsible for defining our usability KPI's and testing our userflows for key aspects of the product. My process typically involved outlining a basic flow like onboarding, login, content upload or content consumption and testing our assumptions with users using inVision or Usertesting.com.
+    - 
+      type: project-generic-image 
+      image: process-3.png    
+    -
+      type: project-generic-text
+      heading: High Fidelity Prototyping
+      description: Hi-fi prototypes were created using Sketch, in combination with Illustrator/ Photoshop for the assets. InVision was used constantly as a collaboration tool and helped facilitate clear communication surrounding design decisions. 
+    - 
+      type: project-generic-image 
+      image: ratherbe-layout-small.jpg
+    - 
+      type: project-generic-image 
+      image: ratherbe-hifi1.jpg
+    - 
+      type: project-generic-image 
+      image: ratherbe-hifi3.jpg
+    -
+      type: project-divider-line   
+    -
+      type: project-generic-text
+      heading: UI Kit Specifications & Web Development
+      description:  One of my largest contributions to the company was designing and implementing a UI Kit for our website.  The UI Kit provided detailed specifications & micro interaction design for all standard web components such as cards, buttons, fonts and grid layout. I worked closley with our front-end team to overhaul our web product and ensure consistentcy on different devices. Zeplin was used as the main collaboration tool.      
+    -
+      type: project-generic-2-col-image
+      image1: ratherbe-uikit1.jpg 
+      image2: ratherbe-responsive.gif
+    # - 
+    #   type: project-generic-image 
+    #   image: ratherbe-uikit1.jpg   
+    # - 
+    #   type: project-generic-image 
+    #   image: ratherbe-responsive.gif   
+    -
+      type: project-divider-line        
+    -
+      type: project-divider              
+    # - 
+    #   type: project-generic-image 
+    #   image: ratherbe-mavericks.jpg
+    -
+      type: project-generic-text
+      heading: Final Thoughts
+      description:  My time at Rather Be was devoted to finding ways by which design could be used to create a lifelyle brand, build an engaged audience and provide a high-quality user experience. While often challenging, it was an incredibly educational experience and one that has met considerable success. Working with a company who's direction resonated so strongly with my own interests in action sports, also allowed me to more deeply engage with the things I love doing. The company is in the process of acquiring more funding but the future looks promising.   
+
+
+
+
