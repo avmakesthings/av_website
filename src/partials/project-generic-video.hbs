@@ -1,4 +1,9 @@
 <div class="project-generic-video">
-	<h5 class= "proj-text-heading">{{ heading }}</h5>	
-	<iframe width="1280" height="720" src="{{ video-url }}" frameborder="1" allowfullscreen></iframe>
+	{{!-- 
+	<iframe width="1280" height="720" src="{{ video-url }}" frameborder="1" allowfullscreen></iframe> --}}
+	{{#if heading}}
+		<h5 class= "proj-text-heading">{{ heading }}</h5>	
+    {{/if}}
+	<div data-type="youtube" data-video-id="{{ video-id }}"></div>
 </div>
+

@@ -34,6 +34,8 @@ blocks:
       link: forest.anastasia.io
     - 
       type: project-generic-video 
+      heading: Demo Video
+      video-id: PA_7wFIuhZ0
       video-url: https://www.youtube.com/embed/PA_7wFIuhZ0?rel=0&amp;controls=0   
     - 
       type: project-generic-text

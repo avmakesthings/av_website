@@ -463,7 +463,7 @@ a:hover, a:visited, a:link, a:active {
 .project-generic-video {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
-  padding-top: 25px;
+  // padding-top: 25px;
   height: 0;
 }
 
@@ -614,7 +614,29 @@ Borrowed from Geoff Graham - https://css-tricks.com/snippets/css/typewriter-effe
   filter: invert(100%);
 }
 
+// .plyr__play-large svg{
+//   width:60px;
+//   height:60px;
+// }
 
+.plyr__progress--played, .plyr__volume--display{
+  color: #fff;
+}
+
+.plyr__play-large{
+  background: #ddd;
+  padding: 30px;
+  border: 6px;
+}
+
+.plyr__play-large:hover{
+  color:$highlight-color;
+}
+
+.plyr--video .plyr__controls button:hover{
+  background: #ddd;
+
+}
 
 @import "partials/mediaqueries.scss";
 
