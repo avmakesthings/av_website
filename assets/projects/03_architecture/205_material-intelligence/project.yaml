@@ -81,7 +81,8 @@ blocks:
       type: project-generic-image 
       image: demonstrator-diagram.png      
     - 
-      type: project-generic-video 
+      type: project-generic-video
+      video-id: b1opbYfWmzI 
       video-url: https://www.youtube.com/embed/b1opbYfWmzI?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen                           
     - 
       type: project-generic-text

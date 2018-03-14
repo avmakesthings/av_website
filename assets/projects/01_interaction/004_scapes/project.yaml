@@ -26,6 +26,7 @@ blocks:
       description: As a former environmental designer, I’m always thinking about how the spaces we inhabit can better support us both functionally but also experientially.  VR is an incredible medium for this kind of exploration and a fairly new one for me. Scapes is a project that explores some of these concepts through Google Cardboard. You can check out a brief demo of the experience on Youtube below.                       
     - 
       type: project-generic-video 
+      video-id: KePiq94Hdk8
       video-url: https://www.youtube.com/embed/KePiq94Hdk8?rel=0&amp;   
     - 
       type: project-generic-text

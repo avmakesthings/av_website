@@ -17,6 +17,7 @@ blocks:
       # url: www.xyz.com
     - 
       type: project-generic-video 
+      video-id: 0JovREZootQ
       video-url: https://www.youtube.com/embed/0JovREZootQ?rel=0&amp;showinfo=0
     - 
       type: project-generic-text

@@ -63,7 +63,8 @@ blocks:
       type: project-generic-image 
       image: BM_Temple-Model_Detail_MF-small.jpg
     - 
-      type: project-generic-video 
+      type: project-generic-video
+      video-id: YXMhrHe9a6E
       video-url: https://www.youtube.com/embed/YXMhrHe9a6E?rel=0&amp;controls=0&amp;showinfo=0  
     - 
       type: project-generic-text

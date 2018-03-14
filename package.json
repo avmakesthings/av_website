@@ -27,6 +27,7 @@
     "yamljs": "^0.2.8"
   },
   "dependencies": {
-    "cors": "^2.8.4"
+    "cors": "^2.8.4",
+    "plyr": "^3.0.0-beta.20"
   }
 }
