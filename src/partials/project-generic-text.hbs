@@ -1,9 +1,11 @@
 <div class="project-generic-text">
-	<h5 class= "proj-text-heading">{{ heading }}</h5>
-	<p>{{ description }}</p>
+    {{#if heading}}	
+        <h5 class= "proj-text-heading">{{ heading }}</h5>    
+    {{/if}}    
+    {{#if description}}	    
+	    <p>{{ description }}</p>
+    {{/if}}
     {{#if link}}
-        <h6>
-    	    <a href ="http://{{link}}">{{cta}}</a>
-        </h6> 
+        <a href ="http://{{link}}"><h6>{{cta}}</h6></a>
     {{/if}}
 </div>

@@ -111,18 +111,16 @@ h1, h2, h3, h4, h5, h6,
   background: darken( $body-bg, 5% );
   margin: 1rem;
   height: 20rem;
+
 }
 
 
 .more-work-text{
   background:black;
-  color: white; 
   margin-top:3rem;
   margin-bottom:-6rem;  
   padding: 1rem;
-  :hover{
-    background:white;
-  }
+
 }
 
 
@@ -412,12 +410,21 @@ a:hover, a:visited, a:link, a:active {
   img {
     width: 40%;
     margin: 0 20% 20% 20%;
-
   }
-
+  h5{
+    padding-bottom: 5%!important;
+  }
+  h6{
+    padding: 5%;
+    line-height:1.5;
+  }
+  p{
+    padding: 0 10% 5%;
+  }
   .row div {
     margin-bottom: 30px;
   }
+  
 }
 
 
@@ -458,13 +465,21 @@ a:hover, a:visited, a:link, a:active {
 
 .project-generic-text{
   padding: 10%;
+  h6{
+    background: #e2e2e2;
+    padding: 2%;
+    margin: 5% 20% 0 20%;
+  }
+  h6:hover{
+    background: black;
+  }
 }
 
 .project-generic-video {
   position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
-  // padding-top: 25px;
-  height: 0;
+  margin-bottom: 8%;
+  padding: 1% 0;
+  background:#ddd;
 }
 
 .project-generic-video iframe {
@@ -630,7 +645,7 @@ Borrowed from Geoff Graham - https://css-tricks.com/snippets/css/typewriter-effe
 }
 
 .plyr__play-large:hover{
-  color:$highlight-color;
+  color:$bold-color;
 }
 
 .plyr--video .plyr__controls button:hover{
