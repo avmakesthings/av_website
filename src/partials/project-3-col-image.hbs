@@ -1,0 +1,15 @@
+<div class="project-3-col-image row">
+        
+    {{#items}}
+        <div class="col-xs-12 col-sm-4">     
+                <img class="b-lazy" src="img/{{image}}"/>
+            {{#if heading}}	    
+                <h6>{{ heading }}</h6>
+            {{/if}}                   
+            {{#if description}}	    
+                <h5>{{ description }}</h5>
+            {{/if}}
+        </div>
+    {{/items}}
+
+</div>

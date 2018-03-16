@@ -1,4 +1,4 @@
-<div class="project-generic-text">
+<div class="featured-text-heading">
     {{#if heading}}	
         <h5 class= "proj-text-heading">{{ heading }}</h5>    
     {{/if}}    
