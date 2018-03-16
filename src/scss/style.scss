@@ -516,6 +516,22 @@ a:hover, a:visited, a:link, a:active {
   }
 }
 
+.featured-text-heading{
+  padding: 0 20%;
+  background: black;
+  h4{
+    background: $bold-color;
+    color: white;
+    padding: 5%;
+    font-size: 1.3rem;
+    font-weight: 300;
+    letter-spacing: 0.2rem;
+    line-height: 2rem;
+    font-family: 'Roboto Mono';
+  }
+}
+
+
 /*CSS Typewriter effect -
 Borrowed from Geoff Graham - https://css-tricks.com/snippets/css/typewriter-effect/
 */
