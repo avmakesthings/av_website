@@ -1,8 +1,8 @@
 @media only screen and (max-width: 768px) {
   .project-preview {
     width: 100%;
-    border-top: solid .5px lightgray;
-    margin-top: 30px;
+    // border-top: solid .5px lightgray;
+    // margin-top: 30px;
     padding-top: 20px;
   }
 }
@@ -15,7 +15,7 @@
 		font-weight: 200;
 	}
 	h3{
-		font-size: 6vw!important;
+		font-size: 7vw!important;
 	}
 	p{
 	    font-size: 4.5vw!important;
@@ -28,6 +28,7 @@
 	.project-design-goals{
 		img {
 		width: 20%;
+		margin: 0;
 		}
 	}
 	.triad.small{
@@ -42,22 +43,53 @@
 
 	header {
 		
-		nav{
-			margin: 1.4em 0 3.5em;
-		}
+		// nav{
+		// 	margin: 1.4em 0 3.5em;
+		// }
 		.navbar-toggle{
-			background: $highlight-color !important;			
-			width: 40px;
-			height: 40px;		
+			background: #231f20;			
+			width: 30px;
+			height: 30px;
+			margin-top: -15px;
+			margin-right: 10px;	
 
 
 		}
 
 	}
+	.header-typ .navbar-toggle .icon-bar {
+		background-color: white;
+	}
 
+	.header-typ{
+		position: fixed;
+		width: 100%;
+		margin-top: -5%;
+		z-index:1;
+		top: 0;	
+		margin-left:-20px;
+		width: 110vw;;
+	}
+
+	.header-typ nav{
+		margin: 0;
+	}
+	.header-typ .navbar{
+		padding: 0 1rem 0.5rem 1.5rem;
+	}
+
+	.header-typ .navbar-toggle {
+		margin-top: 10px;
+		margin-right: 10px;	
+	}
+
+	.header-landing .navbar span{
+		margin-right: 5px;
+	}
+	    
 	.navbar {
 		margin: 0px;
-		padding: .5rem 0;
+		padding: 5%;
 	}
 	
 	.navbar-divider, .navbar-text{
@@ -84,26 +116,49 @@
 	  margin-left: -25%;
 	}
 
-  footer {
-  	text-align: center;
-  	padding-bottom: 25px;
-  	margin-top: 3em;
-  	border-top: solid 1px darkgray;
-    padding-top: 20px;
-  	span{
-  		display:block;
-  	}
-  	.footer-right {
-  		float:none;
-  	}
+	footer {
+		text-align: center;
+		padding-bottom: 25px;
+		margin-top: 3em;
+		border-top: solid 1px darkgray;
+		padding-top: 12%;
+		span{
+			display:block;
+		}
+		.footer-right {
+			float:none;
+		}
+		.footer-social{
+			-webkit-filter: invert(40%);
+			filter: invert(40%);
+		}
+	}
 
-  }
+  	// .project-container{
+	//   	margin-top:20%;
+	// }
+	  
 	.project-header{
 		text-align: center;
 		width: 100%;
+		padding: 10% 15%;
+		// margin-top: 4.2%;
 
 		em {
 			font-size: .8em;
+		}
+		h3{
+			// padding: 5% 10% 5% 10%;
+			padding: 10% 0;
+			overflow-wrap: break-word;
+			hyphens: auto;
+		}
+		h6{
+			padding-top: 20%;
+			padding-bottom: 20%;
+			a{
+				padding: 4% 6%;
+			}
 		}
 	}
 	.proj-descrip {
@@ -116,6 +171,7 @@
 		padding-right:10%;
 		//font-size: 1.3rem;
 		font-size: 4.5vw;
+		padding-bottom:10%;
 	}
 
 	.header-landing{
@@ -146,7 +202,7 @@
 	}
 
 	#landing-logo{
-		width: 20vw;
+		width: 30vw;
 		height:auto;
 		padding-top: 20px;
 	}
@@ -155,8 +211,69 @@
 		font-size: 6vw!important;
 	}
 
-	.navbar-toggleable-xs .navbar-nav .nav-item{
-		margin-left:-20px;
+
+
+	.project-generic-image img {
+		min-height: 350px;
+		object-fit: cover;
+	}
+
+	.project-4-col-image {
+		img{
+			padding: 10%;
+		}
+	}
+
+
+	.more-work-text{
+		text-align: center;
+		margin-top: 0;
+		margin-bottom: 0.5rem;
+		// margin-top:80px;
+	}
+	
+	.browse{
+		padding-top:20%;
+	}
+
+	.projects-list-menu{
+		border-right:none;
+	}
+
+	.about-text{
+		padding-left:15px;
+	}
+
+	.about-image{
+		margin-top: 4.5rem;
+	}
+
+	.project-block{
+		p {
+			padding-top:10%;
+		}
+	}
+
+	.project-generic-text{
+		h6{
+			margin: 15% 0 0 0;
+		}
+	} 
+
+	.project-end{
+		display: block;
+		margin-bottom: 0;
+	}
+
+	.project-nav-link{
+		margin: 0;
+	}
+
+	.featured-text-heading {
+		padding: 0;
+		h4{
+			background: black;
+		}
 	}
 
 }
