@@ -47,7 +47,7 @@ blocks:
     -
       type: project-generic-text
       heading: Design Process
-      description:  Add some text about the design process here   
+      description: The project began with a goal setting exercise intended to serve as a guide through the whole design process and form the base criteria for evaluation.
     -
       type: project-design-goals
       heading: Phase 1 Design Goals
@@ -84,7 +84,7 @@ blocks:
     -
       type: project-generic-text
       heading: Design Deliverables
-      description:  Add some text about the wireframing and mocks 
+      description: With input from numerous stakeholders, I worked with a team of developers and designers to iterate on progressively higher fidelity prototypes. During the development process, I worked closely with the developers to ensure we delivered a product that met our design goals. You can see some of the key screens below.
     - 
       type: project-generic-mp4
       video1: ao-wireframes-compressed.mp4

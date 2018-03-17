@@ -1,14 +1,14 @@
 --- 
-name: A Forest in the Desert
-description: An A-frame based webVR prototype for spatially and chronologically relating and presenting the 2D & 3D content generated over the duration of a large-scale installation art project. 
-thumbnail: temple360-thumb.jpg
-lazysource: temple360-2-thumb.mp4
-wip: false
-video: true
-featured: true
-date: Oct - Dec 2017 //
-meta: WebVR / HTC Vive / A-Frame
-blocks: 
+  name: A Forest in the Desert
+  description: An A-frame based webVR prototype for spatially and chronologically relating and presenting the 2D & 3D content generated over the duration of a large-scale installation art project. 
+  thumbnail: temple360-thumb.jpg
+  lazysource: temple360-2-thumb.mp4
+  wip: false
+  video: true
+  featured: true
+  date: Oct - Dec 2017 //
+  meta: WebVR / HTC Vive / A-Frame
+  blocks: 
     - 
       type: project-header
       date: Oct - Dec 2017 //
@@ -23,7 +23,7 @@ blocks:
       image: 360_img.jpg
     - 
       type: project-generic-text
-      heading: Sharing 2D content online is easy
+      heading: Sharing traditional (2D) content online is easy
       description: So I’m a serial ‘documenter' ie.  ALWAYS taking photos, videos etc. According to Business Insider, people took an estimated 1.2 trillion digital photos alone in 2017.  Of these, we have approx. 3.2 billion photos/videos being shared each day on social media, a phenomenon that speaks to the relative ease at which traditional user generated content can be shared and consumed.
     - 
       type: project-generic-image 
@@ -31,7 +31,7 @@ blocks:
     - 
       type: project-generic-text
       heading: Sharing immersive content online in a meaningful way is challenging
-      description:  I worked on an art installation for the greater part of 2017 and found myself amassing content at a rapid pace. This culminated with a month’s worth of 360s that I desperately wanted to share, as they offered the most unadulterated story of the project. After researching into ways to present this online .... need to add more here about challenges
+      description:  I worked on an art installation for the greater part of 2017 and found myself amassing content at a rapid pace. This culminated with a month’s worth of 360s that I was exctied to share, as they offered the most unfiltered view of the project. After researching into ways to present this online, I realized that no existing platform would adequately tell the story.
       cta: Learn more about the Temple Art Installation >>>
       link: anastasia.io/101_temple-2017.html         
     -
@@ -39,7 +39,7 @@ blocks:
     - 
       type: project-generic-text
       heading: Prototype  - A Forest in the Desert
-      description:  A Forest in the Desert is a prototype that I designed and developed in response to these challenges. I worked with my partner John Faichney, a full stack developer who built about 40% of the prototype and helped me map out the application architecture. The design/ build for version 1.0 of the prototype took approx 3 months. Check out a demo video below or test out the prototype yourself. Also read on if you're interested in my design process.
+      description:  A Forest in the Desert is a prototype that I designed and developed in response to these challenges. I worked with my partner John Faichney, a full stack developer who built about 40% of the prototype and helped me map out the application architecture. The design / build for version 1.0 of the prototype took approx 3 months. Check out the demo video below, test out the prototype yourself, and read on if you're interested in my design process.
       cta: Test out the A-Frame prototype in your browser >>>
       link: forest.anastasia.io       
     - 
@@ -49,7 +49,7 @@ blocks:
     -
       type: project-design-goals
       heading: Design Goals
-      description:  It's important to lay out dsign goals from the begining. These goals were used as a guide through the whole design process and form the base criteria for evaluation.
+      description:  The project began with a goal setting exercise intended to serve as a guide through the whole design process and form the base criteria for evaluation.
       items:
         -
           image: map.png
@@ -64,7 +64,7 @@ blocks:
       type: project-divider-line      
     - 
       type: project-generic-text
-      heading: I started by trying to better understand how we experience 2D content VS immersive content.
+      heading: I started by trying to better understand how we experience traditional (2D) content VS immersive content.
       # description: There are inherent differences in the ways we experience 2D and 3D content that I wanted to try and pinpoint. 
     - 
       type: project-generic-2-col-image 
@@ -77,7 +77,7 @@ blocks:
     - 
       type: project-generic-text
       heading: I also identified existing interaction and design patterns that supported my design goals
-      description: Some text about design patterns
+      # description: Some text about design patterns
     - 
       type: project-4-col-image 
       items:
@@ -100,7 +100,7 @@ blocks:
     - 
       type: project-generic-text
       heading: Establishing a look & feel for the design helped me ensure visual consistency across the experience
-      description:  Add a description here
+      # description:  Add a description here
     # - 
     #   type: project-generic-image 
     #   image: temple360-visuals.jpg         
@@ -129,28 +129,34 @@ blocks:
     - 
       type: project-generic-text
       heading: Meeting design goals
-      description:  something about how I used design and design thinking to ...    
+      description: During the prototyping process, my design goals helped me prioritize features, evaluate alternatives, and find the best design solution.
     - 
       type: featured-text-heading
       heading: Design Goal 1 > Provide a meaningful experience through contextually relating content                                                 
     - 
       type: project-generic-text
-      heading:  Time > I created a timeline component to allow users to understand the chronological relationships between content
-      description: The menus serve both a navigational and informational purpose, allowing a user to navigate between scenes and toggle the active model or 360. A similar nested menu UI pattern is used for both the model and 360 menus.   
+      heading:  I created a timeline component to help users understand the chronological relationships between content
+      description: This was used in both the model and 360 scenes to allow a user to navigate through co-located content over the course of the project.
+    - 
+      type: project-generic-image 
+      image: model-menu-still.jpg         
+    - 
+      type: project-2-col-mp4
+      video1: timeline-menu-model-reduce.mp4 #vid of model menu
+      video2: timeline-menu-360-reduce.mp4 #vid of 360 menu  
+      img-backup1: timeline-menu-360.jpg
+      img-backup1: timeline-menu-model.jpg             
     - 
       type: project-generic-text
-      heading: Space > 'Geolocating' content provides contextual meaning 
-      description: users are able to understand    
+      heading: Content associated with a specific location can only be accessed there; this gives users a sense of how all of the content fits together spatially.
+      description: This additional context exposes relationships which provide added layers of meaning.
+    - 
+      type: project-generic-image 
+      image: marker-layout.jpg         
     # - 
     #   type: project-generic-text
     #   heading: Space > Windows (not included in V1)
-    #   description: Some text about windows                
-    - 
-      type: project-2-col-mp4
-      video1: temple360-menu-clip1.mp4 #vid of model menu
-      video2: temple360-menu-clip2.mp4 #vid of 360 menu
-      # img-backup1: menu-nested-2.jpg
-      # img-backup1: menu-wall-1.jpg      
+    #   description: Some text about windows                  
     -
       type: project-divider 
     - 
@@ -158,18 +164,21 @@ blocks:
       heading: Design Goal 2 > Allow users to discover content organically              
     - 
       type: project-generic-text
-      heading: Discovery > the experience of discovery .... talk about experience design
-      description: Markers are embedded in the model view and indicate locations where content is available.  In the current build, only 360 content is supported. Future iterations will expand upon the marker component to display different types of content. Markers allow a user to see what content is available at a given place at a given time and allow users to move between content views - eg model view to 360 view
+      heading: The mechanics of discovery and exploration make the experience more engaging.
+      description: Markers allow a user to see what content is available at a given place and time. These markers have to be found through exploring the model and adjusting the current point in the timeline. This creates more immersive experience akin to our real-world interactions.
+      # description: Markers are embedded in the model view and indicate locations where content is available.  In the current build, only 360 content is supported. Future iterations will expand upon the marker component to display different types of content. Markers allow a user to see what content is available at a given place at a given time and allow users to move between content views - eg model view to 360 view
     - 
       type: project-generic-image 
-      image: 171025_UI-content-marker-00.jpg
+      image: 171025_UI-content-marker-00.jpg 
+    -
+      type: project-divider       
     - 
       type: featured-text-heading
       heading: Design Goal 3 > Make it accessible to the largest audience possible      
     - 
       type: project-generic-text
-      heading: Open source and A-Frame 
-      description: Given that this prototype was intended for as broad an audience as possible, I wanted it to be implemented a way that was both a compelling experience in a 2d browser /VR and VR device and controller agnostic (3DoF, 6DoF).  Despite it's early stage (limited functionality issues with browser support and network connectivity) I chose to develop the prototype in A-Frame. User input is simple and intended to provide a user with selection control and allow a user to navigate around a scene.  While 3DoF or 6DoF controllers are ideal, the prototype also works with WSAD/arrow controls on the keypad.  A reticle is present when not in VR view.  
+      heading: Browser-based and Open-Source
+      description: In order to reach the broadest audience possible, I chose to implement the prototype using A-Frame, an open source WebVR framework. The initial prototype is VR device and controller agnostic (3DoF, 6DoF) and also supports keyboard and mouse interaction.
       cta: View the project code on Github >>>
       link: github.com/avmakesthings/temple360          
     # - 
