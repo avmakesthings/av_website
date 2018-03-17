@@ -87,10 +87,44 @@ function getPartials(partialPath){
   return partials
 }
 
+function createPrevNextProject(assets){
+  
+  var flatProjects = []
+  
+  assets.categories.forEach(function(category){
+    category.projects.forEach(function(project){
+      if(!project.wip){
+        flatProjects.push(project)
+      }
+    })
+  })
+
+  flatProjects.forEach(function(project, i){
+    
+    var nextIndex = i+1
+    var prevIndex = i-1
+    
+    if(i==0){
+      prevIndex=flatProjects.length-1
+
+    }else if(i==flatProjects.length-1){
+      nextIndex = 0
+    }
+    project.prevURL = getProjectURL(flatProjects[prevIndex])
+    project.nextURL = getProjectURL(flatProjects[nextIndex])
+    
+  })
+}
+
+function getProjectURL(project){
+  return project.slug +'.html'
+}
+
 
 gulp.task('handlebars', function(){
 
   var myAssets = assets('assets');
+  createPrevNextProject(myAssets)
 
   var options = {}
   options.partials = getPartials('./src/partials')
@@ -100,7 +134,8 @@ gulp.task('handlebars', function(){
   handlebars2html('./src/contact.html', 'contact.html', myAssets, options);
   myAssets.categories.forEach(function(category){
     category.projects.forEach(function(project){
-      handlebars2html('./src/project.html', project.slug +'.html', project, options);
+      // console.log(JSON.stringify(myAssets, undefined, 2));
+      handlebars2html('./src/project.html', getProjectURL(project), project, options);
     })
   })
 });

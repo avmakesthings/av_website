@@ -45,7 +45,7 @@ function readCategory(categoryPath, categoryName){
                 projects.push(project);                
             }
             catch(e){
-                console.error('Failed to read Project ' + projectName)
+                console.error('Failed to read Project ' + projectName, e)
             }
 
         }
