@@ -4,13 +4,13 @@
 
     <div>
     	<a data-target="{{slug}}" class="category-link"> >> {{name}}</a>
-	    <div class="category {{slug}}">
+	    <div class="category {{slug}} ">
 
         {{#projects}}
           {{#if wip}}
-  		      <div style="color: #d0d0d0"> - {{name}} </div>
+  		      <div class ="hidden-xs-down" style="color: #d0d0d0"> - {{name}} </div>
           {{else}}
-  		      <div><a href="{{slug}}.html"> - {{name}}</a></div>
+  		      <div class ="hidden-xs-down"><a href="{{slug}}.html"> - {{name}}</a></div>
           {{/if}}  
           
   		  {{/projects}}

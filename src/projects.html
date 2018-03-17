@@ -5,29 +5,16 @@
   <script src="https://unpkg.com/masonry-layout@4.1/dist/masonry.pkgd.min.js" ></script>
   <!-- <body style="background-color:#716bc5; "> -->
   <body style="background-color:#ededed; ">   
+    {{> loader }}
+    {{> header-typ }}
     <div class="main-content">
-      
       <div class="container browse">
-        {{> loader }}
         <div class="row">
-          {{> header-typ }}
-        </div>
-
-<!--         <div class="row landing-icon sm">
-          <div class="col-sm-7">
-            <a href="/">
-              <img src="/img/av-logo-white.svg"/>
-            </a>
-          </div>
-          <div class="col-sm-5"></div>
-        </div> -->
-
-        <div class="row browse">
           <div class="col-sm-3 projects-list-menu">
             {{> project-nav}}
             <hr class="hidden-sm-up browse-divider"/> 
             {{#categories}}
-              <div class="category-description category {{slug}}"> 
+              <div class=" hidden-xs-down category-description category {{slug}}"> 
                 {{description}} 
               </div>
             {{/categories}}
