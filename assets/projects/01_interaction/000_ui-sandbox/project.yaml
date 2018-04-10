@@ -1,0 +1,23 @@
+--- 
+name: UI-Sandbox WIP
+description: My test environment for developing VR interaction and UI components Unity & Blender.
+thumbnail: ui-sandbox-thumb.png
+wip: false
+featured: false
+date: Mar 2018 - Now //
+meta: VR / Unity / HTC Vive / VRTK
+blocks: 
+    - 
+      type: project-header
+      date: Mar 2018 - Now //
+      tags: VR / Unity / HTC Vive / UI / VRTK
+      heading: UI Sandbox WIP
+    #   collaborators: In collaboration with Craig Steely Architecture
+      description: I created this Unity sandbox as a way to test and iterate on UI components, input and interaction. Here are a few snippets that show elements like nested menus, controller interaction, teleport destination points, proximity triggered text and layered screens.  This will be updated regularly as I add and refine components. 
+    #   url: www.craigsteely.com
+    - 
+      type: project-generic-mp4
+      video1: landing-controls-slow.mp4
+    - 
+      type: project-generic-mp4
+      video1: nested-screen-slow.mp4      
