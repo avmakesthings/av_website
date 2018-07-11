@@ -3,7 +3,7 @@ name: Augmenting Reality
 description: Experiments with AR / MR and Unity
 thumbnail: augmenting-reality-thumb.jpg
 wip: false
-featured: false
+featured: true
 date: May 2018 //
 meta: Unity / Vuforia / AR
 blocks: 

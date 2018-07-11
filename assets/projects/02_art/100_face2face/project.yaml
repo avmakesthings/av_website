@@ -1,10 +1,12 @@
 --- 
-name: Bay Bridge Steel Commission
+name: Face2Face
 description: I was the lead artist on an interactive public installation piece built from remediated steel members from the Oakland Bay Bridge
 thumbnail: Steel-night-thumb.jpg
 wip: false
-date: Dec 2016 - Mar 2017 //
-meta: Unbuilt / Public Art
+date: June 2018 //
+meta: AR / Face Tracking / 
+video: false
+featured: true
 blocks: 
     - 
       type: project-header

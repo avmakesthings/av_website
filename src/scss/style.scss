@@ -1,6 +1,7 @@
 /************************************
-     CORE FILE TO IMPORT STYLES
-           STYLE.SCSS
+CORE FILE TO IMPORT STYLES
+STYLE.SCSS
+author: AV
 ************************************/
 
 @import "variables.scss";
@@ -332,8 +333,9 @@ a:hover, a:visited, a:link, a:active {
 	text-align: center;
   margin-bottom: -20px;
   //background: #eee;
+  background: #fff;
 
-  background: #686cf3;
+  // background: #686cf3;
   padding: 10% 20%;
   h1{
     font-size: 1rem;
@@ -343,18 +345,19 @@ a:hover, a:visited, a:link, a:active {
   }
   h3 {
 		//text-transform: uppercase;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 400;
 		font-family: 'Roboto', monospace;
 		letter-spacing: 1rem;
-    color:white;
+    // color:white;
+    color: lightgray;
     //mix-blend-mode: exclusion;	
     padding: 0 10%;	
     padding-bottom: 5%;
     text-transform: uppercase;
 	}
   h4 {
-    color: lightgray;
+    color: gray;
     font-size:1rem;
     line-height: 1.3rem;
   }
@@ -365,7 +368,8 @@ a:hover, a:visited, a:link, a:active {
   h6{
     padding-top: 7%;
     a{
-      background: lighten(#686cf3, 5%);
+      // background: lighten(#686cf3, 5%);
+      background:lightgray;
       padding: 1% 2%;
     }
     a:hover{
@@ -373,7 +377,7 @@ a:hover, a:visited, a:link, a:active {
     }
   }
   p {
-    font-size: 1.4em;
+    font-size: 1.2em;
     font-weight: 400;
     font-family: 'Roboto', sans-serif;
     color: black;
@@ -394,7 +398,7 @@ a:hover, a:visited, a:link, a:active {
 
 .proj-descrip {
 	margin-top: 15px;
-	margin-bottom: 30px;
+	// margin-bottom: 30px;
 }
 
 .project-end {
@@ -677,6 +681,61 @@ Borrowed from Geoff Graham - https://css-tricks.com/snippets/css/typewriter-effe
 .plyr--video .plyr__controls button:hover{
   background: #ddd;
 
+}
+
+.profile-image{
+  max-width: 100%;
+  padding: 15%;
+  border-radius: 50%;
+  mix-blend-mode: lighten;
+}
+
+.about-page{
+  margin:5px 0px;
+  margin-top: -15px;
+  margin-bottom: -20px;
+  background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
 }
 
 @import "partials/mediaqueries.scss";
