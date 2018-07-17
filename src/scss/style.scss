@@ -686,21 +686,22 @@ Borrowed from Geoff Graham - https://css-tricks.com/snippets/css/typewriter-effe
 
 .profile-image{
   max-width: 100%;
-  padding: 10% 33%;
+  padding: 10% 35%;
   border-radius: 50%;
-  mix-blend-mode: screen;
+  margin: -2% 0;
+  opacity: 0.7;
 }
 
 .about-page{
   margin:5px 0px;
   margin-top: -15px;
   margin-bottom: -100px;
-
-  background: linear-gradient(30deg, rgb(142, 46, 252), rgb(83, 60, 231), rgb(254, 193, 38), #23D5AB);
-	background-size: 400% 400%;
-	-webkit-animation: Gradient 30s ease infinite;
-	-moz-animation: Gradient 30s ease infinite;
-	animation: Gradient 30s ease infinite;
+  background: $highlight-color;
+  // background: linear-gradient(30deg, rgb(224, 46, 252), rgb(83, 60, 231), rgb(254, 193, 38), #23D5AB);
+	// background-size: 400% 400%;
+	// -webkit-animation: Gradient 30s ease infinite;
+	// -moz-animation: Gradient 30s ease infinite;
+	// animation: Gradient 30s ease infinite;
 }
 
 
