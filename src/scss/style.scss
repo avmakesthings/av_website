@@ -150,8 +150,9 @@ a:hover, a:visited, a:link, a:active {
   margin-top: -4rem;
 }
 .about-text{
-  padding-left:30px;
-  padding-top: 5%;
+  text-align: center;
+  margin-top: -5%;
+  padding: 2% 20% 10% 19%;
 }
 
 //Carousel overrides
@@ -685,20 +686,21 @@ Borrowed from Geoff Graham - https://css-tricks.com/snippets/css/typewriter-effe
 
 .profile-image{
   max-width: 100%;
-  padding: 15%;
+  padding: 10% 33%;
   border-radius: 50%;
-  mix-blend-mode: lighten;
+  mix-blend-mode: screen;
 }
 
 .about-page{
   margin:5px 0px;
   margin-top: -15px;
-  margin-bottom: -20px;
-  background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+  margin-bottom: -100px;
+
+  background: linear-gradient(30deg, rgb(142, 46, 252), rgb(83, 60, 231), rgb(254, 193, 38), #23D5AB);
 	background-size: 400% 400%;
-	-webkit-animation: Gradient 15s ease infinite;
-	-moz-animation: Gradient 15s ease infinite;
-	animation: Gradient 15s ease infinite;
+	-webkit-animation: Gradient 30s ease infinite;
+	-moz-animation: Gradient 30s ease infinite;
+	animation: Gradient 30s ease infinite;
 }
 
 
@@ -737,6 +739,8 @@ Borrowed from Geoff Graham - https://css-tricks.com/snippets/css/typewriter-effe
 		background-position: 0% 50%
 	}
 }
+
+
 
 @import "partials/mediaqueries.scss";
 
