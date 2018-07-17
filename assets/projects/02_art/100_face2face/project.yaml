@@ -1,10 +1,12 @@
 --- 
-name: Bay Bridge Steel Commission
-description: I was the lead artist on an interactive public installation piece built from remediated steel members from the Oakland Bay Bridge
-thumbnail: Steel-night-thumb.jpg
-wip: false
-date: Dec 2016 - Mar 2017 //
-meta: Unbuilt / Public Art
+name: Face2Face
+description: Face to Face is an installation art piece that allows the viewer to experience realtime facial analysis, using Unity, ARKit, OpenCV and Amazon Rekognition.  It was installed at the Gray Area Foundation in San Francisco in June.  
+thumbnail: facetoface_thumb.jpg
+wip: true
+date: June 2018 //
+meta: AR / Face Tracking / 
+video: false
+featured: true
 blocks: 
     - 
       type: project-header

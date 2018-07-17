@@ -240,12 +240,25 @@
 		border-right:none;
 	}
 
-	.about-text{
-		padding-left:15px;
+	.about-page{
+		margin:0 -15px;
 	}
+
+	// .about-text{
+	// 	padding-left:15px;
+	// }
 
 	.about-image{
 		margin-top: 4.5rem;
+	}
+
+	.about-text{
+		margin-top:0;
+	}
+
+	.profile-image{
+		padding: 10% 25%;
+		margin-top: 20%;
 	}
 
 	.project-block{
@@ -283,5 +296,7 @@
 			line-height: 1.8rem;
 		}
 	}
+
+
 
 }
