@@ -4,6 +4,7 @@ description: My test environment for developing VR interaction and UI components
 thumbnail: ui-sandbox-thumb.png
 wip: false
 featured: true
+sortIndex: 4
 date: Mar - Apr 2018 //
 meta: VR / Unity / HTC Vive / VRTK
 blocks: 

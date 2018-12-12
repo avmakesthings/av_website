@@ -41,7 +41,6 @@
             <div class="col-md-12">
               <!-- <h5 style = "background:#ededed; margin-top:1rem; padding: 1rem;" >Featured projects &#x25BD;&#x25BD;</h5> -->
              <h5 style = "margin-top:3rem; padding: 0rem 0.5rem ; text-decoration:underline;" >Recent Work </h5>
-
             </div>  
         </div>
         <div class ="row">
@@ -52,7 +51,7 @@
     
                   <!-- TODO: Make this a partial -->
                   {{#if wip}}
-                    <div class="grid-item project-preview grid-width">
+                    <div class="grid-item project-preview grid-width" data-id="{{sortIndex}}" >
                       <div class ="proj-thumbnail-dark">
                         <h6 class="masonry-metadata">{{meta}}</h6>
                         
@@ -70,7 +69,7 @@
                       </div>
                     </div>
                   {{else}}
-                    <a class="grid-item project-preview dark-hover grid-width"  href="{{slug}}.html">
+                    <a class="grid-item project-preview dark-hover grid-width"  href="{{slug}}.html" data-id="{{sortIndex}}">
                       <div class ="proj-thumbnail-dark">
                         <h6 class="masonry-metadata">{{meta}}</h6>
                         
@@ -87,7 +86,6 @@
                             <source src="img/{{lazysource}}"  type="video/mp4" />
                             <img src="img/{{thumbnail}}" width="100%" height="100%" />
                           </video>
-
 
                         {{else}}
                           <img class="b-lazy" src="img/{{thumbnail}}" data-src="img/{{lazysource}}"/>

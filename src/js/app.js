@@ -53,7 +53,7 @@ function initMasonry(){
 	var $grid = $('.grid').masonry({
 		itemSelector: '.grid-item',
 	});
-	// layout Masonry after each image loads
+	// layout Masonry after each image loads // TO-DO - this still isn't working correctly
 	$grid.imagesLoaded().progress( function() {
 		$grid.masonry('layout');
   	});
@@ -114,6 +114,16 @@ function loadImagesFromAttribute(attribute){
 }
 
 
+function sortFeaturedProjects(){
+
+	var featured = $('.project-preview').sort(function(a, b) {
+		return +a.getAttribute('data-id') - +b.getAttribute('data-id');
+	})
+	$('.project-preview').remove()
+	$('.featured').append(featured)
+}
+
+
 // function changeToNextProject(){
 // 	var nextProjButton = document.getElementById('next-project')
 // 	nextProjButton.onclick() = function() {(
@@ -137,6 +147,7 @@ $(window).on('load', function(){
 		initCategories(target)
 		initCategoryMenu()
 	} else if (window.location.pathname === "/"){
+		sortFeaturedProjects()
 		initMasonry()
 		initMenu()
 	}
