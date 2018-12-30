@@ -6,6 +6,7 @@
   wip: false
   video: true
   featured: true
+  sortIndex: 5
   date: Oct - Dec 2017 //
   meta: WebVR / HTC Vive / A-Frame
   blocks: 

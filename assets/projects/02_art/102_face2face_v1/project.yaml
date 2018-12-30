@@ -1,22 +1,23 @@
 --- 
-name: Face2Face
+name: Face2Face _v1.0
 description: Face to Face is an installation art piece that allows the viewer to experience realtime facial analysis, using Unity, ARKit, OpenCV and Amazon Rekognition.  It was installed at the Gray Area Foundation in San Francisco in June.  
 thumbnail: facetoface_thumb.jpg
-wip: true
+wip: false
 date: June 2018 //
-meta: AR / Face Tracking / 
+meta: AR / Face Tracking / Unity
 video: false
 featured: true
+sortIndex: 3
 blocks: 
     - 
       type: project-header
-      heading: Hokukano House
-      collaborators: In collaboration with Craig Steely Architecture
+      heading: Face2Face _v1.0
+      collaborators: AWS client was developed in collaboration with John Faichney
       description: Design, Construction Documentation & 3D Modelling for a private residence, sited on the high plateau between Hualalai and Moana Loa, Big Island Hawaii.
       url: www.craigsteely.com
     - 
       type: project-generic-image 
-      image: hoku-render2.jpg
+      image: facetoface_thumb.jpg
     -
       type: project-divider
     # - 

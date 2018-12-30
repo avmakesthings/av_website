@@ -4,6 +4,7 @@ description: Experiments with AR / MR and Unity
 thumbnail: augmenting-reality-thumb.jpg
 wip: false
 featured: true
+sortIndex: 2
 date: May 2018 //
 meta: Unity / Vuforia / AR
 blocks: 

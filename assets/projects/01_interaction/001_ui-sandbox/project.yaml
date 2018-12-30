@@ -3,13 +3,14 @@ name: UI-Sandbox WIP
 description: My test environment for developing VR interaction and UI components Unity & Blender.
 thumbnail: ui-sandbox-thumb.png
 wip: false
-featured: false
-date: Mar 2018 - Now //
+featured: true
+sortIndex: 4
+date: Mar - Apr 2018 //
 meta: VR / Unity / HTC Vive / VRTK
 blocks: 
     - 
       type: project-header
-      date: Mar 2018 - Now //
+      date: Mar - Apr 2018 //
       tags: VR / Unity / HTC Vive / UI / VRTK
       heading: UI Sandbox WIP
     #   collaborators: In collaboration with Craig Steely Architecture
