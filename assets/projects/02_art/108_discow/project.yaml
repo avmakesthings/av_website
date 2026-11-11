@@ -1,0 +1,26 @@
+---
+name: Discow
+description: A large-scale art car and installation that reinterprets the architectural "duck" through parametric design, pushing a system associated with optimization and symmetry toward something expressive, excessive, and deliberately irrational.
+wip: false
+video: false
+featured: true
+sortIndex: 9
+date: 2022 //
+meta: Installation Art / Burning Man
+blocks:
+    -
+      type: project-header
+      date: 2022 //
+      heading: Discow
+      tags: Installation Art / Large-Scale Art / Burning Man
+      description: Discow is a large-scale art car built for Burning Man 2022. Aluminium, steel, vinyl and perspex, 42' x 8' x 25', crowned by an 8-foot mirrored disco ball. I led the design for this majestic bovine mutant vehicle.
+      link: www.instagram.com/p/CiyHd0bP88M/
+      link-text: See photos on Instagram
+    -
+      type: project-generic-text
+      heading: Photos coming soon
+      description: Photography for this project is still being added to the site. In the meantime, photos of the finished car at sunrise on the playa are on Instagram.
+    -
+      type: project-link
+      cta: See photos of Discow on Instagram >>>
+      link: www.instagram.com/p/CiyHd0bP88M/

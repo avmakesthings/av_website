@@ -55,7 +55,14 @@
                             <img src="img/{{thumbnail}}" width="100%" height="100%" />
                           </video>
                         {{else}}
+                          {{#if thumbnail}}
                           <img class="b-lazy" src="img/{{thumbnail}}" data-src="img/{{lazysource}}"/>
+                          {{else}}
+                          <div style="background:#ededed; padding: 3rem 1rem; text-align: center;">
+                            <h6 class="masonry-metadata">Photo coming soon</h6>
+                            <p>See Instagram for photos of this project.</p>
+                          </div>
+                          {{/if}}
                         {{/if}}
                         <h6 class="masonry-date">{{date}}</h6>
                         <h5>{{name}}</h5>

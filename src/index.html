@@ -28,6 +28,7 @@
             <div class="col-sm-12 body-text index-page ">
               My name is <a href="contact.html">Anastasia Victor</a>. I used to be an architect but now I design 3D interfaces &amp interaction for <a href="projects.html#01_interaction">XR.</a> I also create installation &amp; graphic <a href="projects.html#02_art">art</a> to explore my interests in computational geometry, physical spaces &amp; human-computer interaction. <br>
               <br><a href="#featured">Check out</a> some of my work below &amp;  <a href="contact.html">get in touch</a> if you'd like to collaborate or chat more.
+              <br><br>See also my <a href="contact.html#patents">patents</a> and <a href="contact.html#speaking">speaking engagements</a>.
 
               <!-- <hr class="hidden-sm-up"/>  divider line-->
             </div>     
@@ -88,7 +89,14 @@
                           </video>
 
                         {{else}}
+                          {{#if thumbnail}}
                           <img class="b-lazy" src="img/{{thumbnail}}" data-src="img/{{lazysource}}"/>
+                          {{else}}
+                          <div style="background:#ededed; padding: 3rem 1rem; text-align: center;">
+                            <h6 class="masonry-metadata">Photo coming soon</h6>
+                            <p>See Instagram for photos of this project.</p>
+                          </div>
+                          {{/if}}
                         {{/if}}
                         <h6 style="padding-top:1.2rem" class="masonry-metadata">{{date}}</h6>
                         <h5>{{name}}</h5>

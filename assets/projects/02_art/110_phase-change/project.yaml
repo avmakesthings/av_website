@@ -1,0 +1,31 @@
+---
+name: Phase Change
+description: An immersive installation exploring sea level rise through mixed reality, with a large wall mural and digital model of polar ice and a 1:1 visualization of a disappearing iceberg, melting in real time.
+wip: false
+video: false
+featured: true
+sortIndex: 11
+date: 2019 //
+meta: Installation Art / Mixed Reality
+blocks:
+    -
+      type: project-header
+      date: 2019 //
+      heading: Phase Change
+      collaborators: A PLACE project, led by Marisha Farnsworth and Anastasia Victor, in collaboration with John Faichney.
+      tags: Installation Art / Mixed Reality / Climate
+      description: Phase Change is an immersive installation exploring sea level rise through mixed reality. A large wall mural and digital model of polar ice accompany a 1:1 visualization of a disappearing iceberg, melting in real time from the opening on June 19, 2019.
+      link: www.instagram.com/p/By8NSfMBoxJ/
+      link-text: See photos from the Gray Area Showcase on Instagram
+    -
+      type: project-generic-text
+      heading: Photos coming soon
+      description: Photography for this project is still being added to the site. In the meantime, photos and video from the Gray Area Showcase are on Instagram.
+    -
+      type: project-link
+      cta: See photos from the Gray Area Showcase on Instagram >>>
+      link: www.instagram.com/p/By8NSfMBoxJ/
+    -
+      type: project-link
+      cta: Watch video of the iceberg on Instagram >>>
+      link: www.instagram.com/reel/CtHawF0MGAG/

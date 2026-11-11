@@ -40,6 +40,12 @@ function readCategory(categoryPath, categoryName){
             try{
                 // return readAssets(filename + '/' + child);
                 var project = readProject(projectPath);
+                // Nov 2026 portfolio update: projects with `hidden: true` in
+                // project.yaml are commented out of the site (not deleted).
+                // Their files stay in the repo; remove the flag to restore.
+                if (project && project.hidden) {
+                    return;
+                }
                 project.slug = projectName;
                 project.category = categoryName;
                 projects.push(project);                
@@ -88,6 +94,12 @@ function readAssets(rootPath) {
         if (isFolder(categoryPath)){
             // return readAssets(filename + '/' + child);
             var category = readCategory(categoryPath, categoryName);
+            // Nov 2026: drop categories left with no visible projects
+            // (e.g. Architecture, once its projects were commented out),
+            // so the projects page and nav do not show an empty section.
+            if (!category.projects || category.projects.length === 0) {
+                return;
+            }
             category.slug = categoryName;
             categories.push(category);
         }
