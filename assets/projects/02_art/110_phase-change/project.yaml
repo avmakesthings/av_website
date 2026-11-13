@@ -5,6 +5,7 @@ wip: false
 video: false
 featured: true
 sortIndex: 12
+thumbnail: phase-change-mural-slide2-2019-06-20.jpg
 date: 2019 //
 meta: Installation Art / Mixed Reality
 blocks:
@@ -18,9 +19,15 @@ blocks:
       link: www.instagram.com/p/By8NSfMBoxJ/
       link-text: See photos from the Gray Area Showcase on Instagram
     -
+      type: project-generic-image
+      image: phase-change-mural-slide2-2019-06-20.jpg
+    -
       type: project-generic-text
-      heading: Photos coming soon
-      description: Photography for this project is still being added to the site. In the meantime, photos and video from the Gray Area Showcase are on Instagram.
+      heading: The mural and the melting iceberg
+      description: The large wall mural at the Gray Area Showcase, June 2019, and the disappearing iceberg, melting in real time.
+    -
+      type: project-generic-image
+      image: phase-change-iceberg-reel-still-2023-06-05.jpg
     -
       type: project-link
       cta: See photos from the Gray Area Showcase on Instagram >>>
