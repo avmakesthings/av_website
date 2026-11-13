@@ -29,7 +29,7 @@ function initMenu(){
 		var navCategory = links[i];
 		navCategory.addEventListener("click", function(e){
 			var target = $(this).data('target');
-			window.location.href = '/projects.html#'+target;
+			window.location.href = '/index.html#projects';
 		})
 	}	
 }
@@ -43,7 +43,7 @@ function initCategoryMenu(){
 		navCategory.addEventListener("click", function(e){
 			var target = $(this).data('target');
 			initCategories(target)
-			window.location.href = '/projects.html#'+target;
+			window.location.href = '/index.html#projects';
 		})
 	}	
 }

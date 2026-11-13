@@ -1,4 +1,8 @@
 --- 
+# Commented out in the Nov 2026 portfolio update: this project is hidden
+# from the site but NOT deleted. Restore it by removing the `hidden: true`
+# line below (assets2json.js skips hidden projects when building).
+hidden: true
 name: BCI & the Built Environment
 description: UC Berkeley Master of Architecture thesis on using consumer grade Brain Computer Interfacing as an input modality for automated environments.
 thumbnail: bci-john-thumb2.jpg

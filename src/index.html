@@ -26,8 +26,8 @@
 
           <div style = "border-bottom: dashed 1px;"class="row landing-icon">
             <div class="col-sm-12 body-text index-page ">
-              My name is <a href="contact.html">Anastasia Victor</a>. I used to be an architect but now I design 3D interfaces &amp interaction for <a href="projects.html#01_interaction">XR.</a> I also create installation &amp; graphic <a href="projects.html#02_art">art</a> to explore my interests in computational geometry, physical spaces &amp; human-computer interaction. <br>
-              <br><a href="#featured">Check out</a> some of my work below &amp;  <a href="contact.html">get in touch</a> if you'd like to collaborate or chat more.
+              My name is <a href="contact.html">Anastasia Victor</a>. I used to be an architect but now I design 3D interfaces &amp interaction for <a href="#projects">XR.</a> I also create installation &amp; graphic <a href="#projects">art</a> to explore my interests in computational geometry, physical spaces &amp; human-computer interaction. <br>
+              <br><a href="#projects">Check out</a> some of my work below &amp;  <a href="contact.html">get in touch</a> if you'd like to collaborate or chat more.
               <br><br>See also my <a href="contact.html#patents">patents</a> and <a href="contact.html#speaking">speaking engagements</a>.
 
               <!-- <hr class="hidden-sm-up"/>  divider line-->
@@ -38,17 +38,16 @@
         <!-- <div class="row">
           {{> carousel-featured }}
         </div> -->      
-        <div class="row" id="featured">
+        <div class="row" id="projects">
             <div class="col-md-12">
               <!-- <h5 style = "background:#ededed; margin-top:1rem; padding: 1rem;" >Featured projects &#x25BD;&#x25BD;</h5> -->
-             <h5 style = "margin-top:3rem; padding: 0rem 0.5rem ; text-decoration:underline;" >Recent Work </h5>
+             <h5 style = "margin-top:3rem; padding: 0rem 0.5rem ; text-decoration:underline;" >Projects </h5>
             </div>  
         </div>
         <div class ="row">
           <div class="grid featured">
             {{#categories}}
               {{#projects}}
-                {{#if featured}}
     
                   <!-- TODO: Make this a partial -->
                   {{#if wip}}
@@ -105,16 +104,10 @@
                     </a>
                   {{/if}}
                   <!-- END TODO -->
-              {{/if}}
             {{/projects}}          
             {{/categories}}
           </div>
         </div>       
-        <div class="row" class="more-work-row">
-            <div class="col-md-12">
-              <a href="projects.html#01_interaction"><h5 class ="more-work-text" >View more work >>></h5></a>
-            </div>  
-        </div> 
         {{> footer }}
 
       </div>
