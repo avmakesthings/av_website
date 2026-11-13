@@ -58,6 +58,15 @@ function readCategory(categoryPath, categoryName){
     });
 
 
+    // Nov 2026: order projects by sortIndex (missing sorts last),
+    // so the landing page order is explicit in the data, not
+    // dependent on filesystem read order or client-side sorting.
+    projects.sort(function(a, b) {
+        var ai = (a.sortIndex === undefined || a.sortIndex === null) ? 9999 : +a.sortIndex;
+        var bi = (b.sortIndex === undefined || b.sortIndex === null) ? 9999 : +b.sortIndex;
+        return ai - bi;
+    });
+
     category.projects = projects ;
 
 
