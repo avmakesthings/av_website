@@ -1,11 +1,14 @@
 --- 
 name: Vaguely Uncomfortable
 description: Proceduarally generating weird shit… because someone has to...
+# Nov 2026: hidden, not deleted, per Anastasia
+hidden: true
 thumbnail: come-together.jpg
 lazysource: come-together.mp4
 wip: true
 video: false
 featured: false
+sortIndex: 9
 date: Mar 2017 //
 meta: Graphic Art / Unity / 
 # blocks: 

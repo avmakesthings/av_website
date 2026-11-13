@@ -1,0 +1,38 @@
+---
+name: One in the Universe
+description: A VR experience from "As Above As Below" in which the participant guides the growth of a neuron and a cosmic web around them, connecting the smallest and largest structures in the universe.
+wip: true # Nov 2026: coming soon, no detail page. Landing card stays, not linked; photos/blocks kept for when it is ready.
+video: false
+featured: true
+sortIndex: 11
+thumbnail: one-in-the-universe-neuron-2019-07-13.jpg
+date: 2020 //
+meta: VR / Installation Art
+blocks:
+    -
+      type: project-header
+      date: 2020 //
+      heading: One in the Universe
+      collaborators: In collaboration with Mark Neyrinck, Miguel Angel Aragon-Calvo and Michael Silver.
+      tags: VR / Installation Art / Science
+      description: One in the Universe is a virtual reality experience created with astrophysicist Mark Neyrinck, astrophysicist Miguel Angel Aragon-Calvo and neuroscientist Michael Silver, shown as part of "As Above As Below" (SciArt Magazine, February 2020). The participant guides the growth of a neuron and a cosmic web around them.
+      link: www.instagram.com/p/Bz3qd2-hAaA/
+      link-text: See the work on Instagram
+    -
+      type: project-generic-image
+      image: one-in-the-universe-neuron-2019-07-13.jpg
+    -
+      type: project-generic-text
+      heading: The neuron and the cosmic web
+      description: Renders from the experience, July 2019, a neuron and a cosmic web, the smallest and largest structures in the universe.
+    -
+      type: project-generic-image
+      image: one-in-the-universe-cosmic-web-2019-07-13.jpg
+    -
+      type: project-link
+      cta: See the neuron render on Instagram >>>
+      link: www.instagram.com/p/Bz3qd2-hAaA/
+    -
+      type: project-link
+      cta: See the cosmic web render on Instagram >>>
+      link: www.instagram.com/p/Bz4E5GlhsIQ/
