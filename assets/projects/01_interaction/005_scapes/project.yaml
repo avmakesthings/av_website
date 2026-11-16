@@ -6,7 +6,7 @@ lazysource: scapes-2-thumb.mp4
 wip: false
 video: true
 featured: true
-sortIndex: 8
+sortIndex: 5
 date: Apr-Jun 2017 //
 meta: VR / Cardboard 
 blocks: 
@@ -97,7 +97,7 @@ blocks:
       video1: menu-nested-2.mp4
       video2: menu-wall-1.mp4
       img-backup1: menu-nested-2.jpg
-      img-backup1: menu-wall-1.jpg
+      img-backup2: menu-wall-1.jpg
     - 
       type: project-generic-text
       description: Narration can be used to provide information and direction within the environment, perhaps less so than other interfaces but highly effective in game design. Where should the voice come from? What should it sound like? Should it be disembodied or not? I started writing some of the voice recordings and have shared part of the recording for the intro scene here.                      
@@ -109,7 +109,7 @@ blocks:
       video1: just-some-lines-2.mp4
       video2: just-some-lines-3.mp4
       img-backup1: menu-nested-2.jpg
-      img-backup1: menu-wall-1.jpg
+      img-backup2: menu-wall-1.jpg
     - 
       type: project-generic-text
       heading: //TO-DO

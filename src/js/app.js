@@ -29,7 +29,7 @@ function initMenu(){
 		var navCategory = links[i];
 		navCategory.addEventListener("click", function(e){
 			var target = $(this).data('target');
-			window.location.href = '/projects.html#'+target;
+			window.location.href = '/index.html#projects';
 		})
 	}	
 }
@@ -43,7 +43,7 @@ function initCategoryMenu(){
 		navCategory.addEventListener("click", function(e){
 			var target = $(this).data('target');
 			initCategories(target)
-			window.location.href = '/projects.html#'+target;
+			window.location.href = '/index.html#projects';
 		})
 	}	
 }
@@ -146,7 +146,11 @@ $(window).on('load', function(){
 		var target = window.location.hash.replace("#",'')
 		initCategories(target)
 		initCategoryMenu()
-	} else if (window.location.pathname === "/"){
+	}
+	// Nov 2026: landing page is served at both "/" and "/index.html"
+	// sort the project grid by sortIndex on both, so Discow /
+	// Face2Face lead the page either way.
+	else if (window.location.pathname === "/" || window.location.pathname === "/index.html"){
 		sortFeaturedProjects()
 		initMasonry()
 		initMenu()

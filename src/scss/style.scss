@@ -153,6 +153,15 @@ a:hover, a:visited, a:link, a:active {
   text-align: center;
   margin-top: -5%;
   padding: 2% 20% 10% 19%;
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+
+    li + li {
+      margin-top: 0.5rem;
+    }
+  }
 }
 
 //Carousel overrides

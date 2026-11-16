@@ -1,4 +1,8 @@
 --- 
+# Commented out in the Nov 2026 portfolio update: this project is hidden
+# from the site but NOT deleted. Restore it by removing the `hidden: true`
+# line below (assets2json.js skips hidden projects when building).
+hidden: true
 name: Augmenting Reality
 description: Experiments with AR / MR and Unity
 thumbnail: augmenting-reality-thumb.jpg

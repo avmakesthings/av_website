@@ -19,7 +19,7 @@
       title: Scapes
       description: An experimental world for interacting with sound in VR. 
       link: 01_scapes.html
-      projects-link: projects.html#01_vr-environments 
+      projects-link: index.html#projects 
            
     # - 
     #   source: sonar-demo.jpg
@@ -27,5 +27,5 @@
     #   title: Sonar VR
     #   description: I'm currently building a VR game for Rift/ HTC Vive & Leap Motion where players rely on sonar to navigate through abstracted evironments.
     #   link: 02_sonar.html
-    #   projects-link: projects.html#01_vr-environments 
+    #   projects-link: index.html#projects 
    
