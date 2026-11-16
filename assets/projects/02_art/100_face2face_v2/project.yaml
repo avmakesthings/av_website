@@ -8,31 +8,22 @@ meta: AR / Face Tracking / Unity
 video: false
 featured: true
 sortIndex: 3
-blocks: 
-    - 
+blocks:
+    -
       type: project-header
+      date: Nov-Dec 2018 //
       heading: Face2Face _v2.0
-      collaborators: Data sraping and AWS lambda scripts were developed in collaboration with John Faichney. 
-      description: Design, Construction Documentation & 3D Modelling for a private residence, sited on the high plateau between Hualalai and Moana Loa, Big Island Hawaii.
-      # url: www.craigsteely.com
-    - 
-      type: project-generic-image 
-      image: hoku-render2.jpg
+      tags: AR / Facial Analysis / AWS Rekognition / ARKit / Unity
+      description: Face2Face v2.0 is an AR iOS app that offers users a glimpse into a speculative future, where interpersonal interactions are mediated by realtime facial detection and analysis. The piece was created using Unity, ARKit, Facebook data scraping and Amazon Rekognition & is the second of series of works titled 'Training Sets', which takes a critical position on the use of facial detection and analysis.
+      collaborators: Social media data scraping & face database was developed in collaboration with John Faichney
+      link: github.com/avmakesthings/Face2Face_V2
+      link-text: View code on GitHub
+    -
+      type: project-generic-mp4
+      video1: niki-1-compress.mp4
+      img-backup1: niki-1.jpg
+    -
+      type: project-generic-image
+      image: niki-1.jpg
     -
       type: project-divider
-    # - 
-    #   type: project-generic-text
-    #   heading: a section heading
-    #   description: section description
-    - 
-      type: project-generic-image 
-      image: hoku-render1.jpg 
-    -
-      type: project-divider
-    # - 
-    #   type: project-generic-text
-    #   heading: More coming soon ...                
-    # - 
-    #   type: project-generic-2-col-image
-    #   image1: myimage1.jpg
-    #   image2: myimage2.jpg

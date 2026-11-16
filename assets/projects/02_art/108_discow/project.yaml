@@ -42,9 +42,6 @@ blocks:
       description: Building Discow, and the design render, 2022.
     -
       type: project-generic-image
-      image: discow-render-2022-04-23.jpg
-    -
-      type: project-generic-image
       image: discow-build-1-2022-09-19.jpg
     -
       type: project-generic-image
@@ -55,9 +52,6 @@ blocks:
     -
       type: project-generic-image
       image: discow-build-4-2022-09-19.jpg
-    -
-      type: project-generic-image
-      image: discow-aerial-2022-09-19.jpg
     -
       type: project-generic-image
       image: discow-build-6-render-2022-09-19.jpg

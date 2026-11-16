@@ -8,31 +8,14 @@ meta: AR / Generative Design /
 video: false
 featured: true
 sortIndex: 6
-blocks: 
-    - 
+blocks:
+    -
       type: project-header
+      date: Apr - Nov 2018 //
       heading: Magic Carpet
+      tags: AR / Generative Design
+      description: Magic Carpet was developed as the anchor artwork for Google's new campus.
       collaborators: In collaboration with Marisha Farnsworth & our Magic Carpet team.
-      description: Design, Construction Documentation & 3D Modelling for a private residence, sited on the high plateau between Hualalai and Moana Loa, Big Island Hawaii.
-      # url: www.craigsteely.com
-    - 
-      type: project-generic-image 
+    -
+      type: project-generic-image
       image: Magic_Carpet_Day-Small.jpg
-    -
-      type: project-divider
-    # - 
-    #   type: project-generic-text
-    #   heading: a section heading
-    #   description: section description
-    - 
-      type: project-generic-image 
-      image: hoku-render1.jpg 
-    -
-      type: project-divider
-    - 
-      type: project-generic-text
-      heading: More coming soon ...                
-    # - 
-    #   type: project-generic-2-col-image
-    #   image1: myimage1.jpg
-    #   image2: myimage2.jpg
